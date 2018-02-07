@@ -49,7 +49,7 @@
                   </ul>
                 </li>
                 <li class="">
-                  <a href="iaido.php">Iaido</a>
+                  <a href="<?php echo base_url(); ?>Iaido">Iaido</a>
                 </li>
                 <li class="">
                   <a href="jodo.php">Jodo</a>
