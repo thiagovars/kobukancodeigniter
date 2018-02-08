@@ -52,13 +52,13 @@
                   <a href="<?php echo base_url(); ?>Iaido">Iaido</a>
                 </li>
                 <li class="">
-                  <a href="jodo.php">Jodo</a>
+                  <a href="<?php echo base_url(); ?>Jodo">Jodo</a>
                 </li>
                 <li class="">
-                  <a href="naginata.php">Naginata</a>
+                  <a href="<?php echo base_url(); ?>Naginata">Naginata</a>
                 </li>
                 <li class="">
-                  <a href="fotos.php">Fotos</a>
+                  <a href="<?php echo base_url(); ?>Fotos">Fotos</a>
                 </li>
                 <li class="dropdown ">
                   <a href="#" class="dropdown-toggle">
@@ -66,8 +66,8 @@
                     <i class="icon icon-angle-down"></i>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a href="glossario.php">Informações sobre os treinos</a></li>
-                    <li><a href="tecnicas.php">Técnicas por graduação (5º ao 1º kyu)</a></li>
+                    <li><a href="<?php echo base_url(); ?>Glossario">Informações sobre os treinos</a></li>
+                    <li><a href="<?php echo base_url(); ?>Tecnicas">Técnicas por graduação (5º ao 1º kyu)</a></li>
                   </ul>
                 </li>
                 <li class="dropdown ">
@@ -76,19 +76,19 @@
                     <i class="icon icon-angle-down"></i>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a href="bonsai.php"         >Bonsai</a></li>
-                    <li><a href="chanoyu.php"        >Chadô</a></li>
-                    <li><a href="fengshui.php"       >Fengshui</a></li>
-                    <li><a href="furoshiki.php"      >Furoshiki</a></li>
-                    <li><a href="ikebana.php"        >kadô</a></li>
-                    <li><a href="origami.php"        >Origami</a></li>
-                    <li><a href="shodo.php"          >Shodo</a></li>
-                    <li><a href="sumiePinturaCarvao.php">Sumie</a></li>
-                    <li><a href="culturaoriental.php">Fotos</a></li>
+                    <li><a href="<?php echo base_url(); ?>Bonsai"         >Bonsai</a></li>
+                    <li><a href="<?php echo base_url(); ?>Chado"          >Chadô</a></li>
+                    <li><a href="<?php echo base_url(); ?>Fengshui"       >Fengshui</a></li>
+                    <li><a href="<?php echo base_url(); ?>Furoshiki"      >Furoshiki</a></li>
+                    <li><a href="<?php echo base_url(); ?>Kado"           >kadô</a></li>
+                    <li><a href="<?php echo base_url(); ?>Origami"        >Origami</a></li>
+                    <li><a href="<?php echo base_url(); ?>Shodo"          >Shodo</a></li>
+                    <li><a href="<?php echo base_url(); ?>Sumie"          >Sumie</a></li>
+                    <li><a href="<?php echo base_url(); ?>Culturaoriental">Fotos</a></li>
                   </ul>
                 </li>
                 <li class="">
-                  <a href="contato.php">Contato</a>
+                  <a href="<?php echo base_url(); ?>Contato">Contato</a>
                 </li>
                 <!-- <li class="">
                   <a href="artigos.php">Artigos</a>
@@ -99,8 +99,8 @@
                     <i class="icon icon-angle-down"></i>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a href="acupuntura.php">Acupuntura</a></li>
-                    <li><a href="shiatsu.php">Shiatsu</a></li>
+                    <li><a href="<?php echo base_url(); ?>Acupuntura">Acupuntura</a></li>
+                    <li><a href="<?php echo base_url(); ?>Shiatsu">Shiatsu</a></li>
                   </ul>
                 </li>
                 

@@ -1,8 +1,3 @@
-<?php 
-$title = "Shiatsu | A Saúde na ponta dos dedos.";
-include_once('header.php');
-?>
-
 			<div role="main" class="main">
 
 				<section class="page-top">
@@ -32,8 +27,8 @@ include_once('header.php');
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInLeft">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/shiatsu1.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/shiatsu1.jpg" width="200" />
+										<a href="/kobukan/img/shiatsu/shiatsu1.jpg" class="thumb-info">
+											<img class="image-responsive" src="/kobukan/img/shiatsu/shiatsu1.jpg" width="200" />
 										</a>
 									</div>
 								</li>
@@ -49,8 +44,8 @@ include_once('header.php');
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInLeft">
 								<li class="col-md-3 isotope-item alignRight">
 									<div class="portfolio-item img-thumbnail">
-										<a href="img/acupuntura/sensei-eduardo.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/acupuntura/sensei-eduardo.jpg" width="200"  align="right" />
+										<a href="/kobukan/img/acupuntura/sensei-eduardo.jpg" class="thumb-info">
+											<img class="image-responsive" src="/kobukan/img/acupuntura/sensei-eduardo.jpg" width="200"  align="right" />
 										</a>
 									</div>
 								</li>
@@ -76,8 +71,8 @@ include_once('header.php');
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInRight">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/shiatsu2.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/shiatsu2.jpg" width="200" />
+										<a href="/kobukan/img/shiatsu/shiatsu2.jpg" class="thumb-info">
+											<img class="image-responsive" src="/kobukan/img/shiatsu/shiatsu2.jpg" width="200" />
 										</a>
 									</div>
 								</li>
@@ -99,8 +94,8 @@ include_once('header.php');
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInRight">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/shiatsu3.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/shiatsu3.jpg" width="200" />
+										<a href="/kobukan/img/shiatsu/shiatsu3.jpg" class="thumb-info">
+											<img class="image-responsive" src="/kobukan/img/shiatsu/shiatsu3.jpg" width="200" />
 										</a>
 									</div>
 								</li>
@@ -133,8 +128,8 @@ include_once('header.php');
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInRight">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/shiatsu4.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/shiatsu4.jpg" width="200" />
+										<a href="/kobukan/img/shiatsu/shiatsu4.jpg" class="thumb-info">
+											<img class="image-responsive" src="/kobukan/img/shiatsu/shiatsu4.jpg" width="200" />
 										</a>
 									</div>
 								</li>
@@ -154,8 +149,8 @@ include_once('header.php');
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInRight">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/shiatsu5.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/shiatsu5.jpg" width="200" />
+										<a href="/kobukan/img/shiatsu/shiatsu5.jpg" class="thumb-info">
+											<img class="image-responsive" src="/kobukan/img/shiatsu/shiatsu5.jpg" width="200" />
 										</a>
 									</div>
 								</li>
@@ -174,114 +169,18 @@ include_once('header.php');
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInLeft">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/diploma.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/diploma.jpg" width="200" height="230" />
-										</a>
-									</div>
-								</li>
-							</ul>
-					<!--
-								<li class="col-md-3 isotope-item">
-									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/shiatsu.caes_.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/shiatsu.caes_.jpg" width="200" height="230" />
-										</a>
-									</div>
-								</li>
-								<li class="col-md-3 isotope-item">
-									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/shiatsu.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/shiatsu.jpg" width="200" height="230" />
-										</a>
-									</div>
-								</li>
-								<li class="col-md-3 isotope-item">
-									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/shiatsu-03.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/shiatsu-03.jpg" width="200" height="230" />
-										</a>
-									</div>
-								</li>
-								<li class="col-md-3 isotope-item">
-									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/shiatsu-pies.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/shiatsu-pies.jpg" width="200" height="230" />
-										</a>
-									</div>
-								</li>
-								<li class="col-md-3 isotope-item">
-									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/shiatsu-sistemica-01.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/shiatsu-sistemica-01.jpg" width="200" height="230" />
-										</a>
-									</div>
-								</li>
-								<li class="col-md-3 isotope-item">
-									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/auriculoterapia.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/auriculoterapia.jpg" width="200" height="230" />
-										</a>
-									</div>
-								</li>
-								<li class="col-md-3 isotope-item">
-									<div class="portfolio-item img-thumbnail">
-										<a href="img/shiatsu/images.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/images.jpg" width="200" height="230" />
+										<a href="/kobukan/img/shiatsu/diploma.jpg" class="thumb-info">
+											<img class="image-responsive" src="/kobukan/img/shiatsu/diploma.jpg" width="200" height="230" />
 										</a>
 									</div>
 								</li>
 							</ul>
 						</div>
 					</div>
-
-				</div> -->
-
+					
 			</div>
 
-			<footer id="footer">
-				<?php include('footer.php'); ?>
-			</footer>
 		</div>
-
-		<!-- Libs -->
-		<script src="vendor/jquery.js"></script>
-		<script src="vendor/jquery.appear.js"></script>
-		<script src="vendor/jquery.easing.js"></script>
-		<script src="vendor/jquery.cookie.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.js"></script>
-		<script src="vendor/jquery.validate.js"></script>
-		<script src="vendor/jquery.stellar.js"></script>
-		<script src="vendor/jquery.knob.js"></script>
-		<script src="vendor/jquery.gmap.js"></script>
-		<script src="vendor/twitterjs/twitter.js"></script>
-		<script src="vendor/isotope/jquery.isotope.js"></script>
-		<script src="vendor/owl-carousel/owl.carousel.js"></script>
-		<script src="vendor/jflickrfeed/jflickrfeed.js"></script>
-		<script src="vendor/magnific-popup/magnific-popup.js"></script>
-		<script src="vendor/mediaelement/mediaelement-and-player.js"></script>
-		
-		<!-- Theme Initializer -->
-		<script src="js/theme.plugins.js"></script>
-		<script src="js/theme.js"></script>
-		
-		<!-- Custom JS -->
-		<script src="js/custom.js"></script>
-
-		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
-		<script type="text/javascript">
-		
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-12345678-1']);
-			_gaq.push(['_trackPageview']);
-		
-			(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		
-		</script>
-		 -->
 
 	</body>
 </html>
