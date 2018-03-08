@@ -1,8 +1,3 @@
-<?php 
-$title = "Naginata | Espada lança";
-include_once('header.php');
-?>
-
 			<div role="main" class="main">
 
 				<section class="page-top">
@@ -30,12 +25,20 @@ include_once('header.php');
 							<h3><strong>Naginata:</strong> Espada lança</h3>
 							
 							<p class="drop-caps">
-								Arma que consiste de uma lâmina de Katana (espada) com um longo pino inseridomnum Cabo de lança com aproximadamente 2,25 m. Os primeiros a usarem essas armas foram os monges guerreiros sonhei, ou yamabushis, a fim de assegurar a proteção dos santuários. O mais célebre foi o monge Benkei. Nos campos de batalha a os guerreiros a usavam para cortar as pernas dos cavalos e a cavalaria para cortar o inimigo de longe. Por ser muito grande e difícil de transportar para as batalhas passou a ser utilizada pelas mulheres samurais como defesa da casa. Sensei Eduardo Corrêae Angelica Djenane são discípulos da Sensei Yasue Morita , 4 Dan, e atualmente são responsáveis pelo grupo de estudos no RS e SC.
+								Arma que consiste de uma lâmina de Katana (espada) com um longo pino inseridomnum Cabo de lança com 
+								aproximadamente 2,25 m. Os primeiros a usarem essas armas foram os monges guerreiros sonhei, ou 
+								yamabushis, a fim de assegurar a proteção dos santuários. O mais célebre foi o monge Benkei. 
+								Nos campos de batalha a os guerreiros a usavam para cortar as pernas dos cavalos e a cavalaria para 
+								cortar o inimigo de longe. Por ser muito grande e difícil de transportar para as batalhas passou a ser 
+								utilizada pelas mulheres samurais como defesa da casa. Sensei Eduardo Corrêae Angelica Djenane são 
+								discípulos da Sensei Yasue Morita , 4 Dan, e atualmente são responsáveis pelo grupo de estudos no RS e SC.
 							</p>
 							<p class="drop-caps">
 								Aconteceu no dia 25 de Novembro de 2017, Seminário de Naginata com exame de graduação. Angelica e Eduardo foram aprovados para 3º kyu.
 							</p>
-
+							<p class="drop-caps">
+								Eduardo graduou 2º kyu no dia 25 de Fevereiro de 2018.
+							</p>
 							<hr class="tall">
 
 							<div class="row">
@@ -70,7 +73,7 @@ include_once('header.php');
 															<img class="img-responsive" alt="" src="/kobukan/img/team/eduardoNaginata.jpg">
 															<span class="thumb-info-title">
 																<span class="thumb-info-inner">Eduardo Corrêa</span>
-																<span class="thumb-info-type">3º kyu</span>
+																<span class="thumb-info-type">2º kyu</span>
 															</span>
 														</span>
 													</div>

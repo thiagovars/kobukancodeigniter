@@ -8,7 +8,7 @@ class Naginata extends CI_Controller {
 		$data['title'] = 'Naginata | Espada lança';
 
 		$ignore = array();
-		for ($i=1; $i <= 16; $i++) {
+		for ($i=1; $i <= 18; $i++) {
 			if (in_array($i, $ignore)) {
 				continue;
 			}

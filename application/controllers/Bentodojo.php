@@ -5,9 +5,12 @@ class Bentodojo extends CI_Controller {
 
 	public function index() {
 		$this->load->helper('url');
-		$data = array('title' => 'Dojo Bento Gonçalves | Rua Guerino Franzolosso, 111 - Bento Gonçalves - RS');
+		
+		$data['endereco'] = 'Rua Guerino Franzolosso, 111 - Bento Gonçalves - RS';
+		$data['title'] = 'Dojo Bento Gonçalves | '.$data['endereco'];
+
 		$this->load->view('header', $data);
-		$this->load->view('bento_dojo');
+		$this->load->view('bento_dojo', $data);
 		$this->load->view('footer');
 	}
 }

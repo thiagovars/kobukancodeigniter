@@ -217,8 +217,9 @@
 			*/
 
 			// Map Markers
+			var endereco = '<?php echo $endereco; ?>';
 			var mapMarkers = [{
-				address: "R. Tristão de oliveira, 345 - Gramado/RS",
+				address: endereco,
 				html: "<strong>Dojo Kobukan Gramado</strong><br>R. Tristão de oliveira, 345 - Gramado/RS",
 				icon: {
 					image: "img/pin.png",
