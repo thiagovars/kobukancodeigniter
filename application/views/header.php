@@ -48,6 +48,30 @@
 
     <!-- Head Libs -->
     <script src="/kobukan/vendor/modernizr.js"></script>
+    <script src="/kobukan/vendor/jquery.js"></script>
+    <script src="/kobukan/vendor/jquery.appear.js"></script>
+    <script src="/kobukan/vendor/jquery.easing.js"></script>
+    <script src="/kobukan/vendor/jquery.cookie.js"></script>
+    <script src="/kobukan/vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="/kobukan/vendor/jquery.validate.js"></script>
+    <script src="/kobukan/vendor/jquery.stellar.js"></script>
+    <script src="/kobukan/vendor/jquery.knob.js"></script>
+    <script src="/kobukan/vendor/jquery.gmap.js"></script>
+    <script src="/kobukan/vendor/twitterjs/twitter.js"></script>
+    <script src="/kobukan/vendor/isotope/jquery.isotope.js"></script>
+    <script src="/kobukan/vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="/kobukan/vendor/jflickrfeed/jflickrfeed.js"></script>
+    <script src="/kobukan/vendor/magnific-popup/magnific-popup.js"></script>
+    <script src="/kobukan/vendor/mediaelement/mediaelement-and-player.js"></script>
+
+    <!-- Theme Initializer -->
+    <script src="/kobukan/js/theme.plugins.js"></script>
+    <script src="/kobukan/js/theme.js"></script>
+
+    <!-- Custom JS -->
+    <script src="/kobukan/js/custom.js"></script>
+
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
     <!--[if IE]>
       <link rel="stylesheet" href="/kobukan/css/ie.css">
@@ -56,7 +80,6 @@
     <!--[if lte IE 8]>
       <script src="/kobukan/vendor/respond.js"></script>
     <![endif]-->
-
   </head>
   <body>
     <div class="body">
