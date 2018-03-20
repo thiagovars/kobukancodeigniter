@@ -86,5 +86,5 @@
       <header id="header">
         <?php 
         var_dump(dirname(__FILE__));
-        //include_once('menu.php'); ?>
+        include_once('../assets/menu.php'); ?>
       </header>
