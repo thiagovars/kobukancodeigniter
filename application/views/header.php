@@ -85,6 +85,6 @@
     <div class="body">
       <header id="header">
         <?php 
-        var_dump(dirname(__FILE__))
+        var_dump(dirname(__FILE__));
         //include_once('menu.php'); ?>
       </header>
