@@ -84,5 +84,7 @@
   <body>
     <div class="body">
       <header id="header">
-        <?php include_once('../../assets/menu.php'); ?>
+        <?php 
+        var_dump(dirname(__FILE__))
+        //include_once('menu.php'); ?>
       </header>
