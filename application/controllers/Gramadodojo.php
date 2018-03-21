@@ -9,7 +9,7 @@ class Gramadodojo extends CI_Controller {
 		$data['title'] = 'Dojo Gramado | '.$data['endereco'];
 
 		for ($i=1; $i <= 24; $i++) { 
-			$data['fotos'][] = 'garopaba'.$i.'.jpg';
+			$data['fotos'][] = 'gramado'.$i.'.jpg';
 		}
 									
 		$this->load->view('header', $data);

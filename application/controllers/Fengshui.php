@@ -7,7 +7,7 @@ class Fengshui extends CI_Controller {
 		$this->load->helper('url');
 		$data['title'] = 'Fengshui | vento e água';
 		$ignore = array();
-		for ($i=1; $i <= 30; $i++) { 
+		for ($i=1; $i <= 6; $i++) { 
 			if (in_array($i, $ignore)) {
 				continue;
 			}

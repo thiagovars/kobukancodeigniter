@@ -9,7 +9,7 @@ class Ivotidojo extends CI_Controller {
 		$data['title'] = 'Dojo Ivoti | '.$data['endereco'];
 
 		for ($i=1; $i <= 4; $i++) { 
-			$data['fotos'][] = 'ivoti'.$i.'.jpg';
+			$data['fotos'][] = 'imagem'.$i.'.jpg';
 		}
 									
 		$this->load->view('header', $data);

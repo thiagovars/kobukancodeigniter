@@ -23,7 +23,7 @@
 					<div class="row">
 						<div class="col-md-12" data-appear-animation="fadeInUp">
 							<h3><strong>Iaido:</strong> A Arte Marcial Japonesa do Desembainhar da Espada.</h3>
-							<img src='/kobukan/img/iaido/whitetb.jpg' class='image-responsive' align='right' />
+							<img src='/img/iaido/whitetb.jpg' class='image-responsive' align='right' />
 							<p class="drop-caps">Iaido é a arte marcial japonesa do desembainhar da espada. Consiste em conjuntos de Katas, técnicas ou movimentos que 
 							permitem ao praticante reagir de forma apropriada a determinadas situações de luta contra um ou mais inimigos.  A prática é feita 
 							visualizando-se os inimigos de acordo com os princípios de cada kata, não tendo necessariamente um oponente físico.  Em comum, todos os 

@@ -1,8 +1,3 @@
-<?php 
-$title = 'Dojo Farroupilha | R. 14 de julho, 74 - Farroupilha / RS';
-include_once('header.php');
-?>
-
 			<div role="main" class="main">
 
 				<section class="page-top">
