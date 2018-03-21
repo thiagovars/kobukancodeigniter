@@ -83,7 +83,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="/kobukan/img/team/mathaeus_aikido.jpg">
+										<img class="img-responsive" alt="" src="img/team/mathaeus_aikido.jpg">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Mathaeus</span>
 											<span class="thumb-info-type">Nidan (2º Dan)</span>
@@ -94,7 +94,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="/kobukan/img/team/thiago.jpg">
+										<img class="img-responsive" alt="" src="img/team/thiago.jpg">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Thiago</span>
 											<span class="thumb-info-type">Nidan (2º Dan)</span>
@@ -133,8 +133,8 @@
 								<?php foreach ($fotos as $foto) :?>
 									<li class="col-md-3 no-pin">
 										<div class="img-thumbnail">
-											<a href="/kobukan/img/portoalegre/<?php echo $foto; ?>" class="thumb-info">
-												<img src="/kobukan/img/portoalegre/<?php echo $foto; ?>" class="image-responsive"  height="200" width="400">
+											<a href="img/portoalegre/<?php echo $foto; ?>" class="thumb-info">
+												<img src="img/portoalegre/<?php echo $foto; ?>" class="image-responsive"  height="200" width="400">
 											</a>
 										</div>
 									</li>

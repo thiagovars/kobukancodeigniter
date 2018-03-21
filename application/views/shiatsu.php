@@ -27,8 +27,8 @@
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInLeft">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="/kobukan/img/shiatsu/shiatsu1.jpg" class="thumb-info">
-											<img class="image-responsive" src="/kobukan/img/shiatsu/shiatsu1.jpg" width="200" />
+										<a href="img/shiatsu/shiatsu1.jpg" class="thumb-info">
+											<img class="image-responsive" src="img/shiatsu/shiatsu1.jpg" width="200" />
 										</a>
 									</div>
 								</li>
@@ -44,8 +44,8 @@
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInLeft">
 								<li class="col-md-3 isotope-item alignRight">
 									<div class="portfolio-item img-thumbnail">
-										<a href="/kobukan/img/acupuntura/sensei-eduardo.jpg" class="thumb-info">
-											<img class="image-responsive" src="/kobukan/img/acupuntura/sensei-eduardo.jpg" width="200"  align="right" />
+										<a href="img/acupuntura/sensei-eduardo.jpg" class="thumb-info">
+											<img class="image-responsive" src="img/acupuntura/sensei-eduardo.jpg" width="200"  align="right" />
 										</a>
 									</div>
 								</li>
@@ -71,8 +71,8 @@
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInRight">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="/kobukan/img/shiatsu/shiatsu2.jpg" class="thumb-info">
-											<img class="image-responsive" src="/kobukan/img/shiatsu/shiatsu2.jpg" width="200" />
+										<a href="img/shiatsu/shiatsu2.jpg" class="thumb-info">
+											<img class="image-responsive" src="img/shiatsu/shiatsu2.jpg" width="200" />
 										</a>
 									</div>
 								</li>
@@ -94,8 +94,8 @@
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInRight">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="/kobukan/img/shiatsu/shiatsu3.jpg" class="thumb-info">
-											<img class="image-responsive" src="/kobukan/img/shiatsu/shiatsu3.jpg" width="200" />
+										<a href="img/shiatsu/shiatsu3.jpg" class="thumb-info">
+											<img class="image-responsive" src="img/shiatsu/shiatsu3.jpg" width="200" />
 										</a>
 									</div>
 								</li>
@@ -128,8 +128,8 @@
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInRight">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="/kobukan/img/shiatsu/shiatsu4.jpg" class="thumb-info">
-											<img class="image-responsive" src="/kobukan/img/shiatsu/shiatsu4.jpg" width="200" />
+										<a href="img/shiatsu/shiatsu4.jpg" class="thumb-info">
+											<img class="image-responsive" src="img/shiatsu/shiatsu4.jpg" width="200" />
 										</a>
 									</div>
 								</li>
@@ -149,8 +149,8 @@
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInRight">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="/kobukan/img/shiatsu/shiatsu5.jpg" class="thumb-info">
-											<img class="image-responsive" src="/kobukan/img/shiatsu/shiatsu5.jpg" width="200" />
+										<a href="img/shiatsu/shiatsu5.jpg" class="thumb-info">
+											<img class="image-responsive" src="img/shiatsu/shiatsu5.jpg" width="200" />
 										</a>
 									</div>
 								</li>
@@ -169,8 +169,8 @@
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInLeft">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="/kobukan/img/shiatsu/diploma.jpg" class="thumb-info">
-											<img class="image-responsive" src="/kobukan/img/shiatsu/diploma.jpg" width="200" height="230" />
+										<a href="img/shiatsu/diploma.jpg" class="thumb-info">
+											<img class="image-responsive" src="img/shiatsu/diploma.jpg" width="200" height="230" />
 										</a>
 									</div>
 								</li>

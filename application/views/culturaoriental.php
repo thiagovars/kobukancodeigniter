@@ -29,8 +29,8 @@
               <?php foreach ($fotos as $foto) :?>
               <li class="col-md-3 no-pin">
                 <div class="portfolio-item img-thumbnail">
-                  <a href="/kobukan/img/cultura oriental/<?php echo $foto; ?>" class="thumb-info">
-                    <img alt="" class="img-responsive" src="/kobukan/img/cultura oriental/<?php echo $foto; ?>">
+                  <a href="img/cultura oriental/<?php echo $foto; ?>" class="thumb-info">
+                    <img alt="" class="img-responsive" src="img/cultura oriental/<?php echo $foto; ?>">
                   </a>
                 </div>
               </li>

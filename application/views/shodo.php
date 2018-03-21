@@ -95,8 +95,8 @@
 						<?php foreach ($fotos as $foto) : ?>
 							<li class="col-md-3 no-pin">
 								<div class="img-thumbnail">
-									<a href="/kobukan/img/shodo/<?php echo $fotos; ?>" class="thumb-info">
-										<img src="/kobukan/img/shodo/<?php echo $fotos; ?>" class="image-responsive"  height="200" width="400">
+									<a href="img/shodo/<?php echo $fotos; ?>" class="thumb-info">
+										<img src="img/shodo/<?php echo $fotos; ?>" class="image-responsive"  height="200" width="400">
 									</a>
 								</div>
 							</li>

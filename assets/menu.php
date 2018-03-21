@@ -1,7 +1,7 @@
         <div class="container">
           <h1 class="logo">
-            <a href="/kobukan/">
-              <img alt="Kobukan" width="190" height="150" data-sticky-width="82" data-sticky-height="70" src="/kobukan/img/logo.jpg">
+            <a href="/">
+              <img alt="Kobukan" width="190" height="150" data-sticky-width="82" data-sticky-height="70" src="img/logo.jpg">
             </a>
           </h1>
           <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">

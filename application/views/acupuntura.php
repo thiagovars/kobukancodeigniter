@@ -58,8 +58,8 @@ include_once('header.php');
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInLeft">
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="/kobukan/img/acupuntura/diploma.jpg" class="thumb-info">
-											<img class="image-responsive" src="/kobukan/img/acupuntura/diploma.jpg" width="200" />
+										<a href="img/acupuntura/diploma.jpg" class="thumb-info">
+											<img class="image-responsive" src="/img/acupuntura/diploma.jpg" width="200" />
 										</a>
 									</div>
 								</li>
@@ -82,16 +82,16 @@ include_once('header.php');
 							<ul class="lightbox list-unstyled" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}' data-appear-animation="fadeInLeft">
 								<li class="col-md-3 no-pin">
 										<div class="img-thumbnail">
-											<a href="/kobukan/img/acupuntura/diploma.jpg" class="thumb-info">
-												<img src="/kobukan/img/acupuntura/diploma.jpg" class="image-responsive"  height="200" width="400">
+											<a href="img/acupuntura/diploma.jpg" class="thumb-info">
+												<img src="/img/acupuntura/diploma.jpg" class="image-responsive"  height="200" width="400">
 											</a>
 										</div>
 									</li>
 								<?php foreach ($fotos as $foto) : ?>
 									<li class="col-md-3 no-pin">
 										<div class="img-thumbnail">
-											<a href="/kobukan/img/acupuntura/<?php echo $foto; ?>" class="thumb-info">
-												<img src="/kobukan/img/acupuntura/<?php echo $foto; ?>" class="image-responsive"  height="200" width="400">
+											<a href="img/acupuntura/<?php echo $foto; ?>" class="thumb-info">
+												<img src="/img/acupuntura/<?php echo $foto; ?>" class="image-responsive"  height="200" width="400">
 											</a>
 										</div>
 									</li>

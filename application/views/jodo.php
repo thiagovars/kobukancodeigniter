@@ -73,7 +73,7 @@
 												<li class="col-md-3 isotope-item leadership">
 													<div class="team-item thumbnail">
 														<span class="thumb-info team">
-															<img class="img-responsive" alt="" src="/kobukan/img/team/angelica.jpg">
+															<img class="img-responsive" alt="" src="img/team/angelica.jpg">
 															<span class="thumb-info-title">
 																<span class="thumb-info-inner">Angélica Philippe</span>
 																<span class="thumb-info-type">Shodan (1º Dan)</span>
@@ -85,7 +85,7 @@
 												<li class="col-md-3 isotope-item leadership">
 													<div class="team-item thumbnail">
 														<span class="thumb-info team">
-															<img class="img-responsive" alt="" src="/kobukan/img/team/eduardoJodo.jpg">
+															<img class="img-responsive" alt="" src="img/team/eduardoJodo.jpg">
 															<span class="thumb-info-title">
 																<span class="thumb-info-inner">Eduardo Corrêa</span>
 																<span class="thumb-info-type">Shodan (1º Dan)</span>
@@ -108,8 +108,8 @@
  									<?php foreach ($fotos as $foto) : ?>
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
-											<a href="/kobukan/img/jodo/<?php echo $foto; ?>" class="thumb-info">
-												<img src="/kobukan/img/jodo/<?php echo $foto; ?>" class="image-responsive" height="200">
+											<a href="img/jodo/<?php echo $foto; ?>" class="thumb-info">
+												<img src="img/jodo/<?php echo $foto; ?>" class="image-responsive" height="200">
 											</a>
 										</div>
 									</li>

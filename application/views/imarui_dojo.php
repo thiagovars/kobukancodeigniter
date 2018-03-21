@@ -89,7 +89,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="/kobukan/img/team/junior.jpg">
+										<img class="img-responsive" alt="" src="img/team/junior.jpg">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Júnior</span>
 											<span class="thumb-info-type">Nidan (2º Dan)</span>
@@ -119,8 +119,8 @@
 									<?php foreach ($fotos as $foto) :?>
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
-											<a href="/kobukan/img/imarui/<?php echo $foto; ?>" class="thumb-info">
-												<img src="/kobukan/img/imarui/<?php echo $foto; ?>" class="image-responsive" height="200" width="400">
+											<a href="img/imarui/<?php echo $foto; ?>" class="thumb-info">
+												<img src="img/imarui/<?php echo $foto; ?>" class="image-responsive" height="200" width="400">
 											</a>
 										</div>
 									</li>
