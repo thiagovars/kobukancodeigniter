@@ -83,7 +83,7 @@ include_once('header.php');
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="img/team/eduardo.jpg">
+										<img class="img-responsive" alt="" src="/img/team/eduardo.jpg">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Eduardo</span>
 											<span class="thumb-info-type">Yondan (4º Dan)</span>
@@ -126,8 +126,8 @@ include_once('header.php');
 									
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
-											<a href="img/farroupilha/<?php echo $foto;?>" class="thumb-info">
-												<img src="img/farroupilha/<?php echo $foto;?>" class="image-responsive" height="200" width="400">
+											<a href="/img/farroupilha/<?php echo $foto;?>" class="thumb-info">
+												<img src="/img/farroupilha/<?php echo $foto;?>" class="image-responsive" height="200" width="400">
 											</a>
 										</div>
 									</li>

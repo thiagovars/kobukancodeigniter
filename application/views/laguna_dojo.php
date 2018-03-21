@@ -100,7 +100,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="img/team/vinicius.jpg">
+										<img class="img-responsive" alt="" src="/img/team/vinicius.jpg">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Vinicius</span>
 											<span class="thumb-info-type">Shodan (1º Dan)</span>
@@ -141,8 +141,8 @@
 									<?php foreach ($fotos as $foto) :?>
 										<li class="col-md-3 no-pin isotope-item">
 											<div class="portfolio-item img-thumbnail">
-												<a href="img/laguna/<?php echo $foto; ?>" class="thumb-info">
-													<img src="img/laguna/<?php echo $foto; ?>" class="image-responsive" height="200" width="400">
+												<a href="/img/laguna/<?php echo $foto; ?>" class="thumb-info">
+													<img src="/img/laguna/<?php echo $foto; ?>" class="image-responsive" height="200" width="400">
 												</a>
 											</div>
 										</li>

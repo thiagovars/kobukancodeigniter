@@ -29,8 +29,8 @@
 							<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
 								<li class="col-md-4	 no-pin isotope-item">
 									<div class="portfolio-item img">
-										<a href="img/garopaba/fachada.jpg" class="thumb-info">
-											<img src="img/garopaba/fachada.jpg" id="GaropabaFachada" class="100Width image-responsive" height="365">
+										<a href="/img/garopaba/fachada.jpg" class="thumb-info">
+											<img src="/img/garopaba/fachada.jpg" id="GaropabaFachada" class="100Width image-responsive" height="365">
 										</a>
 									</div>
 								</li>
@@ -114,7 +114,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="img/team/rafael.jpg">
+										<img class="img-responsive" alt="" src="/img/team/rafael.jpg">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Rafael</span>
 											<span class="thumb-info-type">Shodan (1º Dan)</span>
@@ -155,8 +155,8 @@
 								<?php foreach ($fotos as $foto) : ?>
 									<li class="col-md-3 no-pin">
 										<div class="img-thumbnail">
-											<a href="img/garopaba/<?php echo $foto; ?>" class="thumb-info">
-												<img src="img/garopaba/<?php echo $foto; ?>" class="image-responsive"  height="200" width="400">
+											<a href="/img/garopaba/<?php echo $foto; ?>" class="thumb-info">
+												<img src="/img/garopaba/<?php echo $foto; ?>" class="image-responsive"  height="200" width="400">
 											</a>
 										</div>
 									</li>

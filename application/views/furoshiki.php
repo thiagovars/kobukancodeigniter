@@ -66,8 +66,8 @@
 					<?php for ($i=1; $i <= 4; $i++) : ?>
 							<li class="col-md-3 no-pin">
 								<div class="img-thumbnail">
-									<a href="img/furoshiki/<?php echo $foto; ?>" class="thumb-info">
-										<img src="img/furoshiki/<?php echo $foto; ?>" class="image-responsive"  height="200" width="400">
+									<a href="/img/furoshiki/<?php echo $foto; ?>" class="thumb-info">
+										<img src="/img/furoshiki/<?php echo $foto; ?>" class="image-responsive"  height="200" width="400">
 									</a>
 								</div>
 							</li>

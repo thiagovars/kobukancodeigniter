@@ -73,7 +73,7 @@
 										<li class="col-md-3 isotope-item leadership">
 											<div class="team-item thumbnail">
 												<span class="thumb-info team">
-													<img class="img-responsive" alt="" src="img/team/mathaeus.jpg">
+													<img class="img-responsive" alt="" src="/img/team/mathaeus.jpg">
 													<span class="thumb-info-title">
 														<span class="thumb-info-inner">Mathaeus Silveira</span>
 														<span class="thumb-info-type">Nidan (2º Dan)</span>
@@ -88,7 +88,7 @@
 										<li class="col-md-3 isotope-item leadership">
 											<div class="team-item thumbnail">
 												<span class="thumb-info team">
-													<img class="img-responsive" alt="" src="img/team/eduardo_iaido.jpg">
+													<img class="img-responsive" alt="" src="/img/team/eduardo_iaido.jpg">
 													<span class="thumb-info-title">
 														<span class="thumb-info-inner">Eduardo Corrêa</span>
 														<span class="thumb-info-type">Nidan (2º Dan)</span>
@@ -116,8 +116,8 @@
 								<?php foreach ($fotos as $foto) :?>
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
-											<a href="img/iaido/<?php echo $foto; ?>" class="thumb-info">
-												<img src="img/iaido/<?php echo $foto; ?>" class="image-responsive" height="200" width="400">
+											<a href="/img/iaido/<?php echo $foto; ?>" class="thumb-info">
+												<img src="/img/iaido/<?php echo $foto; ?>" class="image-responsive" height="200" width="400">
 											</a>
 										</div>
 									</li>

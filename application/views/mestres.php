@@ -53,7 +53,7 @@
 						<div class="col-md-12">
 							<div class="row">
 								<div class="col-md-4"  data-appear-animation="fadeInLeft">
-									<img src="img/osensei.jpg" width="200" />
+									<img src="/img/osensei.jpg" width="200" />
 									<h4 class="shorter">O'Sensei</h4>
 									<p class="tall">Morihei Ueshiba - Criador da arte.</p>
 									
@@ -63,20 +63,20 @@
 
 									Ele nasceu com o nome Morihei Ueshiba, em 1883, em Tanabe, uma pequena vila japonesa de pescadores e camponeses. Seu nome, Morihei, significando “paz abundante”, foi profético.</p>
 
-									<img class="thumbnail"src="img/osensei1.jpg" style="margin: 0 auto; margin-bottom: 10px;">
+									<img class="thumbnail" src="/img/osensei1.jpg" style="margin: 0 auto; margin-bottom: 10px;">
 
 									<p class="drop-caps">Começou seus estudos de artes marciais na juventude. Treinou primeiramente Sumo; em seguida, espada tradicional, uso de lança e Ju Jutsu, enquanto, ao mesmo tempo, se dedicava com voraz apetite à matemática, à física e aos estudos espirituais. Investindo anos em treinamento, sua proficiência e sua reputação como renomado mestre de artes marciais cresciam. Sua fama atraiu muitos desafiantes que vinham testar suas habilidades e refutar a lenda do grande guerreiro. Inevitavelmente ele venceria a todos, sendo que muitos deles chegaram a pedir para serem aceitos como alunos.
 
 									Após um desses confrontos, onde facilmente se evadiu de repetidos golpes com uma espada de madeira, assim fazendo sem ferir seu desafiante, ele teve uma luminosa revelação: vencer como resultado da derrota de alguém não é uma verdadeira vitória. A partir desse ponto suas profundas crenças espirituais e sua extraordinária arte marcial tornaram-se uma coisa só.</p>
 
-									<img class="thumbnail"src="img/osensei2.jpg" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="/img/osensei2.jpg" style="margin: 0 auto; margin-bottom: 20px;">
 
 									<p class="drop-caps">
 									O-Sensei viu o grande potencial do Aikido para criar uma cura global, e encorajava seus alunos a levarem esta arte para o mundo. “O propósito do Aikido”, ele dizia, “é construir um céu na terra organizando as pessoas num convívio de amizade e harmonia. Eu ensino esta arte para ajudar meus alunos a aprenderem como servir seus próximos.”
 
 									O-Sensei faleceu em 26 de abril de 1969, sabendo que seu amado Aikido já estava sendo ensinado e praticado não apenas no Japão, mas em vários lugares do mundo.
 									</p>
-									<img class="thumbnail"src="img/osensei4.jpg" width="350" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="/img/osensei4.jpg" width="350" style="margin: 0 auto; margin-bottom: 20px;">
 									<div id="Kawaisensei"></div>
 								</div>
 							</div>
@@ -85,7 +85,7 @@
 
 							<div class="row">
 								<div class="col-md-4"  data-appear-animation="fadeInLeft">
-									<img src="img/kawai-sensei.jpg" width="200" />
+									<img src="/img/kawai-sensei.jpg" width="200" />
 									<h4 class="shorter">Kawai sensei</h4>
 									<p class="tall">Responsável pela introdução
 									da<br> arte no brasil.<br></p>
@@ -112,7 +112,7 @@
 									quem teve duas filhas, Cristina e Lilba Kawai, e abre na Avenida Senador Queiroz, em 
 									São Paulo, a primeira academia de Aikido no Brasil.</p>
 
-									<img class="thumbnail"src="img/shihan4.jpg" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="/img/shihan4.jpg" style="margin: 0 auto; margin-bottom: 20px;">
 
 									<p class="tall">Em 1969 Kawai Sensei recebe seu 6o. Dan do grão mestre Morihei Ueshiba. Por 08
 									anos, desde 1976, ocupou o cargo de Vice-presidente da Federação Internacional de 
@@ -148,7 +148,7 @@
 
 							<div class="row">
 								<div class="col-md-4"  data-appear-animation="fadeInLeft">
-									<img src="img/eduardo-sensei.jpg" width="200" />
+									<img src="/img/eduardo-sensei.jpg" width="200" />
 									<h4 class="shorter">Eduardo Corrêa Sensei</h4>
 									<p class="tall">Responsável e idealizador<br>Kobukan Dojo</p>
 									
@@ -178,7 +178,7 @@
 										em Shiatsu com o mestre Yasui, além de fazer cursos de moxabustão e aurículo-acupuntura. 
 										Em 2001 obtém o Nidan de Kawai Shihan.</p>
 
-									<img class="thumbnail"src="img/mestres/eduardo.jpg" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="/img/mestres/eduardo.jpg" style="margin: 0 auto; margin-bottom: 20px;">
 
 									<p class="tall">Em agosto de 2002 inicia seu trabalho em Santa Catarina na academia Gigante 
 										Taekwondo na cidade de Criciúma. Em 2004 obtém faixa preta de Jiu Jitsu das mãos de seu 
@@ -198,28 +198,28 @@
 									<p class="tall">Ao longo de sua trajetória teve a oportunidade de treinar, por meio de seminários ou
 										eventos, com os seguintes Shihans:</p>
 										
-									<img class="thumbnail"src="img/mestres/moriteru.jpg" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="/img/mestres/moriteru.jpg" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Moriteru Ueshiba (Japão)</h5>
 									
-									<img class="thumbnail"src="img/mestres/seki.jpg" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="/img/mestres/seki.jpg" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Shoji Seki (Japão)</h5>
 									
-									<img class="thumbnail"src="img/mestres/fujita.jpg" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="/img/mestres/fujita.jpg" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Masatake Fujita (Japão)</h5>
 									
-									<img class="thumbnail"src="img/mestres/yamada.jpg" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="/img/mestres/yamada.jpg" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Hironobu Yamada (Japão)</h5>
 									
-									<img class="thumbnail"src="img/mestres/sakanashi.jpg" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="/img/mestres/sakanashi.jpg" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Masafumi Sakanashi (Argentina)</h5>
 									
-									<img class="thumbnail"src="img/mestres/kawaisensei.jpg" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="/img/mestres/kawaisensei.jpg" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Reishin Kawai (Brasil)<br> do qual, Eduardo sensei, foi discípulo direto</h5>
 
-									<img class="thumbnail"src="img/mestres/ono.jpg" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="/img/mestres/ono.jpg" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Kaizen Ono (Brasil)</h5>
 									
-									<img class="thumbnail"src="img/mestres/DonovanSensei.jpg" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="/img/mestres/DonovanSensei.jpg" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Donovan Waite (Estados Unidos)</h5>
 									
 									<p class="tall">2012 coroou a expansão do Aikido no sul catarinense com a instalação de seu 

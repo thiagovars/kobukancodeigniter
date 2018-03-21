@@ -79,7 +79,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="img/team/fabricio.jpg">
+										<img class="img-responsive" alt="" src="/img/team/fabricio.jpg">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Fabricio</span>
 											<span class="thumb-info-type">Sandan (3º Dan)</span>
@@ -93,7 +93,7 @@
 							<li class="col-md-3 isotope-item marketing">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="img/team/natalia.jpg">
+										<img class="img-responsive" alt="" src="/img/team/natalia.jpg">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Natália</span>
 											<span class="thumb-info-type">Nidan (2º Dan)</span>
@@ -134,8 +134,8 @@
 								<?php foreach ($fotos as $foto) :?>
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
-											<a href="img/tubarao/<?php echo $foto; ?>" class="thumb-info">
-												<img src="img/tubarao/<?php echo $foto; ?>" class="image-responsive" height="200" width="400">
+											<a href="/img/tubarao/<?php echo $foto; ?>" class="thumb-info">
+												<img src="/img/tubarao/<?php echo $foto; ?>" class="image-responsive" height="200" width="400">
 											</a>
 										</div>
 									</li>

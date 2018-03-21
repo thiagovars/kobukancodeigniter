@@ -30,8 +30,8 @@
 							<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
 								<li class="col-md-4	 no-pin isotope-item">
 									<div class="portfolio-item img">
-										<a href="img/imbituba/fachada.jpg" class="thumb-info">
-											<img src="img/imbituba/fachada.jpg" id="imbitubaFachada" class="100Width image-responsive" height="365">
+										<a href="/img/imbituba/fachada.jpg" class="thumb-info">
+											<img src="/img/imbituba/fachada.jpg" id="imbitubaFachada" class="100Width image-responsive" height="365">
 										</a>
 									</div>
 								</li>
@@ -83,7 +83,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="img/team/vinicius.jpg">
+										<img class="img-responsive" alt="" src="/img/team/vinicius.jpg">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Vinicius</span>
 											<span class="thumb-info-type">Shodan (1º Dan)</span>
@@ -124,7 +124,7 @@
 								<?php foreach ($fotos as $foto) : ?>
 									<li class="col-md-3 no-pin">
 										<div class="img-thumbnail">
-											<a href="img/imbituba/<?php echo $foto; ?>" class="thumb-info">
+											<a href="/img/imbituba/<?php echo $foto; ?>" class="thumb-info">
 												<img src="kobukan/img/imbituba/<?php echo $foto; ?>" class="image-responsive"  height="200" width="400">
 											</a>
 										</div>
