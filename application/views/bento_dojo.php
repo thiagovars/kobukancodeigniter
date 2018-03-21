@@ -78,7 +78,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="img/team/eduardo.jpg">
+										<img class="img-responsive" alt="" src="<?php echo APPPATH ?>img/team/eduardo.jpg">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Eduardo</span>
 											<span class="thumb-info-type">Yondan (4º Dan)</span>
@@ -92,7 +92,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="img/team/ze.jpg">
+										<img class="img-responsive" alt="" src="<?php echo APPPATH ?>img/team/ze.jpg">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">José Paulo</span>
 											<span class="thumb-info-type">1º kyu</span>
