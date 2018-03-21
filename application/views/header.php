@@ -86,5 +86,7 @@
       <header id="header">
         <?php 
         var_dump(dirname(dirname(__FILE__)));
-        include_once('../assets/menu.php'); ?>
+        var_dump(APPPATH);
+        var_dump(is_file(APPPATH.'../asserts/menu.php'));
+        include_once('../menu.php'); ?>
       </header>
