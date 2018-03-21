@@ -18,67 +18,67 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
 
     <!-- Libs CSS -->
-    <link rel="stylesheet" href="/kobukan/vendor/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="/kobukan/vendor/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="/kobukan/vendor/owl-carousel/owl.carousel.css" media="screen">
-    <link rel="stylesheet" href="/kobukan/vendor/owl-carousel/owl.theme.css" media="screen">
-    <link rel="stylesheet" href="/kobukan/vendor/magnific-popup/magnific-popup.css" media="screen">
-    <link rel="stylesheet" href="/kobukan/vendor/isotope/jquery.isotope.css" media="screen">
-    <link rel="stylesheet" href="/kobukan/vendor/mediaelement/mediaelementplayer.css" media="screen">
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/vendor/owl-carousel/owl.carousel.css" media="screen">
+    <link rel="stylesheet" href="/vendor/owl-carousel/owl.theme.css" media="screen">
+    <link rel="stylesheet" href="/vendor/magnific-popup/magnific-popup.css" media="screen">
+    <link rel="stylesheet" href="/vendor/isotope/jquery.isotope.css" media="screen">
+    <link rel="stylesheet" href="/vendor/mediaelement/mediaelementplayer.css" media="screen">
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="/kobukan/css/theme.css">
-    <link rel="stylesheet" href="/kobukan/css/theme-elements.css">
-    <link rel="stylesheet" href="/kobukan/css/theme-blog.css">
-    <link rel="stylesheet" href="/kobukan/css/theme-shop.css">
-    <link rel="stylesheet" href="/kobukan/css/theme-animate.css">
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/css/theme-elements.css">
+    <link rel="stylesheet" href="/css/theme-blog.css">
+    <link rel="stylesheet" href="/css/theme-shop.css">
+    <link rel="stylesheet" href="/css/theme-animate.css">
 
     <!-- Current Page CSS -->
-    <link rel="stylesheet" href="/kobukan/vendor/rs-plugin/css/settings.css" media="screen">
-    <link rel="stylesheet" href="/kobukan/vendor/circle-flip-slideshow/css/component.css" media="screen">
+    <link rel="stylesheet" href="/vendor/rs-plugin/css/settings.css" media="screen">
+    <link rel="stylesheet" href="/vendor/circle-flip-slideshow/css/component.css" media="screen">
 
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="/kobukan/css/theme-responsive.css" />
+    <link rel="stylesheet" href="/css/theme-responsive.css" />
 
     <!-- Skin CSS -->
-    <link rel="stylesheet" href="/kobukan/css/skins/default.css">
+    <link rel="stylesheet" href="/css/skins/default.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/kobukan/css/custom.css">
+    <link rel="stylesheet" href="/css/custom.css">
 
     <!-- Head Libs -->
-    <script src="/kobukan/vendor/modernizr.js"></script>
-    <script src="/kobukan/vendor/jquery.js"></script>
-    <script src="/kobukan/vendor/jquery.appear.js"></script>
-    <script src="/kobukan/vendor/jquery.easing.js"></script>
-    <script src="/kobukan/vendor/jquery.cookie.js"></script>
-    <script src="/kobukan/vendor/bootstrap/js/bootstrap.js"></script>
-    <script src="/kobukan/vendor/jquery.validate.js"></script>
-    <script src="/kobukan/vendor/jquery.stellar.js"></script>
-    <script src="/kobukan/vendor/jquery.knob.js"></script>
-    <script src="/kobukan/vendor/jquery.gmap.js"></script>
-    <script src="/kobukan/vendor/twitterjs/twitter.js"></script>
-    <script src="/kobukan/vendor/isotope/jquery.isotope.js"></script>
-    <script src="/kobukan/vendor/owl-carousel/owl.carousel.js"></script>
-    <script src="/kobukan/vendor/jflickrfeed/jflickrfeed.js"></script>
-    <script src="/kobukan/vendor/magnific-popup/magnific-popup.js"></script>
-    <script src="/kobukan/vendor/mediaelement/mediaelement-and-player.js"></script>
+    <script src="/vendor/modernizr.js"></script>
+    <script src="/vendor/jquery.js"></script>
+    <script src="/vendor/jquery.appear.js"></script>
+    <script src="/vendor/jquery.easing.js"></script>
+    <script src="/vendor/jquery.cookie.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="/vendor/jquery.validate.js"></script>
+    <script src="/vendor/jquery.stellar.js"></script>
+    <script src="/vendor/jquery.knob.js"></script>
+    <script src="/vendor/jquery.gmap.js"></script>
+    <script src="/vendor/twitterjs/twitter.js"></script>
+    <script src="/vendor/isotope/jquery.isotope.js"></script>
+    <script src="/vendor/owl-carousel/owl.carousel.js"></script>
+    <script src="/vendor/jflickrfeed/jflickrfeed.js"></script>
+    <script src="/vendor/magnific-popup/magnific-popup.js"></script>
+    <script src="/vendor/mediaelement/mediaelement-and-player.js"></script>
 
     <!-- Theme Initializer -->
-    <script src="/kobukan/js/theme.plugins.js"></script>
-    <script src="/kobukan/js/theme.js"></script>
+    <script src="/js/theme.plugins.js"></script>
+    <script src="/js/theme.js"></script>
 
     <!-- Custom JS -->
-    <script src="/kobukan/js/custom.js"></script>
+    <script src="/js/custom.js"></script>
 
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
     <!--[if IE]>
-      <link rel="stylesheet" href="/kobukan/css/ie.css">
+      <link rel="stylesheet" href="/css/ie.css">
     <![endif]-->
 
     <!--[if lte IE 8]>
-      <script src="/kobukan/vendor/respond.js"></script>
+      <script src="/vendor/respond.js"></script>
     <![endif]-->
   </head>
   <body>
