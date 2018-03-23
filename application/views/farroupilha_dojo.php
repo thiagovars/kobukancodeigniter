@@ -78,6 +78,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
+										<?php echo base_url(); ?>
 										<img class="img-responsive" alt="" src="/img/team/eduardo.jpg">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Eduardo</span>
