@@ -121,9 +121,8 @@
 									
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
-											<?php var_dump(base_url('img/farroupilha/')); ?>
-											<a href="<?php echo base_url(); ?>img/farroupilha/<?php echo $foto;?>" class="thumb-info">
-												<img src="<?php echo base_url(); ?>img/farroupilha/<?php echo $foto;?>" class="image-responsive" height="200" width="400">
+											<a href="<?php echo base_url('img/farroupilha'.$foto);?>" class="thumb-info">
+												<img src="<?php echo base_url('img/farroupilha/'.$foto);?>" class="image-responsive" height="200" width="400">
 											</a>
 										</div>
 									</li>
