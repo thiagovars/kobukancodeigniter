@@ -28,7 +28,7 @@
 								<li class="col-md-3 isotope-item">
 									<div class="portfolio-item img-thumbnail">
 										<a href="/img/shiatsu/shiatsu1.jpg" class="thumb-info">
-											<img class="image-responsive" src="img/shiatsu/shiatsu1.jpg" width="200" />
+											<img class="image-responsive" src="/img/shiatsu/shiatsu1.jpg" width="200" />
 										</a>
 									</div>
 								</li>
