@@ -1,7 +1,7 @@
         <div class="container">
           <h1 class="logo">
             <a href="/">
-              <img alt="Kobukan" width="190" height="150" data-sticky-width="82" data-sticky-height="70" src="/img/logo.jpg">
+              <img alt="Kobukan" width="190" height="150" data-sticky-width="82" data-sticky-height="70" src="<?php echo base_url('/img/logo.jpg'); ?>">
             </a>
           </h1>
           <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
@@ -21,10 +21,10 @@
                     <i class="icon icon-angle-down"></i>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a href="<?php echo base_url(); ?>sobreaikido"    >Sobre Aikido</a></li>
-                    <li><a href="<?php echo base_url(); ?>mestres#Osensei"      >O'Sensei</a></li>
-                    <li><a href="<?php echo base_url(); ?>mestres#Kawaisensei"  >Kawai Shihan</a></li>
-                    <li><a href="<?php echo base_url(); ?>mestres#Eduardosensei">Eduardo Sensei</a></li>
+                    <li><a href="<?php echo base_url('index.php/sobreaikido'); ?>"    >Sobre Aikido</a></li>
+                    <li><a href="<?php echo base_url('index.php/mestres#Osensei'); ?>"      >O'Sensei</a></li>
+                    <li><a href="<?php echo base_url('index.php/mestres#Kawaisensei'); ?>"  >Kawai Shihan</a></li>
+                    <li><a href="<?php echo base_url('index.php/mestres#Eduardosensei'); ?>">Eduardo Sensei</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
