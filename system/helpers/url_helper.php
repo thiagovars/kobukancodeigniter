@@ -567,3 +567,39 @@ if ( ! function_exists('redirect'))
 		exit;
 	}
 }
+
+if ( ! function_exists('anchor'))
+{
+	/**
+	 * Link menu 
+	 *
+	 * Creates a link for menus on top screen. This function is an add 
+	 * by Thiago
+	 *
+	 * @param	string	the URL
+	 * @param	string	the link title
+	 * @param	mixed	any attributes
+	 * @return	string
+	 */
+	function link($uri = '', $title = '', $attributes = '')
+	{
+		$title = (string) $title;
+
+		$site_url = '/index.php/'.$uri;
+		// $site_url = is_array($uri)
+		// 	? site_url($uri)
+		// 	: (preg_match('#^(\w+:)?//#i', $uri) ? $uri : site_url($uri));
+
+		if ($title === '')
+		{
+			$title = $site_url;
+		}
+
+		if ($attributes !== '')
+		{
+			$attributes = _stringify_attributes($attributes);
+		}
+
+		return '<a href="'.$site_url.'"'.$attributes.'>'.$title.'</a>';
+	}
+}
