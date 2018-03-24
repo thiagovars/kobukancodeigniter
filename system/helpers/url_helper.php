@@ -568,7 +568,7 @@ if ( ! function_exists('redirect'))
 	}
 }
 
-if ( ! function_exists('anchor'))
+if ( ! function_exists('link'))
 {
 	/**
 	 * Link menu 
