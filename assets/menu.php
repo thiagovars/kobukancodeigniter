@@ -21,7 +21,7 @@
                     <i class="icon icon-angle-down"></i>
                   </a>
                   <ul class="dropdown-menu">
-                    <li><?php echo link('sobreaikido', 'Sobre Aikido'); ?></li>
+                    <li><a href="/index.php/sobreaikido"          >Sobre Aikido</a></li>
                     <li><a href="/index.php/mestres#Osensei"      >O'Sensei</a></li>
                     <li><a href="/index.php/mestres#Kawaisensei"  >Kawai Shihan</a></li>
                     <li><a href="/index.php/mestres#Eduardosensei">Eduardo Sensei</a></li>
