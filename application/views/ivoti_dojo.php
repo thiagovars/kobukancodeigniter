@@ -86,7 +86,7 @@
 
 					<div class="row center">
 						<div class="col-md-12 text-align-center">
-							<img class="img-responsive margin-auto" src="/img/ivoti/logo.png" width="150" alt="">
+							<img class="img-responsive margin-auto" src="<?php echo base_url('/img/ivoti/logo.png') ?>" width="150" alt="">
 							<p class="tall">A Mileniumm arts é um dojo parceiro da <strong>Kobukan</strong></p>
 						</div>
 					</div>
@@ -99,7 +99,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="/img/team/valim.jpg">
+										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/valim.jpg') ?>">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Valim</span>
 											<span class="thumb-info-type">Nidan (2º Dan)</span>
@@ -141,8 +141,8 @@
 								<?php foreach ($fotos as $foto) :?>
 									<li class="col-md-3 no-pin">
 										<div class="img-thumbnail">
-											<a href="/img/ivoti/<?php echo $foto; ?>" class="thumb-info">
-												<img src="/img/ivoti/<?php echo $foto; ?>" class="image-responsive"  height="200" width="400">
+											<a href="<?php echo base_url('/img/ivoti/'.$foto); ?>" class="thumb-info">
+												<img src="<?php echo base_url('/img/ivoti/'.$foto); ?>" class="image-responsive"  height="200" width="400">
 											</a>
 										</div>
 									</li>

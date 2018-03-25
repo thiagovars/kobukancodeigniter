@@ -90,7 +90,7 @@
 									fortalecimento dos músculos esqueléticos, o que previne futuros problemas na coluna 
 									vertebral.</p>
 
-									<img class="thumbnail" src="/img/osensei2.jpg" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="<?php echo base_url('/img/osensei2.jpg'); ?>" style="margin: 0 auto; margin-bottom: 20px;">
 
 									<p class="tall">Para a <strong>terceira idade</strong> as articulações devem ser trabalhadas, do contrário perdem a 
 									mobilidade, ficam atrofiadas e curvas. O “desempenho de elite” dos praticantes mais 
@@ -100,7 +100,7 @@
 									particularmente nas extremidades inferiores, restaura a estabilização que pode ser 
 									perdida. Há também uma melhora no tempo de reação aos acidentes.</p>
 
-									<img class="thumbnail" src="/img/osensei4.jpg" width="350" style="margin: 0 auto; margin-bottom: 20px;">
+									<img class="thumbnail" src="<?php echo base_url('/img/osensei4.jpg'); ?>" width="350" style="margin: 0 auto; margin-bottom: 20px;">
 									
 									<p class="tall">Para a <strong>crianças</strong>, além da parte relacionada à saúde com o incentivo da prática de
 									atividades físicas desde cedo, é na parte psicológica que o Aikido traz inúmeros 

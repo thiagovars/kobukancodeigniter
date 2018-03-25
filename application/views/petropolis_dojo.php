@@ -30,8 +30,8 @@
 							<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
 								<li class="col-md-4	 no-pin isotope-item">
 									<div class="portfolio-item img">
-										<a href="/img/petropolis/fachada.jpg" class="thumb-info">
-											<img src="/img/petropolis/fachada.jpg" id="petropolisFachada" class="100Width image-responsive" height="365">
+										<a href="<?php echo base_url('/img/petropolis/fachada.jpg'); ?>" class="thumb-info">
+											<img src="<?php echo base_url('/img/petropolis/fachada.jpg'); ?>" id="petropolisFachada" class="100Width image-responsive" height="365">
 										</a>
 									</div>
 								</li>
@@ -88,7 +88,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="/img/team/eduardo.jpg">
+										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/eduardo.jpg') ?>">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Eduardo</span>
 											<span class="thumb-info-type">Yondan (4º Dan)</span>
@@ -129,8 +129,8 @@
 								<?php foreach ($fotos as $foto) :?>
 									<li class="col-md-3 no-pin">
 										<div class="img-thumbnail">
-											<a href="/img/petropolis/<?php echo $foto; ?>" class="thumb-info">
-												<img src="/img/petropolis/<?php echo $foto; ?>" class="image-responsive"  height="200" width="400">
+											<a href="<?php echo base_url('/img/petropolis/'.$foto); ?>" class="thumb-info">
+												<img src="<?php echo base_url('/img/petropolis/'.$foto); ?>" class="image-responsive"  height="200" width="400">
 											</a>
 										</div>
 									</li>

@@ -78,7 +78,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="/img/team/eduardo.jpg">
+										<img class="img-responsive" alt="" src="<?php echo base_url('/application/img/team/eduardo.jpg') ?>">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Eduardo</span>
 											<span class="thumb-info-type">Yondan (4º Dan)</span>
@@ -92,7 +92,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="/img/team/ze.jpg">
+										<img class="img-responsive" alt="" src="<?php echo base_url('/application/img/team/ze.jpg') ?>">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">José Paulo</span>
 											<span class="thumb-info-type">1º kyu</span>
@@ -132,15 +132,15 @@
 								<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
-											<a href="/img/bento/inauguracao_bento.jpg" class="thumb-info">
-												<img src="/img/bento/inauguracao_bento.jpg" class="image-responsive" height="200" width="400">
+											<a href="<?php echo base_url('/img/bento/inauguracao_bento.jpg') ?>" class="thumb-info">
+												<img src="<?php echo base_url('/img/bento/inauguracao_bento.jpg') ?>" class="image-responsive" height="200" width="400">
 											</a>
 										</div>
 									</li>
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
 											<a href="img/bento/bento2.jpg" class="thumb-info">
-												<img src="/img/bento/bento2.jpg" class="image-responsive" height="200" width="400">
+												<img src="<?php echo base_url('/img/bento/bento2.jpg') ?>" class="image-responsive" height="200" width="400">
 											</a>
 										</div>
 									</li>
