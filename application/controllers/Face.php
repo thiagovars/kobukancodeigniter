@@ -6,12 +6,11 @@ class Face extends CI_Controller {
 	public function index() 
 	{
 		$data = array('title' => 'Kobukan - Escola de budô',
-			array('slides' => array(
+			'slides' => array(
 				'/img/slides/geral.jpg',
 				'/img/slides/capa.jpg',
 				'/img/slides/slide2.jpg',
 				'/img/slides/kawai-sensei2.jpg',
-				)
 			),
 		);
 		$this->load->view('face', $data);
