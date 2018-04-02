@@ -9,7 +9,6 @@ class Face extends CI_Controller {
 			'slides' => array(
 				'/img/slides/geral.jpg',
 				'/img/slides/capa.jpg',
-				'/img/slides/slide2.jpg',
 				'/img/slides/kawai-sensei2.jpg',
 			),
 		);
