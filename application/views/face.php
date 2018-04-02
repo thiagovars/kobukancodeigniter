@@ -3,18 +3,11 @@
 				<div class="slider-container">
 					<div class="slider" id="revolutionSlider">
 						<ul>
-							<li data-transition="fade" data-slotamount="13" data-masterspeed="300" >
-								<img src="img/slides/geral.jpg" data-bgfit="cover" data-bgposition="left 20%" data-bgrepeat="no-repeat">
-							</li>
-						 	<li data-transition="fade" data-slotamount="13" data-masterspeed="300" >
-								<img src="img/slides/capa.jpg" data-bgfit="cover" data-bgposition="left 20%" data-bgrepeat="no-repeat">
-							</li>
-							<li data-transition="fade" data-slotamount="13" data-masterspeed="300" >
-								<img src="img/slides/slide2.jpg" data-bgfit="cover" data-bgposition="left 44%" data-bgrepeat="no-repeat">
-							</li>
-							<li data-transition="fade" data-slotamount="13" data-masterspeed="300" >
-								<img src="img/slides/kawai-sensei2.jpg" data-bgfit="cover" data-bgposition="left 44%" data-bgrepeat="no-repeat">
-							</li>
+							<?php foreach($slides as $slide) : ?>
+								<li data-transition="fade" data-slotamount="13" data-masterspeed="300" >
+									<img src="<?php echo base_url($slide); ?>" data-bgfit="cover" data-bgposition="left 20%" data-bgrepeat="no-repeat">
+								</li>
+							<?php endforeach; ?>
 						</ul>
 					</div>
 				</div>
