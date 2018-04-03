@@ -100,7 +100,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/julianoPinheiro.jpg') ?>">
+										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/JulianoPinheiro.jpg') ?>">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Juliano</span>
 											<span class="thumb-info-type">Shodan (1º Dan)</span>
