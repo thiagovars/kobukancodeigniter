@@ -47,10 +47,10 @@
 											Segunda
 										</td>
 										<td>
-											20h - 21h30
+											19h - 20h30
 										</td>
 										<td>
-											Vinicius
+											Juliano / Carlos
 										</td>
 									</tr>
 									<tr>
@@ -58,10 +58,10 @@
 											Quarta
 										</td>
 										<td>
-											20h - 21h30
+											19h - 20h30
 										</td>
 										<td>
-											Vinicius
+											Juliano / Carlos
 										</td>
 									</tr>
 									<tr>
@@ -69,10 +69,10 @@
 											Sexta
 										</td>
 										<td>
-											20h - 21h30
+											19h - 20h30
 										</td>
 										<td>
-											Vinicius
+											Juliano / Carlos
 										</td>
 									</tr>
 									<tr>
@@ -83,7 +83,7 @@
 											16h - 17h30
 										</td>
 										<td>
-											Vinicius
+											Juliano / Carlos
 										</td>
 									</tr>
 								</tbody>
@@ -100,14 +100,28 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/vinicius.jpg') ?>">
+										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/julianoPinheiro.jpg') ?>">
 										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Vinicius</span>
+											<span class="thumb-info-inner">Juliano Pinheiro</span>
 											<span class="thumb-info-type">Shodan (1º Dan)</span>
 										</span>
 									</span>
 									<span class="thumb-info-caption">
-										<p>Vinicius Algarve</p>
+										<p>Juliano Machado Pinheiro</p>
+									</span>
+								</div>
+							</li>
+							<li class="col-md-3 isotope-item leadership">
+								<div class="team-item thumbnail">
+									<span class="thumb-info team">
+										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/carlosMachado.jpg') ?>">
+										<span class="thumb-info-title">
+											<span class="thumb-info-inner">Juliano Pinheiro</span>
+											<span class="thumb-info-type">Faixa Azul (2º kyu)</span>
+										</span>
+									</span>
+									<span class="thumb-info-caption">
+										<p>Carlos Machado</p>
 									</span>
 								</div>
 							</li>							
