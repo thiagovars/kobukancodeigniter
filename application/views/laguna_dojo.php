@@ -102,7 +102,7 @@
 									<span class="thumb-info team">
 										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/julianoPinheiro.jpg') ?>">
 										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Juliano Pinheiro</span>
+											<span class="thumb-info-inner">Juliano</span>
 											<span class="thumb-info-type">Nidan (2º Dan)</span>
 										</span>
 									</span>
@@ -116,7 +116,7 @@
 									<span class="thumb-info team">
 										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/carlosMachado.jpg') ?>">
 										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Juliano Pinheiro</span>
+											<span class="thumb-info-inner">Carlos</span>
 											<span class="thumb-info-type">Faixa Azul (2º kyu)</span>
 										</span>
 									</span>
