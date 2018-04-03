@@ -28,30 +28,30 @@
 				
 						<div class="row center">
 							
-							<div class="col-md-3 col-md-offset-0">
-								<div class="process-image" data-appear-animation="bounceIn">
-									<a href="criciuma.php"><img src="img/map-dojo-criciuma.jpg" alt="" /></a>
-									<strong>Criciúma-SC</strong>
+							<div class="col-md-3">
+								<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="600">
+									<a href="bento.php"><img src="<?php echo base_url('/img/map-dojo-bento.jpg') ?>" alt="" /></a>
+									<strong>Bento Gonçalves-RS</strong>
 								</div>
 							</div>
 
 							<div class="col-md-3">
 								<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="200">
-									<a href="tubarao.php"><img src="img/map-dojo.png" width="145" alt="" /></a>
+									<a href="tubarao.php"><img src="<?php echo base_url('/img/map-dojo.png') ?>" width="145" alt="" /></a>
 									<strong>Tubarão-SC</strong>
 								</div>
 							</div>
 
 							<div class="col-md-3">
 								<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="400">
-									<a href="laguna.php"><img src="img/map-dojo-laguna.jpg" alt="" /></a>
+									<a href="laguna.php"><img src="<?php echo base_url('/img/map-dojo-laguna.jpg') ?>" alt="" /></a>
 									<strong>Laguna-SC</strong>
 								</div>
 							</div>
 							
 							<div class="col-md-3">
 								<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="600">
-									<a href="icara.php"><img src="img/map-dojo-icara.jpg" alt="" /></a>
+									<a href="icara.php"><img src="<?php echo base_url('/img/map-dojo-icara.jpg') ?>" alt="" /></a>
 									<strong>Içara-SC</strong>
 								</div>
 							</div>
@@ -63,29 +63,22 @@
 
 							<div class="col-md-3">
 								<div class="process-image" data-appear-animation="bounceIn">
-									<a href="imarui.php"><img src="img/map-dojo-imarui.jpg" alt="" /></a>
+									<a href="imarui.php"><img src="<?php echo base_url('/img/map-dojo-imarui.jpg') ?>" alt="" /></a>
 									<strong>Imaruí-SC</strong>
 								</div>
 							</div>
 						
 							<div class="col-md-3">
 								<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="200">
-									<a href="capivari.php"><img src="img/map-dojo-capivari.jpg" alt="" /></a>
+									<a href="capivari.php"><img src="<?php echo base_url('/img/map-dojo-capivari.jpg') ?>" alt="" /></a>
 									<strong>Capivari de baixo-SC</strong>
 								</div>
 							</div>
 
 							<div class="col-md-3">
 								<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="400">
-									<a href="farroupilha.php"><img src="img/map-dojo-farroupilha.jpg" alt="" /></a>
+									<a href="farroupilha.php"><img src="<?php echo base_url('/img/map-dojo-farroupilha.jpg') ?>" alt="" /></a>
 									<strong>Farroupilha-RS</strong>
-								</div>
-							</div>
-
-							<div class="col-md-3">
-								<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="600">
-									<a href="bento.php"><img src="img/map-dojo-bento.jpg" alt="" /></a>
-									<strong>Bento Gonçalves-RS</strong>
 								</div>
 							</div>
 
@@ -95,28 +88,28 @@
 						
 							<div class="col-md-3">
 								<div class="process-image" data-appear-animation="bounceIn">
-									<a href="gramado.php"><img src="img/map-dojo-gramado.jpg" alt="" /></a>
+									<a href="gramado.php"><img src="<?php echo base_url('/img/map-dojo-gramado.jpg') ?>" alt="" /></a>
 									<strong>Gramado-RS</strong>
 								</div>
 							</div>
 
 							<div class="col-md-3">
 								<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="200">
-									<a href="petropolis.php"><img src="img/map-dojo-petropolis.jpg" alt="" /></a>
+									<a href="petropolis.php"><img src="<?php echo base_url('/img/map-dojo-petropolis.jpg') ?>" alt="" /></a>
 									<strong>Nova Petrópolis-RS</strong>
 								</div>
 							</div>
 
 							<div class="col-md-3">
 								<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="400">
-									<a href="portoalegre.php"><img src="img/map-dojo.png" width="145" alt="" /></a>
+									<a href="portoalegre.php"><img src="<?php echo base_url('/img/map-dojo.png') ?>" width="145" alt="" /></a>
 									<strong>Porto alegre-RS</strong>
 								</div>
 							</div>
 							
 		        			<div class="col-md-3">
 								<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="600">
-									<a href="ivoti.php"><img src="img/map-dojo-ivoti.jpg" alt="" /></a>
+									<a href="ivoti.php"><img src="<?php echo base_url('/img/map-dojo-ivoti.jpg') ?>" alt="" /></a>
 									<strong>Ivoti-RS</strong>
 								</div>
 							</div>
@@ -126,18 +119,22 @@
 						
 							<div class="col-md-6">
 								<div class="process-image" data-appear-animation="bounceIn">
-									<a href="garopaba.php"><img src="img/map-dojo-garopaba.jpg" alt="" /></a>
+									<a href="garopaba.php"><img src="<?php echo base_url('/img/map-dojo-garopaba.jpg') ?>" alt="" /></a>
 									<strong>Garopaba-SC</strong>
 								</div>
 							</div>
 							
 
+							<?php 
+							/**
 							<div class="col-md-6">
 								<div class="process-image" data-appear-animation="bounceIn">
-									<a href="imbituba.php"><img src="img/map-dojo.png" width="145" alt="" /></a>
+									<a href="imbituba.php"><img src="<?php echo base_url('/img/map-dojo.png') ?>" width="145" alt="" /></a>
 									<strong>Imbituba-SC</strong>
 								</div>
 							</div>
+							 */
+							 ?>
 							
 						</div>
 				
@@ -160,7 +157,7 @@
 							<div class="row">
 								<div class="col-md-4">
 									<a href="mestres.php#Osensei">
-										<img src="img/osensei.jpg" width="200" />
+										<img src="<?php echo base_url('/img/osensei.jpg" width') ?>" width="200" />
 									</a>
 									<h4 class="shorter">O'Sensei</h4>
 									<p class="tall">Morihei Ueshiba - Criador da arte.</p>
@@ -179,7 +176,7 @@
 							<div class="row">
 								<div class="col-md-4">
 									<a href="mestres.php#Kawaisensei">
-										<img src="img/kawai-sensei.jpg" width="200" />
+										<img src="<?php echo base_url('/img/kawai-sensei.jpg') ?>" width="200" />
 									</a>
 									<h4 class="shorter">Kawai sensei</h4>
 									<p class="tall">Responsável pela introdução da<br> arte no brasil.</p>
@@ -197,7 +194,7 @@
 							<div class="row">
 								<div class="col-md-4">
 									<a href="mestres.php#Eduardosensei">
-										<img src="img/eduardo-sensei.jpg" width="200" />
+										<img src="<?php echo base_url('/img/eduardo-sensei.jpg') ?>" width="200" />
 									</a>
 									<h4 class="shorter">Eduardo Corrêa sensei</h4>
 									<p class="tall">Responsável e idealizador<br>Kobukan Dojo</p>
@@ -225,20 +222,12 @@
 						<div class="col-md-12">
 							<h2 class="short word-rotator-title">
 								Afiliado à:
-								<strong>
-									<!-- <span class="word-rotate">
-										<span class="word-rotate-items">
-											<span>excited</span>
-											<span>happy</span>
-										</span>
-									</span> -->
-								</strong>
 							</h2>
 						</div>
 					</div>
 					<div class="row center">
 						<div>
-							<img src="img/kawaishihan.png" />
+							<img src="<?php echo base_url('/img/kawaishihan.png') ?>" />
 						</div>
 					</div>
 				
