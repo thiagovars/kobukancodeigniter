@@ -40,7 +40,6 @@
                     <li><a href="/index.php/Gramadodojo"    >Gramado</a></li>
                     <li><a href="/index.php/Icaradojo"      >Içara</a></li>
                     <li><a href="/index.php/Imaruidojo"     >Imarui</a></li>
-                    <?php //<li><a href="/index.php/Imbitubadojo"   >Imbituba</a></li> ?>
                     <li><a href="/index.php/Ivotidojo"      >Ivoti</a></li>
                     <li><a href="/index.php/Lagunadojo"     >Laguna</a></li>
                     <li><a href="/index.php/Petropolisdojo" >Nova Petrópolis</a></li>
