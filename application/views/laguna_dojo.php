@@ -50,7 +50,7 @@
 											19h - 20h30
 										</td>
 										<td>
-											Juliano / Carlos
+											Carlos
 										</td>
 									</tr>
 									<tr>
@@ -61,7 +61,7 @@
 											19h - 20h30
 										</td>
 										<td>
-											Juliano / Carlos
+											Carlos
 										</td>
 									</tr>
 									<tr>
