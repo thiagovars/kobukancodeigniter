@@ -7,7 +7,7 @@ class Kado extends CI_Controller {
 		$this->load->helper('url');
 		$data['title'] = 'Kadô | A arte dos arranjos florais';
 		for ($i=1; $i <= 22; $i++) { 
-			$data['fotos'][] = 'ikebana'.$i.'.JPG';
+			$data['fotos'][] = '/img/ikebana/ikebana'.$i.'.JPG';
 		}
 		$this->load->view('header', $data);
 		$this->load->view('ikebana');

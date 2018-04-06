@@ -34,8 +34,8 @@
 							<?php foreach ($fotos as $foto) :?>
 								<li class="col-md-3 no-pin isotope-item">
 									<div class="portfolio-item img-thumbnail">
-										<a href="/img/ikebana/<?php echo $foto; ?>" class="thumb-info">
-											<img src="/img/ikebana/<?php echo $foto; ?>" class="image-responsive" height="200" width="400">
+										<a href="<?php echo base_url($foto); ?>" class="thumb-info">
+											<img src="<?php echo base_url($foto); ?>" class="image-responsive" height="200" width="400">
 										</a>
 									</div>
 								</li>
