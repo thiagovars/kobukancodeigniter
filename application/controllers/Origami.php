@@ -7,7 +7,7 @@ class Origami extends CI_Controller {
 		$this->load->helper('url');
 		$data['title'] = 'Origami | Ori (dobrar) gami (papel)';
 		for ($i=1; $i <= 6; $i++) { 
-			$data['fotos'][] = 'origami'.$i.'.jpg';
+			$data['fotos'][] = 'img/origami/origami'.$i.'.jpg';
 		}
 		$this->load->view('header', $data);
 		$this->load->view('origami');
