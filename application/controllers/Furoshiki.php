@@ -9,7 +9,7 @@ class Furoshiki extends CI_Controller {
 		for ($i=1; $i <= 4; $i++) { 
 			$data['fotos'][] = 'furoshiki'.$i.'.jpg';
 		}
-		$this->load->view('header', $data);
+		// $this->load->view('header', $data);
 		$this->load->view('furoshiki');
 		$this->load->view('footer');
 	}
