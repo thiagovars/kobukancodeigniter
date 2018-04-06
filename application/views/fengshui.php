@@ -22,7 +22,7 @@
 					
 					<div class="row">
 						<div class="col-md-12" data-appear-animation="fadeInUp">
-							<img src="/img/fengshui/cursoangelica.jpg" class="responsive" align="center"/>
+							<img src="<?php echo base_url('/img/fengshui/cursoangelica.jpg'); ?>" class="responsive" align="center"/>
 						</div>
 					</div>
 					
@@ -80,8 +80,8 @@
 							<?php foreach ($fotos as $foto) : ?>
 							<li class="col-md-3 no-pin isotope-item">
 								<div class="portfolio-item img-thumbnail">
-									<a href="/img/fengshui/<?php echo $foto; ?>" class="thumb-info">
-										<img src="/img/fengshui/<?php echo $foto; ?>" class="image-responsive" height="200" width="400">
+									<a href="<?php echo base_url($foto); ?>" class="thumb-info">
+										<img src="<?php echo base_url($foto); ?>" class="image-responsive" height="200" width="400">
 									</a>
 								</div>
 							</li>
