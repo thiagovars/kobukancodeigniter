@@ -61,5 +61,5 @@
   <body>
     <div class="body">
       <header id="header">
-        <?php include_once('menu.php'); ?>
+        <?php include_once(APPPATH.'../assets/menu.php'); ?>
       </header>
