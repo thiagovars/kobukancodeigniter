@@ -7,7 +7,7 @@ class Bonsai extends CI_Controller {
 		$this->load->helper('url');
 		$data['title'] = 'Bonsai | A Natureza em Miniatura';
 		for ($i=1; $i <= 18; $i++) {
-			$data['fotos'][] = 'bonsai'.$i.'.jpg';
+			$data['fotos'][] = '/img/bonsai/bonsai'.$i.'.jpg';
 		}
 
 		$this->load->view('header', $data);
