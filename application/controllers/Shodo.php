@@ -11,7 +11,7 @@ class Shodo extends CI_Controller {
 			if (in_array($i, $ignore)) {
 				continue;
 			} 
-			$data['fotos'][] = 'shodo'.$i.'.jpg';
+			$data['fotos'][] = '/img/shodo/shodo'.$i.'.jpg';
 		}
 		$this->load->view('header', $data);
 		$this->load->view('shodo');
