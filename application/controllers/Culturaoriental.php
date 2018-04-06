@@ -7,7 +7,7 @@ class Culturaoriental extends CI_Controller {
 		$this->load->helper('url');
 		$data['title'] = 'Fotos sobre cultura oriental';
 		for ($i=1; $i <= 48; $i++) {
-			$data['fotos'][] = $i.'.jpg';
+			$data['fotos'][] = '/img/cultura oriental/'.$i.'.jpg';
 		}
 		$this->load->view('header', $data);
 		$this->load->view('culturaoriental');
