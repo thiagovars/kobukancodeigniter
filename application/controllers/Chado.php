@@ -11,7 +11,7 @@ class Chado extends CI_Controller {
 			if (in_array($i, $ignore)) {
 				continue;
 			}
-			$data['fotos'][] = 'chanoyu'.$i.'.jpg';
+			$data['fotos'][] = '/img/chanoyu/chanoyu'.$i.'.jpg';
 		}
 		$this->load->view('header', $data);
 		$this->load->view('chanoyu');
