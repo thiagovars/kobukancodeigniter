@@ -7,9 +7,9 @@ class Furoshiki extends CI_Controller {
 		$this->load->helper('url');
 		$data['title'] = 'Furoshiki | Embrulho Tradicional Japonês';
 		for ($i=1; $i <= 4; $i++) { 
-			$data['fotos'][] = 'furoshiki'.$i.'.jpg';
+			$data['fotos'][] = '/img/furoshiki/furoshiki'.$i.'.jpg';
 		}
-		// $this->load->view('header', $data);
+		$this->load->view('header', $data);
 		$this->load->view('furoshiki');
 		$this->load->view('footer');
 	}

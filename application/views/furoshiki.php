@@ -63,11 +63,11 @@
 
 					<div class="row" data-appear-animation="fadeInDown">
 						<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
-							<?php for ($i=1; $i <= 4; $i++) :?>
+							<?php foreach ($fotos as $foto) :?>
 								<li class="col-md-3 no-pin">
 									<div class="img-thumbnail">
-										<a href="/img/furoshiki/<?php echo $foto; ?>" class="thumb-info">
-											<img src="/img/furoshiki/<?php echo $foto; ?>" class="image-responsive"  height="200" width="400">
+										<a href="<?php echo base_url($foto) ?>" class="thumb-info">
+											<img src="<?php echo base_url($foto) ?>" class="image-responsive"  height="200" width="400">
 										</a>
 									</div>
 								</li>
