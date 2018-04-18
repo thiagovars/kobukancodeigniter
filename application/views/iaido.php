@@ -76,7 +76,7 @@
 													<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/mathaeus.jpg'); ?>">
 													<span class="thumb-info-title">
 														<span class="thumb-info-inner">Mathaeus Silveira</span>
-														<span class="thumb-info-type">Nidan (2º Dan)</span>
+														<span class="thumb-info-type">Sandan (3º Dan)</span>
 													</span>
 												</span>
 												<!-- <span class="thumb-info-caption">
