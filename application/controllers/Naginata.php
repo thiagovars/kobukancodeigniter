@@ -12,7 +12,7 @@ class Naginata extends CI_Controller {
 			if (in_array($i, $ignore)) {
 				continue;
 			}
-			$data['fotos'][] = 'naginata'.$i.'.jpg';
+			$data['fotos'][] = '/img/naginata/naginata'.$i.'.jpg';
 		}
 									
 		$this->load->view('header', $data);

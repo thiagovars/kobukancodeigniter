@@ -58,7 +58,7 @@
 												<li class="col-md-3 isotope-item leadership">
 													<div class="team-item thumbnail">
 														<span class="thumb-info team">
-															<img class="img-responsive" alt="" src="/img/team/angelica.jpg">
+															<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/angelica.jpg'); ?>">
 															<span class="thumb-info-title">
 																<span class="thumb-info-inner">Angélica Philippe</span>
 																<span class="thumb-info-type">3º kyu</span>
@@ -70,7 +70,7 @@
 												<li class="col-md-3 isotope-item leadership">
 													<div class="team-item thumbnail">
 														<span class="thumb-info team">
-															<img class="img-responsive" alt="" src="/img/team/eduardoNaginata.jpg">
+															<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/eduardoNaginata.jpg'); ?>">
 															<span class="thumb-info-title">
 																<span class="thumb-info-inner">Eduardo Corrêa</span>
 																<span class="thumb-info-type">2º kyu</span>
@@ -93,8 +93,8 @@
 									<?php foreach ($fotos as $foto) : ?>
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
-											<a href="/img/naginata/<?php echo $foto; ?>" class="thumb-info">
-												<img src="/img/naginata/<?php echo $foto; ?>" class="image-responsive" height="200">
+											<a href="<?php echo base_url($foto); ?>" class="thumb-info">
+												<img src="<?php echo base_url($foto); ?>" class="image-responsive" height="200">
 											</a>
 										</div>
 									</li>

@@ -7,7 +7,7 @@ class Acupuntura extends CI_Controller {
 		$this->load->helper('url');
 		$data['title'] = 'Acupuntura | Medicina Tradicional Chinesa';
 		for ($i=1; $i <= 6; $i++) {
-			$data['fotos'][] = 'acupuntura'.$i.'.jpg';
+			$data['fotos'][] = '/img/acupuntura/acupuntura'.$i.'.jpg';
 		}
 		$this->load->view('header', $data);
 		$this->load->view('acupuntura');

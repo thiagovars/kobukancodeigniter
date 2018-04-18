@@ -12,7 +12,7 @@ class Jodo extends CI_Controller {
 			if (in_array($i, $ignore)) {
 				continue;
 			}
-			$data['fotos'][] = 'jodo'.$i.'.jpg';
+			$data['fotos'][] = '/img/jodo/jodo'.$i.'.jpg';
 		}
 									
 		$this->load->view('header', $data);

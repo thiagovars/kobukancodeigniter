@@ -8,7 +8,7 @@ class Iaido extends CI_Controller {
 		$data['title'] = 'Iaido | Arte Marcial Japonesa do Desembainhar da Espada';
 
 		for ($i=1; $i <= 29; $i++) { 
-			$data['fotos'][] = 'iaido'.$i.'.jpg';
+			$data['fotos'][] = '/img/iaido/iaido'.$i.'.jpg';
 		}
 									
 		$this->load->view('header', $data);
