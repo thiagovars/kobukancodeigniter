@@ -88,14 +88,14 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/eduardo.jpg') ?>">
+										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/sfredo.jpg') ?>">
 										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Eduardo</span>
-											<span class="thumb-info-type">Yondan (4º Dan)</span>
+											<span class="thumb-info-inner">Sfredo</span>
+											<span class="thumb-info-type">Ikkyu (Faixa Marrom)</span>
 										</span>
 									</span>
 									<span class="thumb-info-caption">
-										<p>Eduardo Corrêa</p>
+										<p>Rodrigo Sfredo</p>
 									</span>
 								</div>
 							</li>							

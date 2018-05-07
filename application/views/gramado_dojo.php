@@ -132,49 +132,22 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/eduardo.jpg'); ?>">
+										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/jordan.jpg'); ?>">
 										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Eduardo</span>
-											<span class="thumb-info-type">Yondan (4º Dan)</span>
+											<span class="thumb-info-inner">Jordan</span>
+											<span class="thumb-info-type">Shodan (1º Dan)</span>
 										</span>
 									</span>
-									<!-- <span class="thumb-info-caption">
-										<p>Eduardo Corrêa</p>
-									</span> -->
-								</div>
-							</li>	
-
-							<li class="col-md-3 isotope-item leadership">
-								<div class="team-item thumbnail">
-									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/angelica.jpg'); ?>">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Angélica Philippe</span>
-											<span class="thumb-info-type">Shodan (Faixa preta)</span>
-										</span>
+									<span class="thumb-info-caption">
+										<p>Jordan Teixeira Nicloti</p>
 									</span>
-									<!-- <span class="thumb-info-caption">
-										<p>Mathaeus Silveira</p>
-									</span> -->
 								</div>
-							</li>						
+							</li>
 						</ul>
 					
 					</div>
 
 				</div>
-<!-- 
-				<section class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/parallax-transparent.jpg);">
-					<div class="container">
-						<div class="row center">
-							<div class="col-md-12">
-				
-								<div style="height: 150px;"></div>
-				
-							</div>
-						</div>
-					</div>
-				</section> -->
 				<div class="container">
 
 					<div class="row">
@@ -220,7 +193,7 @@
 			var endereco = '<?php echo $endereco; ?>';
 			var mapMarkers = [{
 				address: endereco,
-				html: "<strong>Dojo Kobukan Gramado</strong><br>R. Tristão de oliveira, 345 - Gramado/RS",
+				html: "<strong>Academia Ironworks Prime</strong><br>Av. Borges de Medeiros, 4770 - Floresta, Gramado - RS",
 				icon: {
 					image: "img/pin.png",
 					iconsize: [26, 46],
@@ -231,8 +204,8 @@
 
 			// Map Initial Location 
 
-			var initLatitude  = -29.374701;
-			var initLongitude = -50.881197;
+			var initLatitude  = -29.363893;
+			var initLongitude = -50.883068;
 
 			// Map Extended Settings
 			var mapSettings = {

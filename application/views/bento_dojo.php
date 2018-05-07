@@ -95,7 +95,7 @@
 										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/ze.jpg') ?>">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">José Paulo</span>
-											<span class="thumb-info-type">1º kyu</span>
+											<span class="thumb-info-type">Shodan (1º Dan)</span>
 										</span>
 									</span>
 									<span class="thumb-info-caption">

@@ -5,7 +5,7 @@ class Gramadodojo extends CI_Controller {
 
 	public function index() {
 		$this->load->helper('url');
-		$data['endereco'] = 'Rua Tristão de oliveira, 345 - Gramado / RS';
+		$data['endereco'] = 'Av. Borges de Medeiros, 4770 - Floresta, Gramado - RS';
 		$data['title'] = 'Dojo Gramado | '.$data['endereco'];
 
 		for ($i=1; $i <= 24; $i++) { 
