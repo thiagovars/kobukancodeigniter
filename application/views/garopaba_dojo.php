@@ -26,7 +26,7 @@
 
 						</div>
 						
-							<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
+							<!-- <ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
 								<li class="col-md-4	 no-pin isotope-item">
 									<div class="portfolio-item img">
 										<a href="<?php echo base_url('/img/garopaba/fachada.jpg') ?>" class="thumb-info">
@@ -34,7 +34,7 @@
 										</a>
 									</div>
 								</li>
-							</ul>
+							</ul> -->
 
 						<hr class="tall">
 
