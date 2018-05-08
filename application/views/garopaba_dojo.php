@@ -155,8 +155,8 @@
 								<?php foreach ($fotos as $foto) : ?>
 									<li class="col-md-3 no-pin">
 										<div class="img-thumbnail">
-											<a href="<?php echo base_url('/img/garopaba/'.$foto) ?>" class="thumb-info">
-												<img src="<?php echo base_url('/img/garopaba/'.$foto) ?>" class="image-responsive"  height="200" width="400">
+											<a href="<?php echo base_url($foto) ?>" class="thumb-info">
+												<img src="<?php echo base_url($foto) ?>" class="image-responsive"  height="200" width="400">
 											</a>
 										</div>
 									</li>
@@ -185,8 +185,8 @@
 
 			// Map Markers
 			var mapMarkers = [{
-				address: "Estr. Grp | 396 (Ibiraquera | Praia Rosa | Ouvidor), 100, Garopaba - SC, 88495-000, Brasil",
-				html: "<strong>Dojo Kobukan Garopaba</strong><br>Estrada geral do ouvidor, Garopaba - SC, 88495-000, Brasil",
+				address: "Estrada Geral do Ouvidor 372, Campo Duna, Garopaba - SC",
+				html: "<strong>Dojo Kobukan Garopaba</strong><br>Estrada Geral do Ouvidor 372, Campo Duna, Garopaba - SC",
 				icon: {
 					image: "img/pin.png",
 					iconsize: [26, 46],
@@ -196,8 +196,7 @@
 			}];
 
 			// Map Initial Location 
-
-			var initLatitude  = -28.101645;
+			var initLatitude  = -28.101645.;
 			var initLongitude = -48.674278;
 
 			// Map Extended Settings

@@ -6,15 +6,14 @@ class Garopabadojo extends CI_Controller {
 	public function index() {
 		$this->load->helper('url');
 
-		$data['endereco'] = 'Estrada Geral do Ouvidor 90, Campo Duna, Garopaba - SC';
+		$data['endereco'] = 'Estrada Geral do Ouvidor 372, Campo Duna, Garopaba - SC';
 		$data['title'] = 'Dojo Garopaba | '.$data['endereco'];
 
-		$ignore = array(5, 8, 13, 14);
-		for ($i=1; $i <= 14; $i++) { 
+		for ($i=1; $i <= 7; $i++) { 
 			if (in_array($i, $ignore)) {
 				continue;
 			}
-			$data['fotos'][] = 'garopaba'.$i.'.jpg';
+			$data['fotos'][] = '/img/garopaba/garopaba'.$i.'.jpg';
 		}
 									
 		$this->load->view('header', $data);
