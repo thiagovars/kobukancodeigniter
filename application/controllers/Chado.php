@@ -7,7 +7,7 @@ class Chado extends CI_Controller {
 		$this->load->helper('url');
 		$data['title'] = 'Chadô | A Cerimônia do Chá';
 		$ignore = array(17, 18, 19, 20, 21, 22, 23, 24, 25);
-		for ($i=1; $i <= 30; $i++) { 
+		for ($i=1; $i <= 41; $i++) { 
 			if (in_array($i, $ignore)) {
 				continue;
 			}
