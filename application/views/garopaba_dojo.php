@@ -185,7 +185,7 @@
 
 			// Map Markers
 			var mapMarkers = [{
-				address: "Estrada Geral do Ouvidor 372, Campo Duna, Garopaba - SC",
+				// address: "Estrada Geral do Ouvidor 372, Campo Duna, Garopaba - SC",
 				html: "<strong>Dojo Kobukan Garopaba</strong><br>Estrada Geral do Ouvidor 372, Campo Duna, Garopaba - SC",
 				icon: {
 					image: "img/pin.png",
