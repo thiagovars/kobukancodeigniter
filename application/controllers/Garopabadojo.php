@@ -10,9 +10,6 @@ class Garopabadojo extends CI_Controller {
 		$data['title'] = 'Dojo Garopaba | '.$data['endereco'];
 
 		for ($i=1; $i <= 7; $i++) { 
-			if (in_array($i, $ignore)) {
-				continue;
-			}
 			$data['fotos'][] = '/img/garopaba/garopaba'.$i.'.jpg';
 		}
 									
