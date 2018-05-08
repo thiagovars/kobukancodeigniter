@@ -7,8 +7,9 @@ class Face extends CI_Controller {
 	{
 		$data = array('title' => 'Kobukan - Escola de budô',
 			'slides' => array(
-				'/img/slides/geral.jpg',
+				'/img/slides/geral2.jpg',
 				'/img/slides/capa.jpg',
+				'/img/slides/slide2.jpg',
 				'/img/slides/kawai-sensei2.jpg',
 			),
 		);
