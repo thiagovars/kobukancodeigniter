@@ -18,43 +18,43 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
 
     <!-- Libs CSS -->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css" media="screen">
-    <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css" media="screen">
-    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" media="screen">
-    <link rel="stylesheet" href="vendor/isotope/jquery.isotope.css" media="screen">
-    <link rel="stylesheet" href="vendor/mediaelement/mediaelementplayer.css" media="screen">
+    <link rel="stylesheet" href="/kobukan/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/kobukan/vendor/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/kobukan/vendor/owl-carousel/owl.carousel.css" media="screen">
+    <link rel="stylesheet" href="/kobukan/vendor/owl-carousel/owl.theme.css" media="screen">
+    <link rel="stylesheet" href="/kobukan/vendor/magnific-popup/magnific-popup.css" media="screen">
+    <link rel="stylesheet" href="/kobukan/vendor/isotope/jquery.isotope.css" media="screen">
+    <link rel="stylesheet" href="/kobukan/vendor/mediaelement/mediaelementplayer.css" media="screen">
 
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="css/theme.css">
-    <link rel="stylesheet" href="css/theme-elements.css">
-    <link rel="stylesheet" href="css/theme-blog.css">
-    <link rel="stylesheet" href="css/theme-shop.css">
-    <link rel="stylesheet" href="css/theme-animate.css">
+    <link rel="stylesheet" href="/kobukan/css/theme.css">
+    <link rel="stylesheet" href="/kobukan/css/theme-elements.css">
+    <link rel="stylesheet" href="/kobukan/css/theme-blog.css">
+    <link rel="stylesheet" href="/kobukan/css/theme-shop.css">
+    <link rel="stylesheet" href="/kobukan/css/theme-animate.css">
 
     <!-- Current Page CSS -->
-    <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
-    <link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+    <link rel="stylesheet" href="/kobukan/vendor/rs-plugin/css/settings.css" media="screen">
+    <link rel="stylesheet" href="/kobukan/vendor/circle-flip-slideshow/css/component.css" media="screen">
 
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/theme-responsive.css" />
+    <link rel="stylesheet" href="/kobukan/css/theme-responsive.css" />
 
     <!-- Skin CSS -->
-    <link rel="stylesheet" href="css/skins/default.css">
+    <link rel="stylesheet" href="/kobukan/css/skins/default.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="/kobukan/css/custom.css">
 
     <!-- Head Libs -->
-    <script src="vendor/modernizr.js"></script>
+    <script src="/kobukan/vendor/modernizr.js"></script>
 
     <!--[if IE]>
-      <link rel="stylesheet" href="css/ie.css">
+      <link rel="stylesheet" href="/kobukan/css/ie.css">
     <![endif]-->
 
     <!--[if lte IE 8]>
-      <script src="vendor/respond.js"></script>
+      <script src="/kobukan/vendor/respond.js"></script>
     <![endif]-->
 
   </head>
