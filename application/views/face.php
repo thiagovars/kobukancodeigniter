@@ -1,4 +1,3 @@
-<?php include_once('assets/header.php'); ?>
 			<div role="main" class="main">
 				<div class="slider-container">
 					<div class="slider" id="revolutionSlider">
