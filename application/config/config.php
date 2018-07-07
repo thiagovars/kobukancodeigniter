@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-
+define('ambiente', 'PROD');
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
@@ -23,8 +23,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '/application/';
-
+switch (ambiente) {
+	case 'PROD':
+		$config['base_url'] = 'https://www.kobukan.com.br';
+		$config['menus'] = '/';
+		break;
+		
+		default:
+		$config['base_url'] = 'http://localhost/kobukan';
+		$config['menus'] = '';
+		break;
+}
 /*
 |--------------------------------------------------------------------------
 | Index File
