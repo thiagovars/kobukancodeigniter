@@ -1,7 +1,3 @@
-<?php
-define('ds', DIRECTORY_SEPARATOR);
-include_once(dirname(dirname(dirname(__FILE__))).ds.'assets'.ds.'header.php');
-?>
 		<div role="main" class="main">
 
 			<section class="page-top" style="margin-bottom: 0px;">
@@ -26,7 +22,7 @@ include_once(dirname(dirname(dirname(__FILE__))).ds.'assets'.ds.'header.php');
 
 				<div class="row">
 					<div class="col-md-6">
-						
+						<img src="<?php echo base_url();?>img/geral/geral.jpg"alt="" class="image-responsive" width="550">
 					</div>
 					<div class="col-md-6">
 
