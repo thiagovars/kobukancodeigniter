@@ -12,12 +12,10 @@ class Face extends CI_Controller {
 				'/img/slides/slide2.jpg',
 				'/img/slides/kawai-sensei2.jpg',
 			),
-			'pathMenu' => array(
-				'localhost/kobukan/assets/menu.php'
-			),
 		);
 		$this->load->view('header', $data);
 		$this->load->view('face', $data);
+		$this->load->view('footer', $data);
 	}
 
 }

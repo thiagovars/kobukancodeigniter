@@ -8,8 +8,8 @@ class Portoalegredojo extends CI_Controller {
 		$data['endereco'] = 'Rua Joaquim Silveira, 466 - Porto Alegre - RS';
 		$data['title'] = 'Dojo Porto Alegre | '.$data['endereco'];
 
-		for ($i=1; $i <= 17; $i++) { 
-			$data['fotos'][] = 'portoalegre'.$i.'.jpg';
+		for ($i=1; $i <= 13; $i++) { 
+			$data['fotos'][] = '/img/portoalegre/portoalegre'.$i.'.jpg';
 		}
 									
 		$this->load->view('header', $data);

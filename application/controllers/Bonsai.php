@@ -11,7 +11,7 @@ class Bonsai extends CI_Controller {
 		}
 
 		$this->load->view('header', $data);
-		$this->load->view('bonsai');
+		$this->load->view('bonsai', $data);
 		$this->load->view('footer');
 	}
 }

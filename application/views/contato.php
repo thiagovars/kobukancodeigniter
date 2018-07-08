@@ -37,7 +37,7 @@ include_once(dirname(dirname(dirname(__FILE__))).ds.'assets'.ds.'header.php');
 
 						<h4><strong>E-mail</strong></h4>
 						<ul class="list-unstyled">
-							<li><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="mailto:kobukan@gmail.com">kobukan@gmail.com</a></li>
+							<li><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="mailto:kobukanbudo@gmail.com">kobukanbudo@gmail.com</a></li>
 						</ul>
 
 					</div>
