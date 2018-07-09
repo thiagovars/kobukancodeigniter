@@ -47,10 +47,10 @@
 											Terças
 										</td>
 										<td>
-											19h30 - 21h30
+											20h00 - 21h00
 										</td>
 										<td>
-											Eduardo
+											José
 										</td>
 									</tr>
 									<tr>
@@ -58,10 +58,10 @@
 											Quintas
 										</td>
 										<td>
-											19h30 - 21h30
+											20h00 - 21h00
 										</td>
 										<td>
-											Eduardo
+											José
 										</td>
 									</tr>
 								</tbody>
@@ -75,20 +75,6 @@
 					<div class="row">
 						<h4><strong>Responsável</strong></h4>
 						<ul class="team-list sort-destination" data-sort-id="team">
-							<li class="col-md-3 isotope-item leadership">
-								<div class="team-item thumbnail">
-									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/eduardo.jpg') ?>">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Eduardo</span>
-											<span class="thumb-info-type">Yondan (4º Dan)</span>
-										</span>
-									</span>
-									<span class="thumb-info-caption">
-										<p>Eduardo Corrêa</p>
-									</span>
-								</div>
-							</li>
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
@@ -168,8 +154,8 @@
 
 			// Map Markers
 			var mapMarkers = [{
-				address: "Rua Guerino Franzolosso, 111 - Bento Gonçalves - RS",
-				html: "<strong>Dojo Kobukan</strong><br>Rua Guerino Franzolosso, 111, Apto 301, Bairro Borgo - Bento Gonçalves - RS",
+				address: "Rua Pernambuco, 281 - Bento Gonçalves - RS",
+				html: "<strong>Academia Prime Sul Fit</strong><br>Rua Pernambuco, 281 - Bento Gonçalves - RS",
 				icon: {
 					image: "img/pin.png",
 					iconsize: [26, 46],
@@ -179,8 +165,8 @@
 			}];
 
 			// Map Initial Location 
-			var initLatitude  = -29.159281;
-			var initLongitude = -51.510491;
+			var initLatitude  = -29.160353;
+			var initLongitude = -51.516103;
 
 			// Map Extended Settings
 			var mapSettings = {

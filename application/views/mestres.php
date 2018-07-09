@@ -159,7 +159,8 @@
 										EDUARDO CORRÊA SENSEI<br>Responsável técnico Kobukan Dojo </br></br>
 										4o. Dan de Aikido<br><br>
 										Nidan (Faixa preta 2 Dan) de Iaido<br><br>
-										Ikkyu (Faixa marrom) de Jodo<br><br>
+										Shodan (Faixa preta) de Jodo<br><br>
+										2 kyu de Naginata<br><br>
 										Faixa preta 1o. Dan de Jiu-jitsu<br><br>
 									</h4>
 									

@@ -57,21 +57,21 @@
 											Segunda
 										</td>
 										<td>
-											17h00 - 18h30
+											18h00 - 19h00
 										</td>
 										<td>
-											Eduardo
+											Sfredo
 										</td>
 									</tr>
 									<tr>
 										<td>
-											Quinta
+											Quartas
 										</td>
 										<td>
-											15h30 - 16h45
+											18h00 - 19h00
 										</td>
 										<td>
-											Eduardo
+											Sfredo
 										</td>
 									</tr>
 								</tbody>

@@ -8,8 +8,8 @@ class Farroupilhadojo extends CI_Controller {
 		$data['endereco'] = 'R. Pinheiro Machado, 152 - Farroupilha / RS';
 		$data['title'] = 'Dojo Farroupilha | '.$data['endereco'];
 		
-		for ($i=1; $i < 7; $i++) { 
-			$data['fotos'][] = 'farroupilha'.$i.'.jpg';
+		for ($i=1; $i <= 4; $i++) { 
+			$data['fotos'][] = '/img/farroupilha/farroupilha'.$i.'.jpg';
 		}
 		$this->load->view('header', $data);
 		$this->load->view('farroupilha_dojo', $data);

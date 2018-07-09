@@ -57,7 +57,7 @@
                   <a href="<?php echo base_url()?>index.php/Naginata">Naginata</a>
                 </li>
                 <li class="">
-                  <a href="<?php echo base_url()?>index.php/Fotos">Fotos</a>
+                  <a href="<?php echo base_url()?>index.php/FotosAnosNoventa">Fotos</a>
                 </li>
                 <li class="dropdown ">
                   <a href="#" class="dropdown-toggle">

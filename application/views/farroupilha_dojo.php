@@ -44,24 +44,24 @@
 								<tbody>
 									<tr>
 										<td>
-											Terça
+											Segunda
 										</td>
 										<td>
-											19h00 - 20h30
+											20h00 - 21h00
 										</td>
 										<td>
-											Eduardo
+											Juliano
 										</td>
 									</tr>
 									<tr>
 										<td>
-											Quinta
+											Quarta
 										</td>
 										<td>
-											19h00 - 20h30
+											20h00 - 21h00
 										</td>
 										<td>
-											Eduardo
+											Juliano
 										</td>
 									</tr>
 								</tbody>
@@ -78,14 +78,14 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/eduardo.jpg'); ?>">
+										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/juliano.jpg'); ?>">
 										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Eduardo</span>
-											<span class="thumb-info-type">Yondan (4º Dan)</span>
+											<span class="thumb-info-inner">Juliano</span>
+											<span class="thumb-info-type">Shodan (1º Dan)</span>
 										</span>
 									</span>
 									<span class="thumb-info-caption">
-										<p>Eduardo Corrêa</p>
+										<p>Juliano Alves</p>
 									</span>
 								</div>
 							</li>	
@@ -118,11 +118,10 @@
 						<div class="row">
 								<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
 									<?php foreach ($fotos as $foto) : ?>
-									
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
-											<a href="<?php echo base_url('/img/farroupilha'.$foto);?>" class="thumb-info">
-												<img src="<?php echo base_url('/img/farroupilha/'.$foto);?>" class="image-responsive" height="200" width="400">
+											<a href="<?php echo base_url($foto);?>" class="thumb-info">
+												<img src="<?php echo base_url($foto);?>" class="image-responsive" height="200" width="400">
 											</a>
 										</div>
 									</li>

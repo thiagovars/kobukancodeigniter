@@ -26,7 +26,7 @@
 							
 							<p class="drop-caps">
 								Arma que consiste de uma lâmina de Katana (espada) com um longo pino inseridomnum Cabo de lança com 
-								aproximadamente 2,25 m. Os primeiros a usarem essas armas foram os monges guerreiros sonhei, ou 
+								aproximadamente 2,25 m. Os primeiros a usarem essas armas foram os monges guerreiros sohei, ou 
 								yamabushis, a fim de assegurar a proteção dos santuários. O mais célebre foi o monge Benkei. 
 								Nos campos de batalha a os guerreiros a usavam para cortar as pernas dos cavalos e a cavalaria para 
 								cortar o inimigo de longe. Por ser muito grande e difícil de transportar para as batalhas passou a ser 

@@ -62,7 +62,7 @@
 											19h30 - 21h30
 										</td>
 										<td>
-											Natália
+											Hayalon
 										</td>
 									</tr>
 								</tbody>
@@ -93,14 +93,14 @@
 							<li class="col-md-3 isotope-item marketing">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/natalia.jpg') ?>">
+										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/hayalon.jpg') ?>">
 										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Natália</span>
-											<span class="thumb-info-type">Nidan (2º Dan)</span>
+											<span class="thumb-info-inner">Hayalon</span>
+											<span class="thumb-info-type">Shodan (1º Dan)</span>
 										</span>
 									</span>
 									<span class="thumb-info-caption">
-										<p>Natália Paes</p>										
+										<p>Hayalon</p>										
 									</span>
 								</div>
 							</li>
