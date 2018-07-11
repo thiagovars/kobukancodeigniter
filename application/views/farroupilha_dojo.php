@@ -150,9 +150,10 @@
 			*/
 
 			// Map Markers
+			var endereco = '<?php echo $title;?>';
 			var mapMarkers = [{
-				address: "Rua 14 de julho, 74 - Farroupilha - RS",
-				html: "<strong>Dojo Kobukan</strong><br>R. Pinheiro Machado, 152 - Farroupilha / RS",
+				address: endereco,
+				html: "<strong>Dojo Kobukan</strong><br>",
 				icon: {
 					image: "img/pin.png",
 					iconsize: [26, 46],
@@ -161,8 +162,8 @@
 				popup: true
 			}];
 
-			var initLatitude = -29.227795;
-			var initLongitude = -51.346967;
+			var initLatitude  = -29.222013;
+			var initLongitude = -51.341405;
 
 			// Map Extended Settings
 			var mapSettings = {
