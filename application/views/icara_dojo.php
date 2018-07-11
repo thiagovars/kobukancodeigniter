@@ -108,8 +108,8 @@
 								<?php foreach ($fotos as $foto) :?>
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
-											<a href="<?php echo base_url('/img/icara/'.$foto); ?>" class="thumb-info">
-												<img src="<?php echo base_url('/img/icara/'.$foto); ?>" class="image-responsive" height="200" width="400">
+											<a href="<?php echo base_url($foto); ?>" class="thumb-info">
+												<img src="<?php echo base_url($foto); ?>" class="image-responsive" height="200" width="400">
 											</a>
 										</div>
 									</li>
@@ -136,8 +136,9 @@
 			*/
 
 			// Map Markers
+			var endereco = '<?php echo $endereco; ?>';
 			var mapMarkers = [{
-				address: "R. António Jesuino Figueira - Tereza Cristina Içara - SC 88820-000",
+				address: endereco,
 				html: "<strong>Dojo Kobukan</strong><br>R. António Jesuino Figueira - Tereza Cristina Içara - SC",
 				icon: {
 					image: "img/pin.png",

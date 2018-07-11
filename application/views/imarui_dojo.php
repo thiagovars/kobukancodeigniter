@@ -119,8 +119,8 @@
 									<?php foreach ($fotos as $foto) :?>
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
-											<a href="<?php echo base_url('/img/imarui/'.$foto); ?>" class="thumb-info">
-												<img src="<?php echo base_url('/img/imarui/'.$foto) ?>" class="image-responsive" height="200" width="400">
+											<a href="<?php echo base_url($foto); ?>" class="thumb-info">
+												<img src="<?php echo base_url($foto) ?>" class="image-responsive" height="200" width="400">
 											</a>
 										</div>
 									</li>
@@ -149,8 +149,9 @@
 			*/
 
 			// Map Markers
+			var endereco = '<?php echo $endereco; ?>';
 			var mapMarkers = [{
-				address: "R. Antônio Bittencourt Capanema, 787, SC",
+				address: endereco,
 				html: "<strong>Dojo Kobukan</strong><br>R. Antônio Bittencourt Capanema, 787, SC",
 				icon: {
 					image: "img/pin.png",

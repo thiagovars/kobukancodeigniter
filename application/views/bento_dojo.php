@@ -108,7 +108,7 @@
 				</section> -->
 				<div class="container">
 
-					<!-- <div class="row">
+					<div class="row">
 					
 						<div class="col-md-12">
 							<h3 class="short"><strong>Fotos</strong></h3>
@@ -116,24 +116,19 @@
 					
 						<div class="row">
 								<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
-									<li class="col-md-3 no-pin isotope-item">
-										<div class="portfolio-item img-thumbnail">
-											<a href="<?php echo base_url('/img/bento/inauguracao_bento.jpg') ?>" class="thumb-info">
-												<img src="<?php echo base_url('/img/bento/inauguracao_bento.jpg') ?>" class="image-responsive" height="200" width="400">
-											</a>
-										</div>
-									</li>
-									<li class="col-md-3 no-pin isotope-item">
-										<div class="portfolio-item img-thumbnail">
-											<a href="img/bento/bento2.jpg" class="thumb-info">
-												<img src="<?php echo base_url('/img/bento/bento2.jpg') ?>" class="image-responsive" height="200" width="400">
-											</a>
-										</div>
-									</li>
+									<?php foreach($fotos as $foto) : ?>
+										<li class="col-md-3 no-pin isotope-item">
+											<div class="portfolio-item img-thumbnail">
+												<a href="<?php echo base_url($foto) ?>" class="thumb-info">
+													<img src="<?php echo base_url($foto) ?>" class="image-responsive" height="200" width="400">
+												</a>
+											</div>
+										</li>
+									<?php endforeach; ?>
 								</ul>
 							</div>
 					
-					</div> -->
+					</div>
 
 				</div>
 

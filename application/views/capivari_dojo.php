@@ -186,8 +186,9 @@
 			*/
 
 			// Map Markers
+			var endereco = '<?php echo $endereco?>';
 			var mapMarkers = [{
-				address: "R. João Goulart, 610, Capivari de Baixo - SC",
+				address: endereco,
 				html: "<strong>Dojo Kobukan Capivari de Baixo</strong><br>R. João Goulart, 610, Capivari de Baixo - SC",
 				icon: {
 					image: "img/pin.png",
