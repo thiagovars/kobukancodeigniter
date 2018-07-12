@@ -5,12 +5,24 @@ class Kado extends CI_Controller {
 
 	public function index() {
 		$this->load->helper('url');
-		$data['title'] = 'Kadô | A arte dos arranjos florais';
-		for ($i=1; $i <= 22; $i++) { 
-			$data['fotos'][] = '/img/ikebana/ikebana'.$i.'.JPG';
-		}
+		$data = array(
+			'title' => 'Kadô | A arte dos arranjos florais',
+			'fotos' => $this->getFotos(),
+		);
+
 		$this->load->view('header', $data);
 		$this->load->view('ikebana');
 		$this->load->view('footer');
+	}
+
+	private function getFotos()
+	{
+		$this->load->helper('directory');
+		$map = directory_map('./img/ikebana/fotos/');
+		$fotos = array();
+		foreach($map as $foto) {
+			$fotos[] = '/img/ikebana/fotos/'.$foto;
+		}
+		return $fotos;
 	}
 }

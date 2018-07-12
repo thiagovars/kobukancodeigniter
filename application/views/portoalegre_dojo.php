@@ -163,9 +163,10 @@
 			*/
 
 			// Map Markers
+			var endereco = '<?php echo $endereco; ?>';
 			var mapMarkers = [{
-				address: "Rua Joaquim Silveira, 466 - Porto Alegre - RS",
-				html: "<strong>Dojo Kobukan</strong><br>Rua Joaquim Silveira, 466 - Porto Alegre - RS",
+				address: endereco,
+				html: "<strong>Dojo Kobukan</strong><br>"+endereco,
 				icon: {
 					image: "/kobukan/img/pin.png",
 					iconsize: [26, 46],

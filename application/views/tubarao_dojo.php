@@ -134,8 +134,8 @@
 								<?php foreach ($fotos as $foto) :?>
 									<li class="col-md-3 no-pin isotope-item">
 										<div class="portfolio-item img-thumbnail">
-											<a href="<?php echo base_url('/img/tubarao/'.$foto); ?>" class="thumb-info">
-												<img src="<?php echo base_url('/img/tubarao/'.$foto) ?>" class="image-responsive" height="200" width="400">
+											<a href="<?php echo base_url($foto); ?>" class="thumb-info">
+												<img src="<?php echo base_url($foto) ?>" class="image-responsive" height="200" width="400">
 											</a>
 										</div>
 									</li>
@@ -163,9 +163,10 @@
 			*/
 
 			// Map Markers
+			var endereco = '<?php echo $endereco; ?>';
 			var mapMarkers = [{
-				address: "Rua Prudente de Moraes 352 - Tubarão - SC Brasil",
-				html: "<strong>Dojo Kobukan</strong><br>Rua Prudente de Moraes 352 - Tubarão - SC Brasil",
+				address: endereco,
+				html: "<strong>Dojo Kobukan</strong><br>"+endereco,
 				icon: {
 					image: "/kobukan/img/pin.png",
 					iconsize: [26, 46],
@@ -176,7 +177,7 @@
 
 			// Map Initial Location
 			var initLatitude = -28.486819;
-			var initLongitude =  -49.004696;
+			var initLongitude = -49.004696;
 
 			// Map Extended Settings
 			var mapSettings = {

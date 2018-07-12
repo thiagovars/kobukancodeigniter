@@ -3,17 +3,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Portoalegredojo extends CI_Controller {
 
-	public function index() {
+	public function index() 
+	{
 		$this->load->helper('url');
-		$data['endereco'] = 'Rua Joaquim Silveira, 466 - Porto Alegre - RS';
-		$data['title'] = 'Dojo Porto Alegre | '.$data['endereco'];
+		$data = array(
+			$data['endereco'] = 'Rua Joaquim Silveira, 466 - Porto Alegre - RS',
+			$data['title'] = 'Dojo Porto Alegre',
+			'fotos' => $this->getFotos(),
+		);
 
-		for ($i=1; $i <= 13; $i++) { 
-			$data['fotos'][] = '/img/portoalegre/portoalegre'.$i.'.jpg';
-		}
-									
 		$this->load->view('header', $data);
 		$this->load->view('portoalegre_dojo', $data);
 		$this->load->view('footer');
+	}
+
+	private function getFotos()
+	{
+		$this->load->helper('directory');
+		$map = directory_map('./img/portoalegre/fotos/');
+		$fotos = array();
+		foreach($map as $foto) {
+			$fotos[] = '/img/portoalegre/fotos/'.$foto;
+		}
+		return $fotos;
 	}
 }

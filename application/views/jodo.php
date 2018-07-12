@@ -106,13 +106,13 @@
 							<div class="row">
 								<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
  									<?php foreach ($fotos as $foto) : ?>
-									<li class="col-md-3 no-pin isotope-item">
-										<div class="portfolio-item img-thumbnail">
-											<a href="<?php echo base_url($foto); ?>" class="thumb-info">
-												<img src="<?php echo base_url($foto); ?>" class="image-responsive" height="200">
-											</a>
-										</div>
-									</li>
+										<li class="col-md-3 no-pin isotope-item">
+											<div class="portfolio-item img-thumbnail">
+												<a href="<?php echo base_url($foto); ?>" class="thumb-info">
+													<img src="<?php echo base_url($foto); ?>" class="image-responsive" height="200">
+												</a>
+											</div>
+										</li>
 									<?php endforeach; ?>
 
 								</ul>

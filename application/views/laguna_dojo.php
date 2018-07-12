@@ -185,9 +185,10 @@
 			*/
 
 			// Map Markers
+			var endereco = '<?php echo $endereco; ?>';
 			var mapMarkers = [{
-				address: "R. Getúlio Vargas, 57, Lagnuna - Santa Catarina",
-				html: "<strong>Dojo Kobukan</strong><br>R. Getúlio Vargas, 57, Laguna, Santa Catarina",
+				address: endereco,
+				html: "<strong>Dojo Kobukan</strong><br>"+endereco,
 				icon: {
 					image: "img/pin.png",
 					iconsize: [26, 46],
@@ -198,7 +199,7 @@
 
 			// Map Initial Location
 			var initLatitude = -27.301244;
-			var initLongitude =  -49.793400;
+			var initLongitude = -49.793400;
 
 			// Map Extended Settings
 			var mapSettings = {

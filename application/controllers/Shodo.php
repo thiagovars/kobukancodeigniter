@@ -3,18 +3,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Shodo extends CI_Controller {
 
-	public function index() {
+	public function index() 
+	{
 		$this->load->helper('url');
-		$data['title'] = 'Shodo | A Arte da Caligrafia Japones';
-		$ignore = array(20);
-		for ($i=1; $i <= 25; $i++) { 
-			if (in_array($i, $ignore)) {
-				continue;
-			} 
-			$data['fotos'][] = '/img/shodo/shodo'.$i.'.jpg';
-		}
+		$data = array(
+			'title' => 'Shodo | A Arte da Caligrafia Japones',
+			'fotos' => $this->getFotos(),
+		);
+		
 		$this->load->view('header', $data);
 		$this->load->view('shodo');
 		$this->load->view('footer');
+	}
+
+	private function getFotos()
+	{
+		$this->load->helper('directory');
+		$map = directory_map('./img/shodo/fotos/');
+		$fotos = array();
+		foreach($map as $foto) {
+			$fotos[] = '/img/shodo/fotos/'.$foto;
+		}
+		return $fotos;
 	}
 }

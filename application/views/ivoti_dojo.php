@@ -141,8 +141,8 @@
 								<?php foreach ($fotos as $foto) :?>
 									<li class="col-md-3 no-pin">
 										<div class="img-thumbnail">
-											<a href="<?php echo base_url('/img/ivoti/'.$foto); ?>" class="thumb-info">
-												<img src="<?php echo base_url('/img/ivoti/'.$foto); ?>" class="image-responsive"  height="200" width="400">
+											<a href="<?php echo base_url($foto); ?>" class="thumb-info">
+												<img src="<?php echo base_url($foto); ?>" class="image-responsive"  height="200" width="400">
 											</a>
 										</div>
 									</li>
@@ -171,9 +171,10 @@
 			*/
 
 			// Map Markers
+			var endereco = '<?php echo $endereco; ?>';
 			var mapMarkers = [{
-				address: "Av. Sen. Alberto Pasqualine, 75 - Harmonia, RS",
-				html: "<strong>Aldebaran - Terapias Complementares</strong><br>Rua Alberto Pasqualini, 75",
+				address: endereco,
+				html: "<strong>Aldebaran - Terapias Complementares</strong><br>"+endereco,
 				icon: {
 					image: "img/pin.png",
 					iconsize: [26, 46],
@@ -185,7 +186,7 @@
 
 			// Map Initial Location
 			var initLatitude = -29.606293;
-			var initLongitude =  -51.163699;
+			var initLongitude = -51.163699;
 
 			// Map Extended Settings
 			var mapSettings = {

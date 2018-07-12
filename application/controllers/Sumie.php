@@ -3,16 +3,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Sumie extends CI_Controller {
 
-	public function index() {
+	public function index() 
+	{
 		$this->load->helper('url');
-		$data['title'] = 'Sumi-ê | Pintura em carvão';
-		$ignore = array(20);
-		for ($i=1; $i <= 8; $i++) {
-			$fotoNumero = str_pad($i, 3, 0, STR_PAD_LEFT);
-			$data['fotos'][] = '/img/sumie/sumie'.$fotoNumero.'.jpg';
-		}
+		$data = array(
+			'title' => 'Sumi-ê | Pintura em carvão',
+			'fotos' => $this->getFotos(),
+		);
 		$this->load->view('header', $data);
 		$this->load->view('sumie');
 		$this->load->view('footer');
+	}
+
+	private function getFotos()
+	{
+		$this->load->helper('directory');
+		$map = directory_map('./img/sumie/fotos/');
+		$fotos = array();
+		foreach($map as $foto) {
+			$fotos[] = '/img/sumie/fotos/'.$foto;
+		}
+		return $fotos;
 	}
 }

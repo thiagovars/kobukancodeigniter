@@ -129,8 +129,8 @@
 								<?php foreach ($fotos as $foto) :?>
 									<li class="col-md-3 no-pin">
 										<div class="img-thumbnail">
-											<a href="<?php echo base_url('/img/petropolis/'.$foto); ?>" class="thumb-info">
-												<img src="<?php echo base_url('/img/petropolis/'.$foto); ?>" class="image-responsive"  height="200" width="400">
+											<a href="<?php echo base_url($foto); ?>" class="thumb-info">
+												<img src="<?php echo base_url($foto); ?>" class="image-responsive"  height="200" width="400">
 											</a>
 										</div>
 									</li>
@@ -158,9 +158,10 @@
 			*/
 
 			// Map Markers
+			var endereco = '<?php echo $endereco; ?>';
 			var mapMarkers = [{
-				address: "Rua Frederico Michaelsen, 443 - Nova Petrópolis / RS",
-				html: "<strong>Dojo Kobukan / Academia sport fitness</strong><br>Rua Frederico Michaelsen, 443 - Centro - Nova Petrópolis / RS",
+				address: endereco,
+				html: "<strong>Dojo Kobukan / Academia sport fitness</strong><br>"+endereco,
 				icon: {
 					image: "img/pin.png",
 					iconsize: [26, 46],
@@ -171,7 +172,7 @@
 
 			// Map Initial Location
 			var initLatitude = -29.374935;
-			var initLongitude =  -51.112486;
+			var initLongitude = -51.112486;
 
 			// Map Extended Settings
 			var mapSettings = {
