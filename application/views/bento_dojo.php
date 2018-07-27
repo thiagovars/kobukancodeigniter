@@ -148,9 +148,10 @@
 			*/
 
 			// Map Markers
+			var endereco = '<?php echo $endereco;?>';
 			var mapMarkers = [{
-				address: "Rua Pernambuco, 281 - Bento Gonçalves - RS",
-				html: "<strong>Academia Prime Sul Fit</strong><br>Rua Pernambuco, 281 - Bento Gonçalves - RS",
+				address: endereco,
+				html: "<strong>Academia Prime Sul Fit</strong><br>" + endereco,
 				icon: {
 					image: "img/pin.png",
 					iconsize: [26, 46],

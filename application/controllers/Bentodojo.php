@@ -7,10 +7,11 @@ class Bentodojo extends CI_Controller {
 	{
 		$this->load->helper('url');
 		
-		$data['endereco'] = 'Rua Pernambuco, 281, centro - Bento Gonçalves - RS';
-		$data['title'] = 'Dojo Bento Gonçalves | '.$data['endereco'];
-
-		$data['fotos'] = $this->getFotos();
+		$data = array(
+			'endereco' => 'Rua Pernambuco, 281, centro - Bento Gonçalves - RS',
+			'title' => 'Dojo Bento Gonçalves | Rua Pernambuco, 281, centro - Bento Gonçalves - RS',
+			'fotos' => $this->getFotos(),
+		);
 
 		$this->load->view('header', $data);
 		$this->load->view('bento_dojo', $data);
