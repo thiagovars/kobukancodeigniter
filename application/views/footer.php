@@ -38,5 +38,6 @@
 		
 		<!-- Custom JS -->
 		<script src="<?php echo base_url();?>js/custom.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5MecshfktW0ao35SwjAvqlTdJ4L2WKN0&callback=initMap" type="text/javascript"></script>
 	</body>
 </html>
