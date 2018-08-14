@@ -60,7 +60,7 @@
 											20H00 - 21h00 
 										</td>
 										<td>
-											Eduardo
+											Jordan
 										</td>
 									</tr>
 									<tr>
@@ -71,7 +71,7 @@
 											20H00 - 21h00
 										</td>
 										<td>
-											Eduardo
+											Jordan
 										</td>
 									</tr>									
 								</tbody>
@@ -103,7 +103,7 @@
 											21h00 - 22h00 
 										</td>
 										<td>
-											Eduardo
+											Jordan
 										</td>
 									</tr>
 									<tr>
@@ -114,7 +114,7 @@
 											21h00 - 22h00
 										</td>
 										<td>
-											Eduardo
+											Jordan
 										</td>
 									</tr>									
 								</tbody>
