@@ -91,18 +91,6 @@
 									</span>
 								</div>
 							</li>	
-							<li class="col-md-3 isotope-item leadership">
-								<div class="team-item thumbnail">
-									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/thiago.jpg'); ?>">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Thiago</span>
-											<span class="thumb-info-type">Nidan (2º Dan)</span>
-										</span>
-									</span>
-									
-								</div>
-							</li>						
 						</ul>
 
 					</div>
