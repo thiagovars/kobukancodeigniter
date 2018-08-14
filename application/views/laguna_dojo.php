@@ -117,7 +117,7 @@
 										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/carlosMachado.jpg') ?>">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Carlos</span>
-											<span class="thumb-info-type">Faixa Azul (2º kyu)</span>
+											<span class="thumb-info-type">Faixa Azul (1º kyu)</span>
 										</span>
 									</span>
 									<span class="thumb-info-caption">
@@ -155,8 +155,8 @@
 									<?php foreach ($fotos as $foto) :?>
 										<li class="col-md-3 no-pin isotope-item">
 											<div class="portfolio-item img-thumbnail">
-												<a href="<?php echo base_url('/img/laguna/'.$foto); ?>" class="thumb-info">
-													<img src="<?php echo base_url('/img/laguna/'.$foto); ?>" class="image-responsive" height="200" width="400">
+												<a href="<?php echo base_url(	$foto); ?>" class="thumb-info">
+													<img src="<?php echo base_url($foto); ?>" class="image-responsive" height="200" width="400">
 												</a>
 											</div>
 										</li>
