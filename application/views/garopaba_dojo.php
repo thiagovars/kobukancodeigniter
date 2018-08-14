@@ -59,7 +59,7 @@
 											Terça
 										</td>
 										<td>
-											17h30 - 18h30 
+											18h - 19h 
 										</td>
 									</tr>
 									<tr>
@@ -67,7 +67,7 @@
 											Quinta
 										</td>
 										<td>
-											17h30 - 18h30
+											18h - 19h
 										</td>
 									</tr>									
 								</tbody>
@@ -88,7 +88,7 @@
 											Terça
 										</td>
 										<td>
-											18h30 - 20h 
+											19h - 20h20 
 										</td>
 									</tr>
 									<tr>
@@ -96,7 +96,7 @@
 											Quinta
 										</td>
 										<td>
-											18h30 - 20h
+											19h - 20h20
 										</td>
 									</tr>
 								</tbody>
