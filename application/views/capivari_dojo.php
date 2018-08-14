@@ -138,26 +138,12 @@
 
 						 <div class="row">
 							<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
-								<li class="col-md-3 no-pin isotope-item">
-									<div class="portfolio-item img-thumbnail">
-										<a href="<?php echo base_url('/img/capivari/imagem8.jpg') ?>" class="thumb-info">
-											<img src="<?php echo base_url('/img/capivari/imagem8.jpg') ?>" class="image-responsive" height="200" width="400">
-										</a>
-									</div>
-								</li>
-								<li class="col-md-3 no-pin">
-									<div class="img-thumbnail">
-										<a href="<?php echo base_url('/img/capivari/dojo.jpg') ?>" class="thumb-info">
-											<img src="<?php echo base_url('/img/capivari/dojo.jpg') ?>" class="image-responsive"  height="200" width="400">
-										</a>
-									</div>
-								</li>
 								<?php 
 									foreach ($fotos as $foto):?>
 									<li class="col-md-3 no-pin">
 										<div class="img-thumbnail">
-											<a href="<?php echo base_url('/img/capivari/".$foto') ?>" class="thumb-info">
-												<img src="<?php echo base_url('/img/capivari/'.$foto) ?>" class="image-responsive"  height="200" width="400">
+											<a href="<?php echo base_url($foto) ?>" class="thumb-info">
+												<img src="<?php echo base_url($foto) ?>" class="image-responsive"  height="200" width="400">
 											</a>
 										</div>
 									</li>
