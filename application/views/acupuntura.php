@@ -64,8 +64,7 @@
 							 e local (nas colônias japonesas) até meados da década de 80, quando ainda era foco de preconceito, apontada ao lado de casos de 
 							 charlatanismo e esoterismo.</p>
 
-							<p class="tall">Sensei Eduardo é formado em acupuntura pela escola CBES desde 2010 e atende atualmente na estética Lisa Beuty em
-							Nova Petrópolis.</p>
+							<p class="tall">Sensei Eduardo é formado em acupuntura pela escola CBES desde 2010 e atende atualmente a domicilio.</p>
 
 						</div>						
 					</div>
