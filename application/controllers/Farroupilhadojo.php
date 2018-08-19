@@ -10,6 +10,13 @@ class Farroupilhadojo extends CI_Controller {
 			'endereco' => 'Rua Marechal Deodoro da Fonseca, 855. Bairro Planalto',
 			'title' => 'Dojo Farroupilha',
 			'fotos' => $this->getFotos(),
+			'contato' => array(
+				'Juliano Alves' => '(54) 99656 3021',
+			),
+			'horarios_treino' => array(
+				'Segundas' => array('hora' => '20h00 - 21h00', 'instrutor' => 'Juliano Alves'),
+				'Quartas'  => array('hora' => '20h00 - 21h00', 'instrutor' => 'Juliano Alves'),
+			),
 		);
 		
 		$this->load->view('header', $data);

@@ -10,10 +10,18 @@ class Imaruidojo extends CI_Controller {
 			'endereco' => 'SC-437, SC, 88770-000, Brazil',
 			'title' => 'Dojo Imarui',
 			'fotos' => $this->getFotos(),
+			'contato' => array(
+				'Junior Isidóro' => '(48) 99973 1988',
+			),
+			'horarios_treino' => array(
+				'Terças' => array('hora' => '19h30 - 20h30', 'instrutor' => 'Junior Isidóro'),
+				'Quinta' => array('hora' => '19h30 - 20h30', 'instrutor' => 'Junior Isidóro'),
+				'Sábado' => array('hora' => '19h30 - 20h30', 'instrutor' => 'Junior Isidóro'),
+			),
 		);
 
 		$this->load->view('header', $data);
-		$this->load->view('imarui_dojo', $data);
+		$this->load->view('imarui_dojo');
 		$this->load->view('footer');
 	}
 	

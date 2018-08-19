@@ -6,9 +6,17 @@ class Ivotidojo extends CI_Controller {
 	public function index() {
 		$this->load->helper('url');
 		$data = array(
-			'endereco' => 'Av. Sen. Alberto Pasqualine, 75 - Harmonia, RS',
+			'endereco' => 'Av. Capivara, 126 - Harmonia - RS',
 			'title' => 'Dojo Ivoti',
 			'fotos' => $this->getFotos(),
+			'contato' => array(
+				'Manoel Valim' => '(51) 8289 1676',
+			),
+			'horarios_treino' => array(
+				'Segunda' => array('hora' => '19h15 - 21h15', 'instrutor' => 'Manuel Valim'),
+				'Sexta'   => array('hora' => '19h15 - 21h15', 'instrutor' => 'Manuel Valim'),
+				'Sábado'  => array('hora' => '10h', 'instrutor' => 'Manuel Valim'),
+			),
 		);
 
 		$this->load->view('header', $data);

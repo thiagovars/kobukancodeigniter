@@ -10,6 +10,17 @@ class Garopabadojo extends CI_Controller {
 			'endereco' => 'Estrada Geral do Ouvidor 372, Campo Duna, Garopaba - SC',
 			'title' => 'Dojo Garopaba',
 			'fotos' => $this->getFotos(),
+			'contato' => array(
+				'Rafael Pereira' => '(48) 99927 7509',
+			),
+			'horarios_kids' => array(
+				'Terças'  => array('hora' => '18h - 19h', 'instrutor' => 'Rafael Pereira'),
+				'Quintas' => array('hora' => '18h - 19h', 'instrutor' => 'Rafael Pereira'),
+			),
+			'horarios_treino' => array(
+				'Terças'  => array('hora' => '19h - 20h20', 'instrutor' => 'Rafael Pereira'),
+				'Quintas' => array('hora' => '19h - 20h20', 'instrutor' => 'Rafael Pereira'),
+			),
 		);
 
 		$this->load->view('header', $data);

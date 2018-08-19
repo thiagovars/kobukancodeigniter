@@ -7,9 +7,18 @@ class Lagunadojo extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$data = array(
-			'endereco' => 'R. Getúlio Vargas, 57, Lagnuna - Santa Catarina',
+			'endereco' => 'R. Getúlio Vargas, 57, Laguna - SC',
 			'title' => 'Dojo Laguna',
 			'fotos' => $this->getFotos(),
+			'contato' => array(
+				'Carlos Machado' => '(48) 98426 3043',
+			),
+			'horarios_treino' => array(
+				'Segundas' => array('hora' => '19h - 20h30', 'instrutor' => 'Carlos Machado'),
+				'Quartas'  => array('hora' => '19h - 20h30', 'instrutor' => 'Carlos Machado'),
+				'Sexta'    => array('hora' => '19h - 20h30', 'instrutor' => 'Juliano Machado / Carlos Machado'),
+				'Sábado'   => array('hora' => '16h - 17h30', 'instrutor' => 'Juliano Machado / Carlos Machado'),
+			),
 		);
 
 		$this->load->view('header', $data);

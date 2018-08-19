@@ -6,13 +6,13 @@
 							<div class="col-md-12">
 								<ul class="breadcrumb">
 									<li><a href="index.php">Home</a></li>
-									<li class="active">Bento Gonçalves Dojo</li>
+									<li class="active"><?php echo $title; ?></li>
 								</ul>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
-								<h2>Bento Gonçalves Dojo</h2>
+								<h2>Endereço: <strong><?php echo $endereco; ?></strong></h2>
 							</div>
 						</div>
 					</div>
@@ -21,18 +21,9 @@
 				<div class="container">
 
 					<div class="row">
-						<div class="col-md-4">
-
-							<div id="google-dojo" class="google-map"></div>
-
-						</div>
-
 						<div class="col-md-8">
-
 							<h2 class="shorter">Horários para <strong>Treino</strong></h2>
-
 							<hr class="tall">
-
 							<table class="table table-striped">
 								<thead>
 									<tr>
@@ -42,28 +33,36 @@
 									</tr>									
 								</thead>
 								<tbody>
+									<?php foreach ($horarios_treino as $dia => $dados) :?>
+										<tr>
+											<td><?php echo $dia; ?></td>
+											<td><?php echo $dados['hora']; ?></td>
+											<td><?php echo $dados['instrutor']; ?></td>
+										</tr>
+									<?php endforeach; ?>
+								</tbody>
+							</table>
+
+						</div>
+
+						<div class="col-md-4">
+
+							<h2 class="shorter">Contato</h2>
+							<hr class="tall">
+							<table class="table table-striped">
+								<thead>
 									<tr>
-										<td>
-											Terças
-										</td>
-										<td>
-											20h00 - 21h00
-										</td>
-										<td>
-											José
-										</td>
+										<th>Nome</th>
+										<th>Telefone</th>
 									</tr>
-									<tr>
-										<td>
-											Quintas
-										</td>
-										<td>
-											20h00 - 21h00
-										</td>
-										<td>
-											José
-										</td>
-									</tr>
+								</thead>
+								<tbody>
+										<?php foreach ($contato as $nome => $telefone) :?>
+											<tr>
+												<td><strong><?php echo $nome; ?></strong></td>
+												<td><?php echo $telefone; ?></td>
+											</tr>
+										<?php endforeach; ?>
 								</tbody>
 							</table>
 

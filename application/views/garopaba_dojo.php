@@ -5,13 +5,13 @@
 							<div class="col-md-12">
 								<ul class="breadcrumb">
 									<li><a href="index.php">Home</a></li>
-									<li class="active">Garopaba Dojo</li>
+									<li class="active"><?php echo $title; ?></li>
 								</ul>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
-								<h2>Garopaba Dojo</h2>
+								<h2>Endereço: <strong><?php echo $endereco; ?></strong></h2>
 							</div>
 						</div>
 					</div>
@@ -21,84 +21,68 @@
 
 					<div class="row">
 						<div class="col-md-4">
-
-							<div id="google-dojo" class="google-map"></div>
-
-						</div>
-						
-							<!-- <ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
-								<li class="col-md-4	 no-pin isotope-item">
-									<div class="portfolio-item img">
-										<a href="<?php echo base_url('/img/garopaba/fachada.jpg') ?>" class="thumb-info">
-											<img src="<?php echo base_url('/img/garopaba/fachada.jpg') ?>" id="GaropabaFachada" class="100Width image-responsive" height="365">
-										</a>
-									</div>
-								</li>
-							</ul> -->
-
-						<hr class="tall">
-
-						<div class="col-md-4">
-
-							<h2 class="shorter">Horários para treino de <strong>Aikido</strong></h2>
-
+							<h2 class="shorter">Horários para treino <h3 class="shorter"><strong>Kids</strong></h3></h2>
 							<hr class="tall">
-
-							<h4 class="shorter center"><strong>Kids</strong></h2>
-
 							<table class="table table-striped">
 								<thead>
 									<tr>
 										<th>Dia</th>
 										<th>Hora</th>
+										<th>Instrutor</th>
 									</tr>									
-										</thead>
-										<tbody>
-									<tr>
-										<td>
-											Terça
-										</td>
-										<td>
-											18h - 19h 
-										</td>
-									</tr>
-									<tr>
-										<td>
-											Quinta
-										</td>
-										<td>
-											18h - 19h
-										</td>
-									</tr>									
+								</thead>
+								<tbody>
+									<?php foreach ($horarios_kids as $dia => $dados) :?>
+										<tr>
+											<td><?php echo $dia; ?></td>
+											<td><?php echo $dados['hora']; ?></td>
+											<td><?php echo $dados['instrutor']; ?></td>
+										</tr>
+									<?php endforeach; ?>
 								</tbody>
 							</table>
 
-							<h4 class="shorter center"><strong>Adultos</strong></h2>
-
+						</div>
+						<div class="col-md-4">
+							<h2 class="shorter">Horários para treino <h3 class="shorter"><strong>Adulto</strong></h3></h2>
+							<hr class="tall">
 							<table class="table table-striped">
 								<thead>
 									<tr>
 										<th>Dia</th>
 										<th>Hora</th>
+										<th>Instrutor</th>
 									</tr>									
-										</thead>
-										<tbody>
+								</thead>
+								<tbody>
+									<?php foreach ($horarios_treino as $dia => $dados) :?>
+										<tr>
+											<td><?php echo $dia; ?></td>
+											<td><?php echo $dados['hora']; ?></td>
+											<td><?php echo $dados['instrutor']; ?></td>
+										</tr>
+									<?php endforeach; ?>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="col-md-4">
+							<h2 class="shorter">Contato</h2>
+							<hr class="tall">
+							<table class="table table-striped">
+								<thead>
 									<tr>
-										<td>
-											Terça
-										</td>
-										<td>
-											19h - 20h20 
-										</td>
+										<th>Nome</th>
+										<th>Telefone</th>
 									</tr>
-									<tr>
-										<td>
-											Quinta
-										</td>
-										<td>
-											19h - 20h20
-										</td>
-									</tr>
+								</thead>
+								<tbody>
+										<?php foreach ($contato as $nome => $telefone) :?>
+											<tr>
+												<td><strong><?php echo $nome; ?></strong></td>
+												<td><?php echo $telefone; ?></td>
+											</tr>
+										<?php endforeach; ?>
 								</tbody>
 							</table>
 
@@ -108,7 +92,7 @@
 
 					<hr class="tall" />
 
-					<div class="row center">
+					<div class="row">
 						<h4><strong>Responsável</strong></h4>
 						<ul class="team-list sort-destination" data-sort-id="team">
 							<li class="col-md-3 isotope-item leadership">

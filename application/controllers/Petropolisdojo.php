@@ -7,9 +7,16 @@ class Petropolisdojo extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$data = array(
-			'endereco' => 'Rua Frederico Michaelsen, 443 - Centro - Nova Petrópolis / RS',
+			'endereco' => 'R. Frederico Michaelsen, 443 - Centro - Nova Petrópolis - RS',
 			'title' => 'Dojo Nova Petrópolis',
 			'fotos' => $this->getFotos(),
+			'contato' => array(
+				'Rodrigo Sfredo' => '(54) 98133 4651',
+			),
+			'horarios_treino' => array(
+				'Segundas' => array('hora' => '18h - 19h', 'instrutor' => 'Rodrigo Sfredo'),
+				'Quartas'  => array('hora' => '18h - 19h', 'instrutor' => 'Rodrigo Sfredo'),
+			),
 		);
 
 		$this->load->view('header', $data);

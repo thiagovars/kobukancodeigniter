@@ -7,9 +7,17 @@ class Portoalegredojo extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$data = array(
-			$data['endereco'] = 'Rua Joaquim Silveira, 466 - Porto Alegre - RS',
-			$data['title'] = 'Dojo Porto Alegre',
+			'endereco' => 'R. Joaquim Silveira, 466 - Porto Alegre - RS',
+			'title' => 'Dojo Porto Alegre',
 			'fotos' => $this->getFotos(),
+			'contato' => array(
+				'Mathaeus Silveira' => '(51) 99147 8021',
+			),
+			'horarios_treino' => array(
+				'Terças'  => array('hora' => '19h30 - 20h30', 'instrutor' => 'Mathaeus Silveira'),
+				'Quintas' => array('hora' => '19h30 - 20h30', 'instrutor' => 'Mathaeus Silveira'),
+				'Sábado'  => array('hora' => '10h00 - 12h00', 'instrutor' => 'Mathaeus Silveira'),
+			),
 		);
 
 		$this->load->view('header', $data);

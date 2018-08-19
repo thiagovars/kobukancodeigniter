@@ -9,6 +9,13 @@ class Icaradojo extends CI_Controller {
 			'endereco' => 'R. António Jesuino Figueira - Tereza Cristina Içara - SC',
 			'title' => 'Dojo Içara',
 			'fotos' => $this->getFotos(),
+			'contato' => array(
+				'Robson Lee' => '(48) 99652 7723',
+			),
+			'horarios_treino' => array(
+				'Terças' => array('hora' => '19h30 - 21h', 'instrutor' => 'Robson Lee'),
+				'Quintas' => array('hora' => '19h30 - 21h', 'instrutor' => 'Robson Lee')
+			),
 		);
 
 		$this->load->view('header', $data);

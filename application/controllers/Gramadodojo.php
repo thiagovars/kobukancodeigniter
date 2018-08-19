@@ -10,6 +10,17 @@ class Gramadodojo extends CI_Controller {
 			'endereco' => 'Av. Borges de Medeiros, 4770 - Floresta, Gramado - RS',
 			'title' => 'Dojo Gramado ',
 			'fotos' => $this->getFotos(),			
+			'contato' => array(
+				'Jordan T. Nicloti' => '(54) 99604 1112',
+			),
+			'horarios_armas' => array(
+				'Segundas' => array('hora' => '20h00 - 21h00', 'instrutor' => 'Jordan T. Nicloti'),
+				'Quartas'  => array('hora' => '20h00 - 21h00', 'instrutor' => 'Jordan T. Nicloti'),
+			),
+			'horarios_treino' => array(
+				'Segundas' => array('hora' => '20h00 - 21h00', 'instrutor' => 'Jordan T. Nicloti'),
+				'Quartas'  => array('hora' => '20h00 - 21h00', 'instrutor' => 'Jordan T. Nicloti'),
+			),
 		);
 
 		$this->load->view('header', $data);

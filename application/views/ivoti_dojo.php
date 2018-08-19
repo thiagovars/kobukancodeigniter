@@ -6,13 +6,13 @@
 							<div class="col-md-12">	
 								<ul class="breadcrumb">
 									<li><a href="index.php">Home</a></li>
-									<li class="active">Ivoti Dojo</li>
+									<li class="active"><?php echo $title; ?></li>
 								</ul>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
-								<h2>Ivoti Dojo</h2>
+								<h2>Endereço: <strong><?php echo $endereco; ?></strong></h2>
 							</div>
 						</div>
 					</div>
@@ -22,12 +22,6 @@
 					
 					
 					<div class="row">
-						<div class="col-md-4">
-
-							<div id="google-dojo" class="google-map"></div>
-
-						</div>
-
 						<div class="col-md-8">
 
 							<h2 class="shorter">Horários para <strong>Treino</strong></h2>
@@ -40,45 +34,39 @@
 										<th>Dia</th>
 										<th>Hora</th>
 										<th>Instrutor</th>
-									</tr>									
-										</thead>
-										<tbody>
-									<tr>
-										<td>
-											Segunda
-										</td>
-										<td>
-											19h15 - 21h45
-										</td>
-										<td>
-											Valim
-										</td>
 									</tr>
-									<tr>
-										<td>
-											Sexta
-										</td>
-										<td>
-											19h15 - 21h45
-										</td>
-										<td>
-											Valim
-										</td>
-									</tr>
-									<tr>
-										<td>
-											Sábado
-										</td>
-										<td>
-											10h
-										</td>
-										<td>
-											Valim
-										</td>
-									</tr>
+								</thead>
+								<tbody>
+									<?php foreach ($horarios_treino as $dia => $dados) :?>
+										<tr>
+											<td><?php echo $dia; ?></td>
+											<td><?php echo $dados['hora']; ?></td>
+											<td><?php echo $dados['instrutor']; ?></td>
+										</tr>
+									<?php endforeach; ?>
 								</tbody>
 							</table>
+						</div>
 
+						<div class="col-md-4">
+							<h2 class="shorter">Contato</h2>
+							<hr class="tall">
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nome</th>
+										<th>Telefone</th>
+									</tr>
+								</thead>
+								<tbody>
+										<?php foreach ($contato as $nome => $telefone) :?>
+											<tr>
+												<td><strong><?php echo $nome; ?></strong></td>
+												<td><?php echo $telefone; ?></td>
+											</tr>
+										<?php endforeach; ?>
+								</tbody>
+							</table>
 						</div>
 					</div>
 

@@ -6,14 +6,13 @@
 							<div class="col-md-12">
 								<ul class="breadcrumb">
 									<li><a href="index.php">Home</a></li>
-
-									<li class="active">Capivari Dojo</li>
+									<li class="active"><?php echo $title; ?></li>
 								</ul>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
-								<h2>Capivari Dojo</h2>
+								<h2>Endereço: <strong><?php echo $endereco;?></strong></h2>
 							</div>
 						</div>
 					</div>
@@ -23,27 +22,8 @@
 
 					<div class="row">
 						<div class="col-md-4">
-
-							<div id="google-dojo" class="google-map"></div>
-
-						</div>
-						
-							<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
-								<li class="col-md-4	 no-pin isotope-item">
-									<div class="portfolio-item img">
-										<a href="/img/capivari/fachada.jpg" class="thumb-info">
-											<img src="<?php echo base_url('/img/capivari/fachada.jpg') ?>" class="100Width image-responsive" height="365">
-										</a>
-									</div>
-								</li>
-							</ul>
-
-						<div class="col-md-4">
-
 							<h2 class="shorter">Horários para <strong>Treino</strong></h2>
-
 							<hr class="tall">
-
 							<table class="table table-striped">
 								<thead>
 									<tr>
@@ -51,51 +31,56 @@
 										<th>Hora</th>
 										<th>Instrutor</th>
 									</tr>									
-										</thead>
-										<tbody>
-									<tr>
-										<td>
-											Terça
-										</td>
-										<td>
-											20h - 21h30
-										</td>
-										<td>
-											Samuel
-										</td>
-									</tr>
-									<tr>
-										<td>
-											Quinta
-										</td>
-										<td>
-											20h - 21h30
-										</td>
-										<td>
-											Samuel
-										</td>
-									</tr>
-									<tr>
-										<td>
-											Sábado
-										</td>
-										<td>
-											18h30
-										</td>
-										<td>
-											Samuel
-										</td>
-									</tr>
+								</thead>
+								<tbody>
+									<?php foreach ($horarios_treino as $dia => $dados) :?>
+										<tr>
+											<td><?php echo $dia; ?></td>
+											<td><?php echo $dados['hora']; ?></td>
+											<td><?php echo $dados['instrutor']; ?></td>
+										</tr>
+									<?php endforeach; ?>
 								</tbody>
 							</table>
 
+						</div>
+						
+						<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
+							<li class="col-md-4	 no-pin isotope-item">
+								<div class="portfolio-item img">
+									<a href="/img/capivari/fachada.jpg" class="thumb-info">
+										<img src="<?php echo base_url('/img/capivari/fachada.jpg') ?>" class="100Width image-responsive" height="365">
+									</a>
+								</div>
+							</li>
+						</ul>
+
+						<div class="col-md-4">
+							<h2 class="shorter">Contato</h2>
+							<hr class="tall">
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nome</th>
+										<th>Telefone</th>
+									</tr>
+								</thead>
+								<tbody>
+										<?php foreach ($contato as $nome => $telefone) :?>
+											<tr>
+												<td><strong><?php echo $nome; ?></strong></td>
+												<td><?php echo $telefone; ?></td>
+											</tr>
+										<?php endforeach; ?>
+								</tbody>
+							</table>
 						</div>
 					</div>
 
 					<hr class="tall" />
 
-					<div class="row center">
-						
+					<div class="row">
+						<h4><strong>Responsável</strong></h4>
 						<ul class="team-list sort-destination" data-sort-id="team">
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
@@ -117,17 +102,6 @@
 
 				</div>
 
-				<!-- <section class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(/kobukan/img/capivari/dojo.jpg);">
-					<div class="container">
-						<div class="row center">
-							<div class="col-md-12">
-				
-								<div style="height: 150px;"></div>
-				
-							</div>
-						</div>
-					</div>
-				</section> -->
 				<div class="container">
 
 					<div class="row">

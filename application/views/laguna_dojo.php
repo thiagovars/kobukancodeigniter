@@ -6,13 +6,13 @@
 							<div class="col-md-12">
 								<ul class="breadcrumb">
 									<li><a href="index.php">Home</a></li>
-									<li class="active">Laguna Dojo</li>
+									<li class="active"><?php echo $title; ?></li>
 								</ul>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
-								<h2>Laguna Dojo</h2>
+								<h2>Endereço: <strong><?php echo $endereco;?></strong></h2>
 							</div>
 						</div>
 					</div>
@@ -21,18 +21,9 @@
 				<div class="container">
 
 					<div class="row">
-						<div class="col-md-4">
-
-							<div id="google-dojo" class="google-map"></div>
-
-						</div>
-
 						<div class="col-md-8">
-
 							<h2 class="shorter">Horários para <strong>Treino</strong></h2>
-
 							<hr class="tall">
-
 							<table class="table table-striped">
 								<thead>
 									<tr>
@@ -42,53 +33,36 @@
 									</tr>									
 								</thead>
 								<tbody>
-									<tr>
-										<td>
-											Segunda
-										</td>
-										<td>
-											19h - 20h30
-										</td>
-										<td>
-											Carlos
-										</td>
-									</tr>
-									<tr>
-										<td>
-											Quarta
-										</td>
-										<td>
-											19h - 20h30
-										</td>
-										<td>
-											Carlos
-										</td>
-									</tr>
-									<tr>
-										<td>
-											Sexta
-										</td>
-										<td>
-											19h - 20h30
-										</td>
-										<td>
-											Juliano / Carlos
-										</td>
-									</tr>
-									<tr>
-										<td>
-											Sábado
-										</td>
-										<td>
-											16h - 17h30
-										</td>
-										<td>
-											Juliano / Carlos
-										</td>
-									</tr>
+									<?php foreach ($horarios_treino as $dia => $dados) :?>
+										<tr>
+											<td><?php echo $dia; ?></td>
+											<td><?php echo $dados['hora']; ?></td>
+											<td><?php echo $dados['instrutor']; ?></td>
+										</tr>
+									<?php endforeach; ?>
 								</tbody>
 							</table>
+						</div>
 
+						<div class="col-md-4">
+							<h2 class="shorter">Contato</h2>
+							<hr class="tall">
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Nome</th>
+										<th>Telefone</th>
+									</tr>
+								</thead>
+								<tbody>
+										<?php foreach ($contato as $nome => $telefone) :?>
+											<tr>
+												<td><strong><?php echo $nome; ?></strong></td>
+												<td><?php echo $telefone; ?></td>
+											</tr>
+										<?php endforeach; ?>
+								</tbody>
+							</table>
 						</div>
 					</div>
 
@@ -100,7 +74,7 @@
 							<li class="col-md-3 isotope-item leadership">
 								<div class="team-item thumbnail">
 									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/JulianoPinheiro.jpg') ?>">
+										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/julianoPinheiro.jpg') ?>">
 										<span class="thumb-info-title">
 											<span class="thumb-info-inner">Juliano</span>
 											<span class="thumb-info-type">Shodan (1º Dan)</span>
@@ -131,17 +105,6 @@
 
 				</div>
 
-				<!-- <section class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/laguna/dojo.jpg);">
-					<div class="container">
-						<div class="row center">
-							<div class="col-md-12">
-
-								<div style="height: 150px;"></div>
-
-							</div>
-						</div>
-					</div>
-				</section> -->
 				<div class="container">
 
 					<div class="row">

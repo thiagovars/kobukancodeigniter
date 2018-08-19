@@ -7,9 +7,16 @@ class Tubaraodojo extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$data = array(
-			'endereco' => 'Rua Prudente de Moraes 352 - Tubarão - SC Brasil',
+			'endereco' => 'R. Prudente de Moraes 352 - Tubarão - SC',
 			'title' => 'Dojo Tubarão',
 			'fotos' => $this->getFotos(),
+			'contato' => array(
+				'Fabrício Benedet' => '(48) 99986 0065',
+			),
+			'horarios_treino' => array(
+				'Terças' => array('hora' => '19h30 - 21h30', 'instrutor' => 'Fabrício Benedet'),
+				'Quintas' => array('hora' => '19h30 - 21h30', 'instrutor' => 'Hayalon'),
+			),
 		);
 
 		$this->load->view('header', $data);
