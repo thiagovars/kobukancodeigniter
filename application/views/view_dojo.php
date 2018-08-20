@@ -21,33 +21,34 @@
 				<div class="container">
 
 					<div class="row">
-						<div class="col-md-4">
-							<h2 class="shorter">Horários para treino <h3 class="shorter"><strong>Iaido, Jodo e Naginata</strong></h3></h2>
+						<?php if(!empty($horarios_armas)) : ?>
+                            <div class="<?php echo $config_horarios_md; ?>">
+                                <?php echo $title_treino_armas; ?>
+                                <hr class="tall">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Dia</th>
+                                            <th>Hora</th>
+                                            <th>Instrutor</th>
+                                        </tr>									
+                                    </thead>
+                                    <tbody>
+                                        <?php foreach ($horarios_armas as $dia => $dados) :?>
+                                            <tr>
+                                                <td><?php echo $dia; ?></td>
+                                                <td><?php echo $dados['hora']; ?></td>
+                                                <td><?php echo $dados['instrutor']; ?></td>
+                                            </tr>
+                                        <?php endforeach; ?>
+                                    </tbody>
+                                </table>
 
-							<hr class="tall">
-							<table class="table table-striped">
-								<thead>
-									<tr>
-										<th>Dia</th>
-										<th>Hora</th>
-										<th>Instrutor</th>
-									</tr>									
-								</thead>
-								<tbody>
-									<?php foreach ($horarios_armas as $dia => $dados) :?>
-										<tr>
-											<td><?php echo $dia; ?></td>
-											<td><?php echo $dados['hora']; ?></td>
-											<td><?php echo $dados['instrutor']; ?></td>
-										</tr>
-									<?php endforeach; ?>
-								</tbody>
-							</table>
-
-						</div>
+                            </div>    
+                        <?php endif; ?>
 						
-						<div class="col-md-4">
-							<h2 class="shorter">Horários para treino <h3 class="shorter"><strong>Aikido</strong></h3></h2>
+						<div class="<?php echo $config_horarios_md; ?>">
+							<?php echo $title_treino_aikido;?>
 
 							<hr class="tall">
 							<table class="table table-striped">
@@ -98,22 +99,24 @@
 
 					<div class="row">
 						<h4><strong>Responsável</strong></h4>
-						<ul class="team-list sort-destination" data-sort-id="team">
-							<li class="col-md-3 isotope-item leadership">
-								<div class="team-item thumbnail">
-									<span class="thumb-info team">
-										<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/jordan.jpg'); ?>">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Jordan</span>
-											<span class="thumb-info-type">Shodan (1º Dan)</span>
-										</span>
-									</span>
-									<span class="thumb-info-caption">
-										<p>Jordan Teixeira Nicloti</p>
-									</span>
-								</div>
-							</li>
-						</ul>
+                        <ul class="team-list sort-destination" data-sort-id="team">
+						    <?php foreach ($responsaveis as $responsavel => $dados) : ?>
+                                <li class="col-md-3 isotope-item leadership">
+                                    <div class="team-item thumbnail">
+                                        <span class="thumb-info team">
+                                            <img class="img-responsive" alt="" src="<?php echo base_url($dados['foto']); ?>">
+                                            <span class="thumb-info-title">
+                                                <span class="thumb-info-inner"><?php echo $dados['short_name']; ?></span>
+                                                <span class="thumb-info-type"><?php echo $dados['graduation']; ?></span>
+                                            </span>
+                                        </span>
+                                        <span class="thumb-info-caption">
+                                            <p><?php echo $responsavel; ?></p>
+                                        </span>
+                                    </div>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
 					
 					</div>
 

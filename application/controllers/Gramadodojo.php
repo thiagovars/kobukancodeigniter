@@ -9,6 +9,9 @@ class Gramadodojo extends CI_Controller {
 		$data = array(
 			'endereco' => 'Av. Borges de Medeiros, 4770 - Floresta, Gramado - RS',
 			'title' => 'Dojo Gramado ',
+			'title_treino_armas' => '<h2 class="shorter">Horários para treino <h3 class="shorter"><strong>Iaido, Jodo e Naginata</strong></h3></h2>',
+			'title_treino_aikido' => '<h2 class="shorter">Horários para treino <h3 class="shorter"><strong>Aikido</strong></h3></h2>',
+			'config_horarios_md' => 'col-md-4',
 			'fotos' => $this->getFotos(),			
 			'contato' => array(
 				'Jordan T. Nicloti' => '(54) 99604 1112',
@@ -21,10 +24,17 @@ class Gramadodojo extends CI_Controller {
 				'Segundas' => array('hora' => '20h00 - 21h00', 'instrutor' => 'Jordan T. Nicloti'),
 				'Quartas'  => array('hora' => '20h00 - 21h00', 'instrutor' => 'Jordan T. Nicloti'),
 			),
+			'responsaveis' => array(
+				'Jordan Teixeira Nicloti' => array(
+					'foto' => '/img/team/jordan.jpg',
+					'short_name' => 'Jordan',
+					'graduation' => 'Shodan (1º Dan)'
+				),
+			),
 		);
 
 		$this->load->view('header', $data);
-		$this->load->view('gramado_dojo', $data);
+		$this->load->view('view_dojo');
 		$this->load->view('footer');
 	}
 
