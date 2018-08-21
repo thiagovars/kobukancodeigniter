@@ -8,6 +8,8 @@ class Icaradojo extends CI_Controller {
 		$data = array(
 			'endereco' => 'R. António Jesuino Figueira - Tereza Cristina Içara - SC',
 			'title' => 'Dojo Içara',
+			'title_treino_aikido' => '<h2>Horários para treino <strong>Aikido</strong></h2>',
+			'config_horarios_md' => 'col-md-8',
 			'fotos' => $this->getFotos(),
 			'contato' => array(
 				'Robson Lee' => '(48) 99652 7723',
@@ -16,10 +18,17 @@ class Icaradojo extends CI_Controller {
 				'Terças' => array('hora' => '19h30 - 21h', 'instrutor' => 'Robson Lee'),
 				'Quintas' => array('hora' => '19h30 - 21h', 'instrutor' => 'Robson Lee')
 			),
+			'responsaveis' => array(
+				'Robson Lee' => array(
+					'foto' => '/img/team/robson.jpg',
+					'short_name' => 'Robson',
+					'graduation' => 'Nidan (2º)',
+				),
+			),
 		);
 
 		$this->load->view('header', $data);
-		$this->load->view('icara_dojo', $data);
+		$this->load->view('view_dojo');
 		$this->load->view('footer');
 	}
 

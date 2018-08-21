@@ -9,11 +9,14 @@ class Garopabadojo extends CI_Controller {
 		$data = array(
 			'endereco' => 'Estrada Geral do Ouvidor 372, Campo Duna, Garopaba - SC',
 			'title' => 'Dojo Garopaba',
+			'title_treino_alternativo' => '<h2>Horários para treino <h3 class="shorter"><strong>Kids</strong></h3></h2>',
+			'title_treino_aikido' => '<h2>Horários para treino <h3 class="shorter"><strong>Adulto</strong></h3></h2>',
+			'config_horarios_md' => 'col-md-4',
 			'fotos' => $this->getFotos(),
 			'contato' => array(
 				'Rafael Pereira' => '(48) 99927 7509',
 			),
-			'horarios_kids' => array(
+			'horarios_alternativos' => array(
 				'Terças'  => array('hora' => '18h - 19h', 'instrutor' => 'Rafael Pereira'),
 				'Quintas' => array('hora' => '18h - 19h', 'instrutor' => 'Rafael Pereira'),
 			),
@@ -21,10 +24,17 @@ class Garopabadojo extends CI_Controller {
 				'Terças'  => array('hora' => '19h - 20h20', 'instrutor' => 'Rafael Pereira'),
 				'Quintas' => array('hora' => '19h - 20h20', 'instrutor' => 'Rafael Pereira'),
 			),
+			'responsaveis' => array(
+				'Rafael Pereira Leiria' => array(
+					'foto' => '/img/team/rafael.jpg',
+					'short_name' => 'Rafael',
+					'graduation' => 'Shodan (1º Dan)',
+				),
+			),
 		);
 
 		$this->load->view('header', $data);
-		$this->load->view('garopaba_dojo', $data);
+		$this->load->view('view_dojo', $data);
 		$this->load->view('footer');
 	}
 

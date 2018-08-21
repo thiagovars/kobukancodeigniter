@@ -9,6 +9,8 @@ class Imaruidojo extends CI_Controller {
 		$data = array(
 			'endereco' => 'SC-437, SC, 88770-000, Brazil',
 			'title' => 'Dojo Imarui',
+			'title_treino_aikido' => '<h2>Horários para treino <strong>Aikido</strong></h2>',
+			'config_horarios_md' => 'col-md-8',
 			'fotos' => $this->getFotos(),
 			'contato' => array(
 				'Junior Isidóro' => '(48) 99973 1988',
@@ -18,10 +20,17 @@ class Imaruidojo extends CI_Controller {
 				'Quinta' => array('hora' => '19h30 - 20h30', 'instrutor' => 'Junior Isidóro'),
 				'Sábado' => array('hora' => '19h30 - 20h30', 'instrutor' => 'Junior Isidóro'),
 			),
+			'responsaveis' => array(
+				'Junior Isidóro' => array(
+					'foto' => '/img/team/junior.jpg',
+					'short_name' => 'Júnior',
+					'graduation' => 'Nidan (2º)',
+				),
+			),
 		);
 
 		$this->load->view('header', $data);
-		$this->load->view('imarui_dojo');
+		$this->load->view('view_dojo');
 		$this->load->view('footer');
 	}
 	

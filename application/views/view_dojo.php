@@ -21,9 +21,9 @@
 				<div class="container">
 
 					<div class="row">
-						<?php if(!empty($horarios_armas)) : ?>
+						<?php if(!empty($horarios_alternativos)) : ?>
                             <div class="<?php echo $config_horarios_md; ?>">
-                                <?php echo $title_treino_armas; ?>
+                                <?php echo $title_treino_alternativo; ?>
                                 <hr class="tall">
                                 <table class="table table-striped">
                                     <thead>
@@ -34,7 +34,7 @@
                                         </tr>									
                                     </thead>
                                     <tbody>
-                                        <?php foreach ($horarios_armas as $dia => $dados) :?>
+                                        <?php foreach ($horarios_alternativos as $dia => $dados) :?>
                                             <tr>
                                                 <td><?php echo $dia; ?></td>
                                                 <td><?php echo $dados['hora']; ?></td>
@@ -46,7 +46,6 @@
 
                             </div>    
                         <?php endif; ?>
-						
 						<div class="<?php echo $config_horarios_md; ?>">
 							<?php echo $title_treino_aikido;?>
 
@@ -72,6 +71,18 @@
 
 						</div>
 
+						<?php if (!empty($foto_fachada)) :?>
+							<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
+								<li class="col-md-4	 no-pin isotope-item">
+									<div class="portfolio-item img">
+										<a href="<?php echo $foto_fachada; ?>" class="thumb-info">
+											<img src="<?php echo base_url($foto_fachada); ?>" class="100Width image-responsive" height="365">
+										</a>
+									</div>
+								</li>
+							</ul>
+						<?php endif;?>
+
 						<div class="col-md-4">
 							<h2 class="shorter">Contato</h2>
 							<hr class="tall">
@@ -96,6 +107,16 @@
 					</div>
 
 					<hr class="tall" />
+
+					<?php if(!empty($dojo_parceiro)) :?>
+						<div class="row center">
+							<div class="col-md-12 text-align-center">
+								<img class="img-responsive margin-auto" src="<?php echo base_url($dojo_parceiro['logo']) ?>" width="150" alt="">
+								<?php echo $dojo_parceiro['title']; ?>
+							</div>
+						</div>
+						<hr class="tall" />
+					<?php endif;?>
 
 					<div class="row">
 						<h4><strong>Responsável</strong></h4>
