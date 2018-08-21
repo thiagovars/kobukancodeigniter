@@ -23,7 +23,7 @@ class Lagunadojo extends CI_Controller {
 			),
 			'responsaveis' => array(
 				'Juliano Machado Pinheiro' => array(
-					'foto' => '/img/team/JulianoPinheiro.jpg',
+					'foto' => '/img/team/julianoPinheiro.jpg',
 					'short_name' => 'Juliano',
 					'graduation' => 'Shodan (1º Dan)',
 				),
