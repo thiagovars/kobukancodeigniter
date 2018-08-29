@@ -25,9 +25,9 @@ class Tubaraodojo extends CI_Controller {
 					'short_name' => 'Fabrício',
 					'graduation' => 'Sandan (3º Dan)',
 				),
-				'Hayalan' => array(
+				'Hayalon' => array(
 					'foto'       => '/img/team/hayalon.jpg',
-					'short_name' => 'Hayalan',
+					'short_name' => 'Hayalon',
 					'graduation' => '2º kyu (Faixa Azul)',
 				),
 			),

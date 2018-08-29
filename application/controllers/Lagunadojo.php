@@ -30,7 +30,7 @@ class Lagunadojo extends CI_Controller {
 				'Carlos Machado' => array(
 					'foto' => '/img/team/carlosMachado.jpg',
 					'short_name' => 'Carlos Machado',
-					'graduation' => 'Faixa Azul (Faixa Azul)',
+					'graduation' => 'Ikkyu (Faixa Marrom)',
 				),
 			),
 		);

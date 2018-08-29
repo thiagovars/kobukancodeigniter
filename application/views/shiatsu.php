@@ -58,7 +58,7 @@
 
 							<p class="drop-caps">
 							Sensei Eduardo é discipulo do grande mestre Yasui da escola Atsu-kaai de porto alegre, e aplica shiatsu desde 1999. Atualmente atende
-							na estética Lisa Buety em Nova Petrópolis.</p>
+							shiatsu e acupuntura à domicílio.</p>
 							<p class="tall">&nbsp;</p>
 						</div>
 					</div>

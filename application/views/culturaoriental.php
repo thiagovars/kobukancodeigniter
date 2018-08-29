@@ -6,7 +6,7 @@
               <div class="col-md-12">
                 <ul class="breadcrumb">
                   <li><a href="#">Home</a></li>
-                  <li class="active"><a href="fotos.html">Fotos</a></li>
+                  <!-- <li class="active"><a href="fotos.html">Fotos</a></li> -->
                 </ul>
               </div>
             </div>
@@ -26,7 +26,7 @@
 
           <div class="row">
             <ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
-              <?php foreach ($fotos as $foto) :?>
+              <?php foreach($fotos as $foto) :?>
               <li class="col-md-3 no-pin">
                 <div class="portfolio-item img-thumbnail">
                   <a href="<?php echo base_url($foto); ?>" class="thumb-info">
