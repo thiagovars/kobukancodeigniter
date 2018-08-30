@@ -12,7 +12,7 @@ class Gramadodojo extends CI_Controller {
 			'title_treino_alternativo' => '<h2 class="shorter">Horários para treino <h3 class="shorter"><strong>Iaido, Jodo e Naginata</strong></h3></h2>',
 			'title_treino_aikido' => '<h2 class="shorter">Horários para treino <h3 class="shorter"><strong>Aikido</strong></h3></h2>',
 			'config_horarios_md' => 'col-md-4',
-			'fotos' => $this->getFotos(),			
+			'fotos' => get_fotos('gramado/fotos'),			
 			'contato' => array(
 				'Jordan T. Nicloti' => '(54) 99604 1112',
 			),
@@ -36,16 +36,5 @@ class Gramadodojo extends CI_Controller {
 		$this->load->view('header', $data);
 		$this->load->view('view_dojo');
 		$this->load->view('footer');
-	}
-
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/gramado/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/gramado/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }

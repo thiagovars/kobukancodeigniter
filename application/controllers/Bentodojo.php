@@ -12,7 +12,7 @@ class Bentodojo extends CI_Controller {
 			'title' => 'Dojo Bento Gonçalves',
 			'config_horarios_md' => 'col-md-8',
 			'title_treino_aikido' => '<h2 class="shorter">Horários para treino <strong>Aikido</strong></h2>',
-			'fotos' => $this->getFotos(),
+			'fotos' => get_fotos('bento/fotos'),
 			'contato' => array(
 				'José Aquini' => '(54) 9962 5249',
 			),
@@ -32,16 +32,5 @@ class Bentodojo extends CI_Controller {
 		$this->load->view('header', $data);
 		$this->load->view('view_dojo');
 		$this->load->view('footer');
-	}
-
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/bento/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/bento/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }

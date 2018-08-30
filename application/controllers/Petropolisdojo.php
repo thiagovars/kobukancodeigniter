@@ -12,7 +12,7 @@ class Petropolisdojo extends CI_Controller {
 			'title_treino_aikido' => '<h2>Horários para treino <strong>Aikido</strong></h2>',
 			'config_horarios_md' => 'col-md-4',
 			'foto_fachada' => '/img/petropolis/fachada.jpg',
-			'fotos' => $this->getFotos(),
+			'fotos' => get_fotos('petropolis/fotos'),
 			'contato' => array(
 				'Rodrigo Sfredo' => '(54) 98133 4651',
 			),
@@ -32,16 +32,5 @@ class Petropolisdojo extends CI_Controller {
 		$this->load->view('header', $data);
 		$this->load->view('view_dojo');
 		$this->load->view('footer');
-	}
-
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/petropolis/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/petropolis/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }

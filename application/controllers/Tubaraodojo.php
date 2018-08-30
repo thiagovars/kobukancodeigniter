@@ -11,7 +11,7 @@ class Tubaraodojo extends CI_Controller {
 			'title' => 'Dojo Tubarão',
 			'title_treino_aikido' => '<h2>Horários para treino <strong>Aikido</strong></h2>',
 			'config_horarios_md' => 'col-md-8',
-			'fotos' => $this->getFotos(),
+			'fotos' => get_fotos('tubarao/fotos'),
 			'contato' => array(
 				'Fabrício Benedet' => '(48) 99986 0065',
 			),
@@ -36,16 +36,5 @@ class Tubaraodojo extends CI_Controller {
 		$this->load->view('header', $data);
 		$this->load->view('view_dojo');
 		$this->load->view('footer');
-	}
-
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/tubarao/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/tubarao/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }

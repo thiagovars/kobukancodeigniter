@@ -11,7 +11,7 @@ class Lagunadojo extends CI_Controller {
 			'title' => 'Dojo Laguna',
 			'title_treino_aikido' => '<h2>Horários para treino <strong>Aikido</strong></h2>',
 			'config_horarios_md' => 'col-md-8',
-			'fotos' => $this->getFotos(),
+			'fotos' => get_fotos('laguna/fotos'),
 			'contato' => array(
 				'Carlos Machado' => '(48) 98426 3043',
 			),
@@ -38,16 +38,5 @@ class Lagunadojo extends CI_Controller {
 		$this->load->view('header', $data);
 		$this->load->view('view_dojo');
 		$this->load->view('footer');
-	}
-
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/laguna/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/laguna/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }

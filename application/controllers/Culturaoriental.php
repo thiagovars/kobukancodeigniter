@@ -5,10 +5,10 @@ class Culturaoriental extends CI_Controller {
 
 	public function index() {
 		$this->load->helper('url');
-		$data['title'] = 'Fotos sobre cultura oriental';
-		for ($i=1; $i <= 48; $i++) {
-			$data['fotos'][] = '/img/cultura oriental/'.$i.'.jpg';
-		}
+		$data = array(
+			'title' => 'Fotos sobre cultura oriental',
+			'fotos' => get_fotos('cultura_oriental'),
+		);
 		$this->load->view('header', $data);
 		$this->load->view('culturaoriental');
 		$this->load->view('footer');

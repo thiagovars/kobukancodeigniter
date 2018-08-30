@@ -6,7 +6,7 @@
               <div class="col-md-12">
                 <ul class="breadcrumb">
                   <li><a href="#">Home</a></li>
-                  <!-- <li class="active"><a href="fotos.html">Fotos</a></li> -->
+                  <li class="active"><a href="<?php echo base_url('Culturaoriental');?>">Fotos</a></li>
                 </ul>
               </div>
             </div>
@@ -19,10 +19,6 @@
         </section>
 
         <div class="container">
-
-          <strong class="tall"><a href="fotos.php">< Fotos </a></strong>
-
-          <hr class="tall" />
 
           <div class="row">
             <ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>

@@ -11,7 +11,7 @@ class Imaruidojo extends CI_Controller {
 			'title' => 'Dojo Imarui',
 			'title_treino_aikido' => '<h2>Horários para treino <strong>Aikido</strong></h2>',
 			'config_horarios_md' => 'col-md-8',
-			'fotos' => $this->getFotos(),
+			'fotos' => get_fotos('imarui/fotos'),
 			'contato' => array(
 				'Junior Isidóro' => '(48) 99973 1988',
 			),
@@ -32,16 +32,5 @@ class Imaruidojo extends CI_Controller {
 		$this->load->view('header', $data);
 		$this->load->view('view_dojo');
 		$this->load->view('footer');
-	}
-	
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/imarui/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/imarui/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }

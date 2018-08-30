@@ -11,7 +11,7 @@ class Portoalegredojo extends CI_Controller {
 			'title' => 'Dojo Porto Alegre',
 			'title_treino_aikido' => '<h2>Horários para treino <strong>Aikido</strong></h2>',
 			'config_horarios_md' => 'col-md-8',
-			'fotos' => $this->getFotos(),
+			'fotos' => get_fotos('portoalegre/fotos'),
 			'contato' => array(
 				'Mathaeus Silveira' => '(51) 99147 8021',
 			),
@@ -32,16 +32,5 @@ class Portoalegredojo extends CI_Controller {
 		$this->load->view('header', $data);
 		$this->load->view('view_dojo');
 		$this->load->view('footer');
-	}
-
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/portoalegre/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/portoalegre/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }

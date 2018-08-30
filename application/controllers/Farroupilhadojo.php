@@ -11,7 +11,7 @@ class Farroupilhadojo extends CI_Controller {
 			'title' => 'Dojo Farroupilha',
 			'title_treino_aikido' => '<h2>Horarios para treino <strong>Aikido</strong></h2>',
 			'config_horarios_md' => 'col-md-8',
-			'fotos' => $this->getFotos(),
+			'fotos' => get_fotos('farroupilha/fotos'),
 			'contato' => array(
 				'Juliano Alves' => '(54) 99656 3021',
 			),
@@ -32,16 +32,5 @@ class Farroupilhadojo extends CI_Controller {
 		$this->load->view('header', $data);
 		$this->load->view('view_dojo', $data);
 		$this->load->view('footer');
-	}
-
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/farroupilha/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/farroupilha/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }
