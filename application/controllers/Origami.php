@@ -7,22 +7,11 @@ class Origami extends CI_Controller {
 		$this->load->helper('url');
 		$data = array(
 			'title' => 'Origami | Ori (dobrar) gami (papel)',
-			'fotos' => $this->getFotos(),
+			'fotos' => get_fotos('origami/fotos'),
 		);
 		
 		$this->load->view('header', $data);
 		$this->load->view('origami');
 		$this->load->view('footer');
-	}
-
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/origami/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/origami/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }

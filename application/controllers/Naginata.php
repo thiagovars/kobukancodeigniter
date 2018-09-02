@@ -7,22 +7,11 @@ class Naginata extends CI_Controller {
 		$this->load->helper('url');
 		$data = array(
 			'title' => 'Naginata | Espada lança',
-			'fotos' => $this->getFotos(),
+			'fotos' => get_fotos('naginata/fotos'),
 		);
 
 		$this->load->view('header', $data);
 		$this->load->view('naginata');
 		$this->load->view('footer');
-	}
-
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/naginata/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/naginata/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }

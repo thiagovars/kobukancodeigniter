@@ -8,22 +8,11 @@ class Iaido extends CI_Controller {
 		$this->load->helper('url');
 		$data = array(
 			'title' => 'Iaido | Arte Marcial Japonesa do Desembainhar da Espada',
-			'fotos' => $this->getFotos(),
+			'fotos' =>get_fotos('iaido/fotos'),
 		);
 
 		$this->load->view('header', $data);
 		$this->load->view('iaido', $data);
 		$this->load->view('footer');
-	}
-
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/iaido/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/iaido/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }

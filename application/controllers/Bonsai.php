@@ -8,22 +8,11 @@ class Bonsai extends CI_Controller {
 		$this->load->helper('url');
 		$data = array(
 			'title' => 'Bonsai | A Natureza em Miniatura',
-			'fotos' => $this->getFotos(),
+			'fotos' => get_fotos('bonsai/fotos'),
 		);
 
 		$this->load->view('header', $data);
 		$this->load->view('bonsai');
 		$this->load->view('footer');
-	}
-
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/bonsai/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/bonsai/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }

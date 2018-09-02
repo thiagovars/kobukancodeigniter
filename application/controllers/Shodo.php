@@ -8,22 +8,11 @@ class Shodo extends CI_Controller {
 		$this->load->helper('url');
 		$data = array(
 			'title' => 'Shodo | A Arte da Caligrafia Japones',
-			'fotos' => $this->getFotos(),
+			'fotos' => get_fotos('shodo/fotos'),
 		);
 		
 		$this->load->view('header', $data);
 		$this->load->view('shodo');
 		$this->load->view('footer');
-	}
-
-	private function getFotos()
-	{
-		$this->load->helper('directory');
-		$map = directory_map('./img/shodo/fotos/');
-		$fotos = array();
-		foreach($map as $foto) {
-			$fotos[] = '/img/shodo/fotos/'.$foto;
-		}
-		return $fotos;
 	}
 }
