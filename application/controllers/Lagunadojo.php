@@ -25,7 +25,7 @@ class Lagunadojo extends CI_Controller {
 				'Eduardo Correa' => array(
 					'foto' => '/img/team/eduardo.jpg',
 					'short_name' => 'Eduardo',
-					'graduation' => 'Shodan (4º Dan)',
+					'graduation' => 'Yon Dan (4º Dan)',
 				),
 				'Carlos Machado' => array(
 					'foto' => '/img/team/carlosMachado.jpg',
