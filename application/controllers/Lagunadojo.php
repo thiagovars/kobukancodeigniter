@@ -11,15 +11,15 @@ class Lagunadojo extends CI_Controller {
 			'title' => 'Dojo Laguna',
 			'title_treino_aikido' => '<h2>Horários para treino <strong>Aikido</strong></h2>',
 			'config_horarios_md' => 'col-md-8',
-			'fotos' => get_fotos('laguna/fotos'),
+			// 'fotos' => get_fotos('laguna/fotos'),
 			'contato' => array(
 				'Carlos Machado' => '(48) 98426 3043',
 			),
 			'horarios_treino' => array(
 				'Segundas' => array('hora' => '19h - 20h30', 'instrutor' => 'Carlos Machado'),
 				'Quartas'  => array('hora' => '19h - 20h30', 'instrutor' => 'Carlos Machado'),
-				'Sexta'    => array('hora' => '19h - 20h30', 'instrutor' => 'Juliano Machado / Carlos Machado'),
-				'Sábado'   => array('hora' => '16h - 17h30', 'instrutor' => 'Juliano Machado / Carlos Machado'),
+				'Sexta'    => array('hora' => '19h - 20h30', 'instrutor' => 'Eduardo Correa / Carlos Machado'),
+				'Sábado'   => array('hora' => '16h - 17h30', 'instrutor' => 'Eduardo Correa / Carlos Machado'),
 			),
 			'responsaveis' => array(
 				'Eduardo Correa' => array(
