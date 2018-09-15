@@ -22,10 +22,10 @@ class Lagunadojo extends CI_Controller {
 				'Sábado'   => array('hora' => '16h - 17h30', 'instrutor' => 'Juliano Machado / Carlos Machado'),
 			),
 			'responsaveis' => array(
-				'Juliano Machado Pinheiro' => array(
-					'foto' => '/img/team/julianoPinheiro.jpg',
-					'short_name' => 'Juliano',
-					'graduation' => 'Shodan (1º Dan)',
+				'Eduardo Correa' => array(
+					'foto' => '/img/team/eduardo.jpg',
+					'short_name' => 'Eduardo',
+					'graduation' => 'Shodan (4º Dan)',
 				),
 				'Carlos Machado' => array(
 					'foto' => '/img/team/carlosMachado.jpg',
