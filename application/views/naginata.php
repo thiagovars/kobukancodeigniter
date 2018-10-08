@@ -37,7 +37,7 @@
 								Aconteceu no dia 25 de Novembro de 2017, Seminário de Naginata com exame de graduação. Angelica e Eduardo foram aprovados para 3º kyu.
 							</p>
 							<p class="drop-caps">
-								Eduardo graduou 2º kyu no dia 25 de Fevereiro de 2018. No dia 2 de setembro gradou-se Ikkyu (faixa marrom) e Angélica 2º kyu.
+								Eduardo graduou 2º kyu no dia 25 de Fevereiro de 2018. No dia 2 de setembro de 2018 realizou-se seminário internacional de naginata em SP com as melhores mestras do Japão. Na ocasião Eduardo graduou-se ikkyu ( faixa marrom) e Angelica 2 kyu.
 							</p>
 							<hr class="tall">
 
