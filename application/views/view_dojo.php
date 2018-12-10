@@ -146,11 +146,12 @@
 
 					<div class="row">
 
-					<div class="col-md-12">
+					<?php if (!empty($fotos)) : ?>
+						<div class="col-md-12">
 							<h3 class="short"><strong>Fotos</strong></h3>
 						</div>
 
-						  <div class="row">
+						<div class="row">
 							<ul class="lightbox" data-plugin-options='{"delegate": "a", "type": "image", "gallery": {"enabled": true}}'>
 								<?php foreach ($fotos as $foto) :?>
 									<li class="col-md-3 no-pin">
@@ -164,6 +165,7 @@
 							</ul> 
 						</div> 						
 
+					<?php endif;?>
 					</div>
 
 				</div>
