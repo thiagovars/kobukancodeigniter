@@ -281,6 +281,61 @@
 									<p class="tall">
 										Organizou o 1º dia das crianças japonês no Instituto Federal de Santa Catarina em Garopaba em outubro de 2017.
 									</p>
+									<p class="tall">
+									11 de novembro da aula em evento em homenagem a Kawai Sensei em Curitiba onde forma um sandan e 2 faixas pretas.
+									</p>
+
+									<p class="tall">
+									18 de novembro gradua faixa preta de jodo em Toronto no Canada
+									</p>
+
+									<p class="tall">
+									25 de novembro gradua 3 kyu em naginata
+									</p>
+
+									<p class="tall">
+									26 de novembro recebeu a licenca ,kyojo, da escola de cerimonia do cha Urasenke, no evento Sotanki
+									</p>
+
+									<p class="tall">
+									16 de dezembro organiza o 3 festival de cultura japonesa de Nova Petropolis
+									</p>
+
+									<p class="tall">
+									25 de fevereiro gradua 2 kyu em naginata
+									</p>
+
+									<p class="tall">
+									No mes de marco comeca a lecionar naginata em grupo de estudos na Kobukan Porto Alegre
+									</p>
+
+									<p class="tall">
+									17 de marco forma 2 nidans e um faixa preta de Aikido
+									</p>
+
+									<p class="tall">
+									21 de maio ministra treino no yudanshakai da academia central junto com outros 3 senseis
+									</p>
+
+									<p class="tall">
+									09 de junho participa de oficina de shodo com o grande mestre Kazuaki Takahashi Sensei em templo Zen na cidade de Viamao
+									</p>
+
+									<p class="tall">
+									06 de julho organiza o 1 festival de cultura japonesa de Garopaba no Instituto Federal de Educacao
+									</p>
+
+									<p class="tall">
+									19 de agosto apresenta cerimonia do cha no 7 festival do Japao na cidade de Porto Alegre
+									</p>
+
+									<p class="tall">
+									nos dias 1 e 2 de setembro participa do seminario internacional de naginata na cidade de SP com as melhores mestras do mundo , onde gradua Ikkyu
+									</p>
+
+									<p class="tall">
+									16 de setembro inicia os treinamentos de Shakuhachi ( flauta zen japonesa) com o mestre Henrique Sulzbacher
+									</p>
 								</div>
 							</div>
 
