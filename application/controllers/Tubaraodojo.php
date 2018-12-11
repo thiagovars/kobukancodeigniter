@@ -7,7 +7,7 @@ class Tubaraodojo extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$data = array(
-			'endereco' => 'R. Prudente de Moraes 352 - Tubarão - SC',
+			'endereco' => 'R. Augusto Severo 244 - Tubarão - SC',
 			'title' => 'Dojo Tubarão',
 			'title_treino_aikido' => '<h2>Horários para treino <strong>Aikido</strong></h2>',
 			'config_horarios_md' => 'col-md-8',
