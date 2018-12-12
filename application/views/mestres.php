@@ -148,7 +148,7 @@
 
 							<div class="row">
 								<div class="col-md-4"  data-appear-animation="fadeInLeft">
-									<img src="<?php echo base_url('/img/eduardo-sensei.jpg'); ?>" width="200" />
+									<img src="<?php echo base_url('/img/team/eduardo.jpg'); ?>" width="200" />
 									<h4 class="shorter">Eduardo Corrêa Sensei</h4>
 									<p class="tall">Responsável e idealizador<br>Kobukan Dojo</p>
 									
