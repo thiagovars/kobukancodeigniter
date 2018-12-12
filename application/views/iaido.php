@@ -70,35 +70,22 @@
 						<div class="row">
 									<ul class="team-list sort-destination" data-sort-id="team">
 										
-										<li class="col-md-3 isotope-item leadership">
-											<div class="team-item thumbnail">
-												<span class="thumb-info team">
-													<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/mathaeus.jpg'); ?>">
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Mathaeus Silveira</span>
-														<span class="thumb-info-type">Sandan (3º Dan)</span>
+										<?php foreach ($responsaveis as $responsavel => $dados) : ?>
+											<li class="col-md-3 isotope-item leadership">
+												<div class="team-item thumbnail">
+													<span class="thumb-info team">
+														<img class="img-responsive" alt="" src="<?php echo base_url($dados['foto']); ?>">
+														<span class="thumb-info-title">
+															<span class="thumb-info-inner"><?php echo $dados['short_name']; ?></span>
+															<span class="thumb-info-type"><?php echo $dados['graduation']; ?></span>
+														</span>
 													</span>
-												</span>
-												<!-- <span class="thumb-info-caption">
-													<p>Mathaeus Silveira</p>
-												</span> -->
-											</div>
-										</li>							
-										
-										<li class="col-md-3 isotope-item leadership">
-											<div class="team-item thumbnail">
-												<span class="thumb-info team">
-													<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/eduardo_iaido.jpg') ?>">
-													<span class="thumb-info-title">
-														<span class="thumb-info-inner">Eduardo Corrêa</span>
-														<span class="thumb-info-type">Nidan (2º Dan)</span>
+													<span class="thumb-info-caption">
+														<p><?php echo $responsavel; ?></p>
 													</span>
-												</span>
-												<!-- <span class="thumb-info-caption">
-													<p>Eduardo Corrêa</p>
-												</span> -->
-											</div>
-										</li>							
+												</div>
+											</li>
+										<?php endforeach; ?>							
 
 									</ul>
 

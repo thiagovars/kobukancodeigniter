@@ -157,11 +157,11 @@
 									
 									<h4 class="shorter" style="text-align: center; padding-bottom: 30px;">
 										EDUARDO CORRÊA SENSEI<br>Responsável técnico Kobukan Dojo </br></br>
-										4o. Dan de Aikido<br><br>
-										Nidan (Faixa preta 2 Dan) de Iaido<br><br>
-										Shodan (Faixa preta) de Jodo<br><br>
-										2 kyu de Naginata<br><br>
-										Faixa preta 1o. Dan de Jiu-jitsu<br><br>
+										<?php echo $this->graduations->getGradEduardo('aikido'); ?> de Aikido<br><br>
+										<?php echo $this->graduations->getGradEduardo('iaido'); ?> de Iaido<br><br>
+										<?php echo $this->graduations->getGradEduardo('jodo'); ?> de Jodo<br><br>
+										<?php echo $this->graduations->getGradEduardo('naginata'); ?> de Naginata<br><br>
+										<?php echo $this->graduations->getGradEduardo('jiujitsu'); ?> de Jiu-jitsu<br><br>
 									</h4>
 									
 									<p class="drop-caps">Sensei Eduardo Corrêa começou a treinar em 1994, em Porto Alegre, com Sensei

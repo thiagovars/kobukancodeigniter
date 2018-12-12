@@ -70,30 +70,23 @@
 								<div class="row">
 											<ul class="team-list sort-destination" data-sort-id="team">
 												
-												<li class="col-md-3 isotope-item leadership">
-													<div class="team-item thumbnail">
-														<span class="thumb-info team">
-															<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/angelica.jpg') ?>">
-															<span class="thumb-info-title">
-																<span class="thumb-info-inner">Angélica Philippe</span>
-																<span class="thumb-info-type">Shodan (1º Dan)</span>
+												<?php foreach ($responsaveis as $responsavel => $dados) : ?>
+													<li class="col-md-3 isotope-item leadership">
+														<div class="team-item thumbnail">
+															<span class="thumb-info team">
+																<img class="img-responsive" alt="" src="<?php echo base_url($dados['foto']); ?>">
+																<span class="thumb-info-title">
+																	<span class="thumb-info-inner"><?php echo $dados['short_name']; ?></span>
+																	<span class="thumb-info-type"><?php echo $dados['graduation']; ?></span>
+																</span>
 															</span>
-														</span>
-													</div>
-												</li>							
+															<span class="thumb-info-caption">
+																<p><?php echo $responsavel; ?></p>
+															</span>
+														</div>
+													</li>
+												<?php endforeach; ?>
 												
-												<li class="col-md-3 isotope-item leadership">
-													<div class="team-item thumbnail">
-														<span class="thumb-info team">
-															<img class="img-responsive" alt="" src="<?php echo base_url('/img/team/eduardoJodo.jpg') ?>">
-															<span class="thumb-info-title">
-																<span class="thumb-info-inner">Eduardo Corrêa</span>
-																<span class="thumb-info-type">Shodan (1º Dan)</span>
-															</span>
-														</span>
-													</div>
-												</li>							
-
 											</ul>
 
 									</div>
