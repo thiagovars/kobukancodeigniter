@@ -24,30 +24,27 @@
 						<div class="col-md-12" data-appear-animation="fadeInUp">
 							<h3><strong>Sumi-ê:</strong> A Arte do Essencial</h3>
 							<p class="drop-caps">
-							Originário da China, o Sumi-ê  (ou Sumie) foi conduzido 
-							ao Japão no século XIII por monges Zen budistas. Seu termo 
-							deriva de  Sumi (carvão) e ê (desenho, pintura): pintura 
-							em carvão. Muito mais como um caminho para paz espiritual 
-							do que propriamente uma representação artística, o pintor deve 
+							Originário da China, o Sumi-ê  (ou Sumie) foi conduzido
+							ao Japão no século XIII por monges Zen budistas. Seu termo
+							deriva de  Sumi (carvão) e ê (desenho, pintura): pintura
+							em carvão. Muito mais como um caminho para paz espiritual
+							do que propriamente uma representação artística, o pintor deve
 							buscar atingir a simplicidade em sua representação monocromática.
-							  Comparável ao movimento da espada, a pena (pincel), não permite 
-							retoques ou correções: seus movimentos devem ser ágeis e objetivos. 
+							  Comparável ao movimento da espada, a pena (pincel), não permite
+							retoques ou correções: seus movimentos devem ser ágeis e objetivos.
 							</p>
 							<p class="drop-caps">
-						  Antigamente os Samurais buscavam praticar o Zen e o Sumi-ê como 
-						  formas de desenvolver a concentração, precisão e equilíbrio e com 
-						  isso aprimorar o seu desempenho com o manejo da espada. Hoje a técnica 
-						  é praticada por executivos ou líderes para desenvolver os mesmos 
-						  potenciais, buscando com isso atingir a um melhor desempenho em suas 
-						  decisões e maior eficácia em suas ações.  O pintor de Sumi-ê  não se 
-						  propõe a uma retração realista, mas sim refletir o essencial de cada 
-						  representação captada pela observação atenta do objeto. A assimetria, 
-						  singeleza, naturalidade, profundidade, desapego, concentração, quietude 
+						  Antigamente os Samurais buscavam praticar o Zen e o Sumi-ê como
+						  formas de desenvolver a concentração, precisão e equilíbrio e com
+						  isso aprimorar o seu desempenho com o manejo da espada. Hoje a técnica
+						  é praticada por executivos ou líderes para desenvolver os mesmos
+						  potenciais, buscando com isso atingir a um melhor desempenho em suas
+						  decisões e maior eficácia em suas ações.  O pintor de Sumi-ê  não se
+						  propõe a uma retração realista, mas sim refletir o essencial de cada
+						  representação captada pela observação atenta do objeto. A assimetria,
+						  singeleza, naturalidade, profundidade, desapego, concentração, quietude
 						  e serenidade são algumas de suas características.</p>
-						  <p class="drop-caps">
-					  	Sensei Angélica pinta sumies há seis anos e aceita encomendas de tema, ao
-					  	custo de R$ 50,00 a unidade.
-						  </p>
+
 						</div>
 					</div>
 

@@ -31,7 +31,7 @@
                                             <th>Dia</th>
                                             <th>Hora</th>
                                             <th>Instrutor</th>
-                                        </tr>									
+                                        </tr>
                                     </thead>
                                     <tbody>
                                         <?php foreach ($horarios_alternativos as $dia => $dados) :?>
@@ -44,7 +44,7 @@
                                     </tbody>
                                 </table>
 
-                            </div>    
+                            </div>
                         <?php endif; ?>
 						<div class="<?php echo $config_horarios_md; ?>">
 							<?php echo $title_treino_aikido;?>
@@ -56,7 +56,7 @@
 										<th>Dia</th>
 										<th>Hora</th>
 										<th>Instrutor</th>
-									</tr>									
+									</tr>
 								</thead>
 								<tbody>
 									<?php foreach ($horarios_treino as $dia => $dados) :?>
@@ -138,7 +138,7 @@
                                 </li>
                             <?php endforeach; ?>
                         </ul>
-					
+
 					</div>
 
 				</div>
@@ -162,8 +162,8 @@
 										</div>
 									</li>
 									<?php endforeach; ?>
-							</ul> 
-						</div> 						
+							</ul>
+						</div>
 
 					<?php endif;?>
 					</div>
@@ -198,7 +198,7 @@
 				popup: true
 			}];
 
-			// Map Initial Location 
+			// Map Initial Location
 
 			var initLatitude  = -29.363893;
 			var initLongitude = -50.883068;
