@@ -81,6 +81,7 @@
                     <li><a href="<?php echo base_url()?>Furoshiki"      >Furoshiki</a></li>
                     <li><a href="<?php echo base_url()?>Kado"           >kadô</a></li>
                     <li><a href="<?php echo base_url()?>Origami"        >Origami</a></li>
+                    <li><a href="<?php echo base_url()?>Shakuhachi"     >Shakuhachi</a></li>
                     <li><a href="<?php echo base_url()?>Shodo"          >Shodo</a></li>
                     <li><a href="<?php echo base_url()?>Sumie"          >Sumie</a></li>
                     <li><a href="<?php echo base_url()?>Culturaoriental">Fotos</a></li>
