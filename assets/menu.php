@@ -44,6 +44,7 @@
                     <li><a href="<?php echo base_url()?>Lagunadojo"     >Laguna</a></li>
                     <li><a href="<?php echo base_url()?>Petropolisdojo" >Nova Petrópolis</a></li>
                     <li><a href="<?php echo base_url()?>Portoalegredojo">Porto Alegre</a></li>
+                    <li><a href="<?php echo base_url()?>SaoChicodojo"   >São Francisco de Paula</a></li>
                     <li><a href="<?php echo base_url()?>Tubaraodojo"    >Tubarão</a></li>
                   </ul>
                 </li>
