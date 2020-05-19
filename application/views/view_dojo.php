@@ -140,6 +140,29 @@
                         </ul>
 
 					</div>
+					<!-- Instrutores dos dojos -->
+					<div class="row">
+						<h4><strong>Instrutores</strong></h4>
+                        <ul class="team-list sort-destination" data-sort-id="team">
+						    <?php foreach ($instrutores as $instrutor => $dados) : ?>
+                                <li class="col-md-3 isotope-item leadership">
+                                    <div class="team-item thumbnail">
+                                        <span class="thumb-info team">
+                                            <img class="img-responsive" alt="" src="<?php echo base_url($dados['foto']); ?>">
+                                            <span class="thumb-info-title">
+                                                <span class="thumb-info-inner"><?php echo $dados['short_name']; ?></span>
+                                                <span class="thumb-info-type"><?php echo $dados['graduation']; ?></span>
+                                            </span>
+                                        </span>
+                                        <span class="thumb-info-caption">
+                                            <p><?php echo $instrutor; ?></p>
+                                        </span>
+                                    </div>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
+
+					</div>
 
 				</div>
 				<div class="container">

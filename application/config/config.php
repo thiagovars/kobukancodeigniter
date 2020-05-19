@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-define('ambiente', 'PROD');
+define('ambiente', 'Develop');
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
