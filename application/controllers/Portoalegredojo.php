@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Portoalegredojo extends CI_Controller {
 
-	public function index() 
+	public function index()
 	{
 		$this->load->helper('url');
 		$data = array(
@@ -27,31 +27,24 @@ class Portoalegredojo extends CI_Controller {
 					'graduation' => 'Nidan (2º Dan)',
 				),
 			),
-			'responsaveis' => array(
-				'Mathaeus Silveira' => array(
-					'foto' => '/img/team/mathaeus_aikido.jpg',
-					'short_name' => 'Mathaeus',
-					'graduation' => 'Nidan (2º Dan)',
-				),
-			),
             'instrutores' => array(
                 'Pedro Thiago V. da Silveira' => array(
-                    'foto' => '/img/team/mathaeus_aikido.jpg',
+                    'foto' => '/img/team/thiago.jpg',
                     'short_name' => 'Pedro',
                     'graduation' => 'Nidan (2º Dan)',
                 ),
                 'Guilherme Niederauer' => array(
-                    'foto' => '/img/team/mathaeus_aikido.jpg',
+                    'foto' => '/img/team/guilherme-niederauer.jpg',
                     'short_name' => 'Guilherme',
                     'graduation' => 'Shodan (1º Dan)',
                 ),
                 'João Vortmann' => array(
-                    'foto' => '/img/team/mathaeus_aikido.jpg',
+                    'foto' => '/img/team/joao-vortmann.jpg',
                     'short_name' => 'João',
                     'graduation' => 'Shodan (1º Dan)',
                 ),
                 'Cristina Sturm' => array(
-                    'foto' => '/img/team/mathaeus_aikido.jpg',
+                    'foto' => '/img/team/cris-sturm.jpg',
                     'short_name' => 'Cristina',
                     'graduation' => 'Shodan (1º Dan)',
 				),
