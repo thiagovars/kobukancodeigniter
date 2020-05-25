@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Lagunadojo extends CI_Controller {
 
-	public function index() 
+	public function index()
 	{
 		$this->load->helper('url');
 		$data = array(
@@ -16,22 +16,15 @@ class Lagunadojo extends CI_Controller {
 				'Carlos Machado' => '(48) 98426 3043',
 			),
 			'horarios_treino' => array(
-				'Segundas' => array('hora' => '19h - 20h30', 'instrutor' => 'Carlos Machado'),
-				'Quartas'  => array('hora' => '19h - 20h30', 'instrutor' => 'Carlos Machado'),
-				'Sexta'    => array('hora' => '19h - 20h30', 'instrutor' => 'Eduardo Correa / Carlos Machado'),
-				'Sábado'   => array('hora' => '16h - 17h30', 'instrutor' => 'Eduardo Correa / Carlos Machado'),
+				'Terça'    => array('hora' => '19h - 20h30', 'instrutor' => 'Silon'),
+				'Sábado'   => array('hora' => '16h - 17h30', 'instrutor' => 'Silon'),
 			),
 			'responsaveis' => array(
-				'Eduardo Correa' => array(
-					'foto' => '/img/team/eduardo.jpg',
-					'short_name' => 'Eduardo',
-					'graduation' => 'Yon Dan (4º Dan)',
-				),
-				'Carlos Machado' => array(
-					'foto' => '/img/team/carlosMachado.jpg',
-					'short_name' => 'Carlos Machado',
-					'graduation' => 'Ikkyu (Faixa Marrom)',
-				),
+                'Silo Oliveira' => array(
+                 'foto' => '/img/team/eduardo.jpg',
+                 'short_name' => 'Silon',
+                 'graduation' => 'Shodan (1º Dan)',
+                ),
 			),
 		);
 
