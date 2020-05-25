@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Garopabadojo extends CI_Controller {
 
-	public function index() 
+	public function index()
 	{
 		$this->load->helper('url');
 		$data = array(
@@ -28,9 +28,16 @@ class Garopabadojo extends CI_Controller {
 				'Rafael Pereira Leiria' => array(
 					'foto' => '/img/team/rafael.jpg',
 					'short_name' => 'Rafael',
-					'graduation' => 'Shodan (1º Dan)',
+					'graduation' => 'Nidan (2º Dan)',
 				),
 			),
+            'instrutores' => array(
+                'Leticia Barcelos' => array(
+                 'foto' => '/img/team/eduardo.jpg',
+                 'short_name' => 'Leticia',
+                 'graduation' => 'Shodan (1º Dan)',
+                ),
+            ),
 		);
 
 		$this->load->view('header', $data);
