@@ -7,14 +7,14 @@
           <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
             <i class="icon icon-bars"></i>
           </button>
-          
+
         </div>
         <div class="navbar-collapse nav-main-collapse collapse">
           <div class="container">
-            
+
             <nav class="nav-main mega-menu">
               <ul class="nav nav-pills nav-main" id="mainMenu">
-                
+
                 <li class="dropdown ">
                   <a class="dropdown-toggle" href="#">
                     Aikido
@@ -46,6 +46,7 @@
                     <li><a href="<?php echo base_url()?>Portoalegredojo">Porto Alegre</a></li>
                     <li><a href="<?php echo base_url()?>SaoChicodojo"   >São Francisco de Paula</a></li>
                     <li><a href="<?php echo base_url()?>Tubaraodojo"    >Tubarão</a></li>
+                    <li><a href="<?php echo base_url()?>Vacariadojo"    >Vacaria</a></li>
                   </ul>
                 </li>
                 <li class="">
@@ -104,7 +105,7 @@
                     <li><a href="<?php echo base_url()?>Shiatsu">Shiatsu</a></li>
                   </ul>
                 </li>
-                
+
               </ul>
             </nav>
           </div>
