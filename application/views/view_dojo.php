@@ -140,6 +140,8 @@
                         </ul>
 
 					</div>
+
+                <?php if ($instrutores) : ?>
 					<!-- Instrutores dos dojos -->
 					<div class="row">
 						<h4><strong>Instrutores</strong></h4>
@@ -161,8 +163,8 @@
                                 </li>
                             <?php endforeach; ?>
                         </ul>
-
 					</div>
+                <?php endif; ?>
 
 				</div>
 				<div class="container">
