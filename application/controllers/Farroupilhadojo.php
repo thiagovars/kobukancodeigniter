@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Farroupilhadojo extends CI_Controller {
 
-	public function index() 
+	public function index()
 	{
 		$this->load->helper('url');
 		$data = array(
@@ -23,12 +23,18 @@ class Farroupilhadojo extends CI_Controller {
 				'Juliano Alves' => array(
 					'foto' => '/img/team/juliano.jpg',
 					'short_name' => 'Juliano',
-					'graduation' => 'Shodan (1º Dan)',
+					'graduation' => 'Nidan (2º Dan)',
 				),
 			),
-			
+            'instrutores' => array(
+                'Catia Protti' => array(
+                 'foto' => '/img/team/eduardo.jpg',
+                 'short_name' => 'Catia',
+                 'graduation' => 'Shodan (1º Dan)',
+                ),
+            ),
 		);
-		
+
 		$this->load->view('header', $data);
 		$this->load->view('view_dojo', $data);
 		$this->load->view('footer');
