@@ -7,7 +7,7 @@ class Saochicodojo extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$data = array(
-			'endereco' => 'Av. Júlio de Castilhos, 1363 - Centro',
+			'endereco' => 'Instituto Arca Verde',
 			'title' => 'Dojo São Francisco de Paula',
 			'fotos' => get_fotos('saochico/fotos'),
 			'title_treino_aikido' => '',
@@ -16,21 +16,23 @@ class Saochicodojo extends CI_Controller {
 				'' => '',
 			),
 			'horarios_treino' => array(
-				'' => array('hora' => '', 'instrutor' => ''),
-				'' => array('hora' => '', 'instrutor' => ''),
+				'Sábado' => array('hora' => '10h', 'instrutor' => 'Thiago'),
+				'Domingo' => array('hora' => '10h', 'instrutor' => 'Thiago'),
 			),
-			'responsaveis' => array(
-				// 'Fabrício Benedet' => array(
-				// 	'foto'       => '/img/team/fabricio.jpg',
-				// 	'short_name' => 'Fabrício',
-				// 	'graduation' => 'Sandan (3º Dan)',
-				// ),
-				// 'Hayalon Oliveira' => array(
-				// 	'foto'       => '/img/team/hayalon.jpg',
-				// 	'short_name' => 'Hayalon',
-				// 	'graduation' => '2º kyu (Faixa Azul)',
-				// ),
-			),
+            'responsaveis' => array(
+                'Thiago' => array(
+                 'foto' => '/img/team/eduardo.jpg',
+                 'short_name' => 'Thiago',
+                 'graduation' => '',
+                ),
+            ),
+            'instrutores' => array(
+                'Franco de Marsilac' => array(
+                 'foto' => '/img/team/eduardo.jpg',
+                 'short_name' => 'Franco',
+                 'graduation' => '',
+                ),
+            ),
 		);
 
 		$this->load->view('header', $data);
