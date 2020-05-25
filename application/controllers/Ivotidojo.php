@@ -6,7 +6,7 @@ class Ivotidojo extends CI_Controller {
 	public function index() {
 		$this->load->helper('url');
 		$data = array(
-			'endereco' => 'Av. Capivara, 126 - Harmonia - RS',
+			'endereco' => 'Rua São Pedro 487 - Bairro Morada do Sol',
 			'title' => 'Dojo Ivoti',
 			'title_treino_aikido' => '<h2>Horários para treino <strong>Aikido</strong></h2>',
 			'config_horarios_md' => 'col-md-8',
