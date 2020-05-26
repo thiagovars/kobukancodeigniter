@@ -6,12 +6,16 @@ class Portoalegredojo extends CI_Controller {
 	public function index()
 	{
 		$this->load->helper('url');
+
+        $fotos = get_fotos('portoalegre/fotos');
+        sort($fotos);
+
 		$data = array(
-			'endereco' => 'R. Joaquim Silveira, 466 - Porto Alegre - RS',
+			'endereco' => 'R. Guilherme Alves 1315 - Porto Alegre - RS',
 			'title' => 'Dojo Porto Alegre',
 			'title_treino_aikido' => '<h2>Horários para treino <strong>Aikido</strong></h2>',
 			'config_horarios_md' => 'col-md-8',
-			'fotos' => get_fotos('portoalegre/fotos'),
+			'fotos' => $fotos,
 			'contato' => array(
 				'Mathaeus Silveira' => '(51) 99147 8021',
 			),
