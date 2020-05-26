@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-define('ambiente', 'Develop');
+define('ambiente', constant('ENVIRONMENT'));
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
@@ -24,11 +24,11 @@ define('ambiente', 'Develop');
 |
 */
 switch (ambiente) {
-	case 'PROD':
-		$config['base_url'] = 'https://www.kobukan.com.br';
+	case 'production':
+		$config['base_url'] = "{$_SERVER['REQUEST_SCHEME']}://{$_SERVER['HTTP_HOST']}";
 		$config['menus'] = '/';
 		break;
-		
+
 		default:
 		$config['base_url'] = 'http://localhost/kobukan';
 		$config['menus'] = '';
