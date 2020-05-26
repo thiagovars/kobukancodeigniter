@@ -20,8 +20,8 @@ class Lagunadojo extends CI_Controller {
 				'Sábado'   => array('hora' => '16h - 17h30', 'instrutor' => 'Silon'),
 			),
 			'responsaveis' => array(
-                'Silo Oliveira' => array(
-                 'foto' => '/img/team/eduardo.jpg',
+                'Silon Oliveira' => array(
+                 'foto' => '/img/laguna/silon-260.jpg',
                  'short_name' => 'Silon',
                  'graduation' => 'Shodan (1º Dan)',
                 ),
