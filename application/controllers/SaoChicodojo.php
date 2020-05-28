@@ -1,36 +1,36 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Saochicodojo extends CI_Controller {
+class SaoChicodojo extends CI_Controller {
 
 	public function index()
 	{
 		$this->load->helper('url');
 		$data = array(
-			'endereco' => 'Instituto Arca Verde',
-			'title' => 'Dojo São Francisco de Paula',
-			'fotos' => get_fotos('saochico/fotos'),
+			'endereco' => 'Estrada da Boa esperança 5849',
+			'title' => 'Dojo São Francisco de Paula (Grupo de Estudos)',
+			'fotos' => get_fotos('SaoChico/fotos'),
 			'title_treino_aikido' => '',
 			'config_horarios_md' => 'col-md-8',
 			'contato' => array(
-				'' => '',
+				'Franco de Marsilac' => '(54) 99850-0333',
 			),
 			'horarios_treino' => array(
-				'Sábado' => array('hora' => '10h', 'instrutor' => 'Thiago'),
-				'Domingo' => array('hora' => '10h', 'instrutor' => 'Thiago'),
+				'Sábado' => array('hora' => '10h', 'instrutor' => 'Tiago'),
+				'Domingo' => array('hora' => '10h', 'instrutor' => 'Tiago'),
 			),
             'responsaveis' => array(
-                'Thiago' => array(
-                 'foto' => '/img/team/eduardo.jpg',
-                 'short_name' => 'Thiago',
-                 'graduation' => '',
+                'Tiago Fritsch' => array(
+                    'foto' => '/img/SaoChico/tiago.jpg',
+                    'short_name' => 'Tiago',
+                    'graduation' => 'Shodan (1º Dan)',
                 ),
             ),
             'instrutores' => array(
                 'Franco de Marsilac' => array(
-                 'foto' => '/img/team/eduardo.jpg',
-                 'short_name' => 'Franco',
-                 'graduation' => '',
+                    'foto' => '/img/SaoChico/franco.jpg',
+                    'short_name' => 'Franco',
+                    'graduation' => '4º kyu (Faixa Roxa)',
                 ),
             ),
 		);
