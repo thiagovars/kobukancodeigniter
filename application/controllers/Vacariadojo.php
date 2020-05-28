@@ -1,41 +1,42 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Farroupilhadojo extends CI_Controller {
+class Vacariadojo extends CI_Controller {
 
 	public function index()
 	{
 		$this->load->helper('url');
 		$data = array(
-			'endereco' => 'Rua Marechal Deodoro da Fonseca, 855, Bairro Planalto - Farroupilha - RS',
-			'title' => 'Dojo Farroupilha',
+			'endereco' => 'Rua Otávio Roxo 486, Bairro Planalto - Vacaria - RS',
+			'title' => 'Dojo Vacaria (Grupo de Estudos)',
 			'title_treino_aikido' => '<h2>Horarios para treino <strong>Aikido</strong></h2>',
 			'config_horarios_md' => 'col-md-8',
-			'fotos' => get_fotos('farroupilha/fotos'),
+			'fotos' => get_fotos('vacaria/fotos'),
 			'contato' => array(
-				'Juliano Alves' => '(54) 99656 3021',
+				'Rafael' => '(54) 99926-5329',
+                'Rafael' => 'kobukanvacaria@outlook.com',
 			),
 			'horarios_treino' => array(
-				'Segundas' => array('hora' => '20h00 - 21h00', 'instrutor' => 'Juliano Alves'),
-				'Quartas'  => array('hora' => '20h00 - 21h00', 'instrutor' => 'Juliano Alves'),
+				'Terça'  => array('hora' => '20h00 - 21h00', 'instrutor' => 'Rafael'),
+				'Quinta' => array('hora' => '20h00 - 21h00', 'instrutor' => 'Rafael'),
 			),
 			'responsaveis' => array(
 				'Eduardo Sensei' => array(
 					'foto' => '/img/team/eduardo.jpg',
-					'short_name' => 'Rafael',
+					'short_name' => 'Eduardo',
 					'graduation' => 'Yon Dan (4º Dan)',
 				),
 			),
             'instrutores' => array(
                 'Rafael Branco' => array(
-                 'foto' => '/img/team/eduardo.jpg',
+                 'foto' => '/img/vacaria/rafael.jpg',
                  'short_name' => 'Rafael',
-                 'graduation' => 'Shodan (1º Dan)',
-                ),                'instrutores' => array(
+                 'graduation' => '4º Kyu (Faixa Rocha)',
+                ),
                 'Margila Agostini' => array(
-                 'foto' => '/img/team/eduardo.jpg',
+                 'foto' => '/img/vacaria/marjila.jpg',
                  'short_name' => 'Margila',
-                 'graduation' => 'Shodan (1º Dan)',
+                 'graduation' => '5º Kyu (Faixa Amarela)',
                 ),
             ),
 		);
