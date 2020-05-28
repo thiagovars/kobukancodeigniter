@@ -33,7 +33,7 @@ class Garopabadojo extends CI_Controller {
 			),
             'instrutores' => array(
                 'Leticia Barcelos' => array(
-                 'foto' => '/img/team/eduardo.jpg',
+                 'foto' => '/img/garopaba/leticia-barcelos.jpg',
                  'short_name' => 'Leticia',
                  'graduation' => 'Shodan (1º Dan)',
                 ),
