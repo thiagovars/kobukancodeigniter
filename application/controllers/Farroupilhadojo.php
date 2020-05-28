@@ -28,7 +28,7 @@ class Farroupilhadojo extends CI_Controller {
 			),
             'instrutores' => array(
                 'Catia Protti' => array(
-                 'foto' => '/img/team/eduardo.jpg',
+                 'foto' => '/img/farroupilha/catia.jpg',
                  'short_name' => 'Catia',
                  'graduation' => 'Shodan (1º Dan)',
                 ),
