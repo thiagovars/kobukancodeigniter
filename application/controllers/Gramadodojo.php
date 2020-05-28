@@ -17,7 +17,7 @@ class Gramadodojo extends CI_Controller {
 				'Jordan T. Nicloti' => '(54) 99604 1112',
 			),
 			'horarios_alternativos' => array(
-				'Segundas' => array('hora' => '21h00 - 22h00', 'instrutor' => 'Jordan T. Nicloti'),
+				'Segundas' => array('hora' => '21h00 - 22h00', 'instrutor' => 'Rodrigo Sfredo'),
 			),
 			'horarios_treino' => array(
 				'Segundas' => array('hora' => '20h00 - 21h00', 'instrutor' => 'Jordan T. Nicloti'),
