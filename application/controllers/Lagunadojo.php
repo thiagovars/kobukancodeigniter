@@ -13,7 +13,7 @@ class Lagunadojo extends CI_Controller {
 			'config_horarios_md' => 'col-md-8',
 			// 'fotos' => get_fotos('laguna/fotos'),
 			'contato' => array(
-				'Carlos Machado' => '(48) 98426 3043',
+				'Silon Oliveira' => '(48) 99868-7613',
 			),
 			'horarios_treino' => array(
 				'Terça'    => array('hora' => '19h - 20h30', 'instrutor' => 'Silon'),
