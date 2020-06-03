@@ -73,13 +73,12 @@
                 </li>
                 <li class="dropdown ">
                   <a class="dropdown-toggle" href="#">
-                    Cultura Oriental
+                    Cultura Japonesa
                     <i class="icon icon-angle-down"></i>
                   </a>
                   <ul class="dropdown-menu">
                     <li><a href="<?php echo base_url()?>Bonsai"         >Bonsai</a></li>
                     <li><a href="<?php echo base_url()?>Chado"          >Chadô</a></li>
-                    <li><a href="<?php echo base_url()?>Fengshui"       >Fengshui</a></li>
                     <li><a href="<?php echo base_url()?>Furoshiki"      >Furoshiki</a></li>
                     <li><a href="<?php echo base_url()?>Kado"           >kadô</a></li>
                     <li><a href="<?php echo base_url()?>Origami"        >Origami</a></li>
