@@ -176,7 +176,7 @@
 								e da reconciliação universal.</p>
 								<p class="tall">Durante a vida de Morihei Ueshiba, e continuando até hoje, o aikido evolui apartir do "Aiki" que O'Sensei estudou em uma grande
 								variedade de expressões de artistas marciais de todo o mundo.</p>
-								<span><a href="<?php echo base_url(); ?>index.php/Mestresdojo#Osensei">Continuar lendo...</a></span>
+								<span><a href="<?php echo base_url(); ?>index.php/Mestres#Osensei">Continuar lendo...</a></span>
 							</div>
 						</div>
 						<br>

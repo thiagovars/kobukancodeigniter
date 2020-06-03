@@ -56,12 +56,12 @@
 									<img src="<?php echo base_url('/img/osensei.jpg'); ?>" width="200" />
 									<h4 class="shorter">O'Sensei</h4>
 									<p class="tall">Morihei Ueshiba - Criador da arte.</p>
-									
+
 								</div>
 								<div class="col-md-8" data-appear-animation="fadeInRight">
-									<p class="drop-caps">O Fundador do Aikido foi alguém que, provavelmente como você, procurava estar em paz qualquer que fosse a circunstância. Ele desejava manter uma conexão harmoniosa com todas as coisas por todo o tempo. À medida que o tempo passava e suas habilidades marciais tornavam-se fenomenais, ele falava mais e mais sobre nossa família humana global, sobre a necessidade de cada pessoa estar aberta para os caminhos da natureza e do universo, viver o amor e o respeito por todos os seres com o objetivo de curar a si mesmo e ao mundo. O produto de sua vida, e o seu presente para nós, é o Aikido.
+									<!-- <p class="drop-caps">O Fundador do Aikido foi alguém que, provavelmente como você, procurava estar em paz qualquer que fosse a circunstância. Ele desejava manter uma conexão harmoniosa com todas as coisas por todo o tempo. À medida que o tempo passava e suas habilidades marciais tornavam-se fenomenais, ele falava mais e mais sobre nossa família humana global, sobre a necessidade de cada pessoa estar aberta para os caminhos da natureza e do universo, viver o amor e o respeito por todos os seres com o objetivo de curar a si mesmo e ao mundo. O produto de sua vida, e o seu presente para nós, é o Aikido.
 
-									Ele nasceu com o nome Morihei Ueshiba, em 1883, em Tanabe, uma pequena vila japonesa de pescadores e camponeses. Seu nome, Morihei, significando “paz abundante”, foi profético.</p>
+									Ele nasceu com o nome Morihei Ueshiba, em 1883, em Tanabe, uma pequena vila japonesa de pescadores e camponeses. Seu nome, Morihei, significando “paz abundante”, foi profético.</p> -->
 
 									<img class="thumbnail" src="<?php echo base_url('/img/osensei1.jpg'); ?>" style="margin: 0 auto; margin-bottom: 10px;">
 
@@ -89,61 +89,61 @@
 									<h4 class="shorter">Kawai sensei</h4>
 									<p class="tall">Responsável pela introdução
 									da<br> arte no brasil.<br></p>
-									
+
 								</div>
 								<div class="col-md-8" data-appear-animation="fadeInRight">
 									<h4 class="shorter" style="text-align: center; padding-bottom: 30px;">KAWAI SHIHAN<br>Introdutor do Aikido no Brasil</h4>
 									<p class="drop-caps"><span class='alternative-drop-caps'>O</span> professor Reishin Kawai nasceu na cidade de Yassugi na província de Shimane
-									no Japão, no dia 28 de fevereiro de 1931. Seus pais chamavam-se Tomonobu 
-									Kawai e Matsuno Kawai. Aos 15 anos teve inflamação nos joelhos e se curou com 
-									a acupuntura e shiatsu. Sua cura o motivou a estudar processos alternativos de 
-									terapêutica, e além do mestre saito Torataro que lhe curou. Diplomando-se me 
-									Medicina Oriental do prof. Mischimasa Nischiawa. Além dos estudos em Medicina 
+									no Japão, no dia 28 de fevereiro de 1931. Seus pais chamavam-se Tomonobu
+									Kawai e Matsuno Kawai. Aos 15 anos teve inflamação nos joelhos e se curou com
+									a acupuntura e shiatsu. Sua cura o motivou a estudar processos alternativos de
+									terapêutica, e além do mestre Saito Torataro que lhe curou. Diplomando-se me
+									Medicina Oriental do prof. Mischimasa Nischiawa. Além dos estudos em Medicina
 									Oriental, kawai Sensei também aprendeu técnica de Aikijiujitsu.
 									</p>
 
 									<!-- <p class="tall"></p> -->
 									<p class="tall">Em 1957 transfere sua residência para o Brasil, onde inicia a peregrinação pelo interior
-									do Brasil, onde trabalhou com acupuntura, ministrou palestras e fez demonstrações. 
-									No ano de 1961 transfere-se para a Europa onde recebe treinamento intensivo de seu 
-									mestre, Aritomo Murashigue, 9o. Dan de Aikido. Dois anos depois recebe das mãos de 
-									Morihei Ueshiba (fundador do Aikido) o título de Shihan recebendo a tarefa de divulgar 
-									o Aikido na América do Sul. Nesse mesmo ano casa-se com Letícia Minako, com 
-									quem teve duas filhas, Cristina e Lilba Kawai, e abre na Avenida Senador Queiroz, em 
+									do Brasil, onde trabalhou com acupuntura, ministrou palestras e fez demonstrações.
+									No ano de 1961 transfere-se para a Europa onde recebe treinamento intensivo de seu
+									mestre, Aritomo Murashigue, 9o. Dan de Aikido. Dois anos depois recebe das mãos de
+									Morihei Ueshiba (fundador do Aikido) o título de Shihan recebendo a tarefa de divulgar
+									o Aikido na América do Sul. Nesse mesmo ano casa-se com Letícia Minako, com
+									quem teve duas filhas, Cristina e Lilba Kawai, e abre na Avenida Senador Queiroz, em
 									São Paulo, a primeira academia de Aikido no Brasil.</p>
 
 									<img class="thumbnail" src="<?php echo base_url('/img/shihan4.jpg'); ?>" style="margin: 0 auto; margin-bottom: 20px;">
 
 									<p class="tall">Em 1969 Kawai Sensei recebe seu 6o. Dan do grão mestre Morihei Ueshiba. Por 08
-									anos, desde 1976, ocupou o cargo de Vice-presidente da Federação Internacional de 
-									Aikido (FIA). Obteve o 7o. Dan em 1978, ocasião em que recebeu no Brasil Kisshomaru 
-									Ueshiba, filho do fundador do Aikido, que veio ministrar treinamentos no Brasil, 
+									anos, desde 1976, ocupou o cargo de Vice-presidente da Federação Internacional de
+									Aikido (FIA). Obteve o 7o. Dan em 1978, ocasião em que recebeu no Brasil Kisshomaru
+									Ueshiba, filho do fundador do Aikido, que veio ministrar treinamentos no Brasil,
 									Uruguai e Argentina.</p>
 
-									<p class="tall">Em 1990 Kawai Sensei custeou, com recursos próprios, a nova vinda de Kisshomaru 
-									Ueshiba ao Brasil. Em 1997 recebeu o 8o. Dan de faixa Preta, outorgado pelo Hombu 
+									<p class="tall">Em 1990 Kawai Sensei custeou, com recursos próprios, a nova vinda de Kisshomaru
+									Ueshiba ao Brasil. Em 1997 recebeu o 8o. Dan de faixa Preta, outorgado pelo Hombu
 									Dojo, no Japão.</p>
 
 									<p class="tall">Nosso mestre desencarnou no dia 29 de janeiro de 2010. Sua filha Lilba, juntamente
-									coom seu marido Sensei Matias Oliveira são os responsáveis pela administração 
-									de nossa Federação, bem como pelas aulas da Academia Central. Kawai sensei é 
-									considerado o “pai”do Aikido no Brasil. Com raras exceções, a grande maioria dos 
-									aikidoístas do Brasil tiveram aulas, senão com o próprio Kawai Sensei, ao menos com 
-									discípulos destes, herdando assim, de alguma forma o seu legado. Pela sua trajetória 
-									vemos a importância de honrarmos seu nome e termos gratidão (giri) pelo seu esforço 
-									e sacrifício pela divulgação do Aikido na América do Sul, resultando em um cenário 
-									de Dojos vinculados à União Sul Americana de Aikido em quase todos os estados 
+									coom seu marido Sensei Matias Oliveira são os responsáveis pela administração
+									de nossa Federação, bem como pelas aulas da Academia Central. Kawai sensei é
+									considerado o “pai”do Aikido no Brasil. Com raras exceções, a grande maioria dos
+									aikidoístas do Brasil tiveram aulas, senão com o próprio Kawai Sensei, ao menos com
+									discípulos destes, herdando assim, de alguma forma o seu legado. Pela sua trajetória
+									vemos a importância de honrarmos seu nome e termos gratidão (giri) pelo seu esforço
+									e sacrifício pela divulgação do Aikido na América do Sul, resultando em um cenário
+									de Dojos vinculados à União Sul Americana de Aikido em quase todos os estados
 									brasileiros e em alguns países da América Latina.</p>
 
 									<p class="tall">Kawai Sensei não viveu do Aikido, mas sim dedicou sua vida com um amor
-									incondicional pela arte a ponto de fazer da expansão do Aikido sua missão de vida. 
-									Esse objetivo ele alcançou.</p>									
+									incondicional pela arte a ponto de fazer da expansão do Aikido sua missão de vida.
+									Esse objetivo ele alcançou.</p>
 
 									<span style="display: block; text-align: center;">Domo Arigatô Gozai Mashita<BR>Estimado e Inesquecível<BR><h4>Kawai Shihan</h4></span>
 									<div id="Eduardosensei"></div>
 								</div>
 							</div>
-							
+
 							<hr class="tall">
 
 							<div class="row">
@@ -151,10 +151,10 @@
 									<img src="<?php echo base_url('/img/team/eduardo.jpg'); ?>" width="200" />
 									<h4 class="shorter">Eduardo Corrêa Sensei</h4>
 									<p class="tall">Responsável e idealizador<br>Kobukan Dojo</p>
-									
+
 								</div>
 								<div class="col-md-8" data-appear-animation="fadeInRight">
-									
+
 									<h4 class="shorter" style="text-align: center; padding-bottom: 30px;">
 										EDUARDO CORRÊA SENSEI<br>Responsável técnico Kobukan Dojo </br></br>
 										<?php echo $this->graduations->getGradEduardo('aikido'); ?> de Aikido<br><br>
@@ -163,88 +163,88 @@
 										<?php echo $this->graduations->getGradEduardo('naginata'); ?> de Naginata<br><br>
 										<?php echo $this->graduations->getGradEduardo('jiujitsu'); ?> de Jiu-jitsu<br><br>
 									</h4>
-									
+
 									<p class="drop-caps">Sensei Eduardo Corrêa começou a treinar em 1994, em Porto Alegre, com Sensei
-										Pery Marzullo. No ano seguinte forma-se em Direito pela PUC de Porto Alegre/RS, porém, já 
-										estava decidido a ser profissional de Artes Marciais. Em outubro de 1996 muda-se para São 
-										Paulo para treinar na principal academia da América Latina, sob a supervisão do introdutor 
-										do AIKIDO no Brasil, Kawai Shihan. Na mesma época inicia seu treinamento em jiu-jitsu, com 
+										Pery Marzullo. No ano seguinte forma-se em Direito pela PUC de Porto Alegre/RS, porém, já
+										estava decidido a ser profissional de Artes Marciais. Em outubro de 1996 muda-se para São
+										Paulo para treinar na principal academia da América Latina, sob a supervisão do introdutor
+										do AIKIDO no Brasil, Kawai Shihan. Na mesma época inicia seu treinamento em jiu-jitsu, com
 										mestre Raul Vieira e Souza, da Academia Lótus Clube- SP.
 									</p>
 
 									<!-- <p class="tall"></p> -->
 									<p class="tall">Em 05 de dezembro de 1998 obtém seu Shodan em Aikido, retornando ao Rio Grande
-										do Sul em fevereiro de 1999. No feriado de 07 de setembro de 1999 inaugura o primeiro dojo 
-										Kobukan na cidade de Torres/RS, na divisa com Santa Catarina. Nesse mesmo ano forma-se 
-										em Shiatsu com o mestre Yasui, além de fazer cursos de moxabustão e aurículo-acupuntura. 
+										do Sul em fevereiro de 1999. No feriado de 07 de setembro de 1999 inaugura o primeiro dojo
+										Kobukan na cidade de Torres/RS, na divisa com Santa Catarina. Nesse mesmo ano forma-se
+										em Shiatsu com o mestre Yasui, além de fazer cursos de moxabustão e aurículo-acupuntura.
 										Em 2001 obtém o Nidan de Kawai Shihan.</p>
 
 									<img class="thumbnail" src="<?php echo base_url('/img/mestres/eduardo.jpg'); ?>" style="margin: 0 auto; margin-bottom: 20px;">
 
-									<p class="tall">Em agosto de 2002 inicia seu trabalho em Santa Catarina na academia Gigante 
-										Taekwondo na cidade de Criciúma. Em 2004 obtém faixa preta de Jiu Jitsu das mãos de seu 
-										mestre nesta arte, Raul Vieira e Souza. No ano de 2005 inicia o Aikido na cidade de Tubarão 
-										(na Academia Estação Vital). Em 2006 faz cursos de Quiropraxia e Iridologia. Em 2007 conclui 
-										sua segunda faculdade, formando-se em Educação Física pela UNESC/ Criciúma. Em abril de 
-										2008, por ter sido o introdutor do Aikido no Sul de Santa Catarina, forma os primeiros faixas 
-										pretas em Aikido desta região. Luciano Pereira e Gregori Lino, instrutor de Criciúma, foram graduado nesta ocasião. 
+									<p class="tall">Em agosto de 2002 inicia seu trabalho em Santa Catarina na academia Gigante
+										Taekwondo na cidade de Criciúma. Em 2004 obtém faixa preta de Jiu Jitsu das mãos de seu
+										mestre nesta arte, Raul Vieira e Souza. No ano de 2005 inicia o Aikido na cidade de Tubarão
+										(na Academia Estação Vital). Em 2006 faz cursos de Quiropraxia e Iridologia. Em 2007 conclui
+										sua segunda faculdade, formando-se em Educação Física pela UNESC/ Criciúma. Em abril de
+										2008, por ter sido o introdutor do Aikido no Sul de Santa Catarina, forma os primeiros faixas
+										pretas em Aikido desta região. Luciano Pereira e Gregori Lino, instrutor de Criciúma, foram graduado nesta ocasião.
 										Também em 2008 Tubarão passa a ter dojo próprio. Também fez dois cursos de ginástica natural com o professor Alvaro Romano.</p>
-									
+
 									<p class="tall">Em 2009 forma-se no pós graduação de acupuntura no CBES.</p>
 
-									<p class="tall">Em 2010 abre seu quarto dojo, na cidade de Laguna, onde fixou residência definitiva. 
-										Em dezembro graduou os instrutores Cristiano Salomão e Fabrício Benedet, responsáveis, 
+									<p class="tall">Em 2010 abre seu quarto dojo, na cidade de Laguna, onde fixou residência definitiva.
+										Em dezembro graduou os instrutores Cristiano Salomão e Fabrício Benedet, responsáveis,
 										respectivamente, pelos Dojos de Criciúma e Tubarão. Em 2011 faz outro curso de quiropraxia.</p>
 
 									<p class="tall">Ao longo de sua trajetória teve a oportunidade de treinar, por meio de seminários ou
 										eventos, com os seguintes Shihans:</p>
-										
+
 									<img class="thumbnail" src="<?php echo base_url('/img/mestres/moriteru.jpg'); ?>" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Moriteru Ueshiba (Japão)</h5>
-									
+
 									<img class="thumbnail" src="<?php echo base_url('/img/mestres/seki.jpg'); ?>" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Shoji Seki (Japão)</h5>
-									
+
 									<img class="thumbnail" src="<?php echo base_url('/img/mestres/fujita.jpg'); ?>" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Masatake Fujita (Japão)</h5>
-									
+
 									<img class="thumbnail" src="<?php echo base_url('/img/mestres/yamada.jpg'); ?>" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Hironobu Yamada (Japão)</h5>
-									
+
 									<img class="thumbnail" src="<?php echo base_url('/img/mestres/sakanashi.jpg'); ?>" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Masafumi Sakanashi (Argentina)</h5>
-									
+
 									<img class="thumbnail" src="<?php echo base_url('/img/mestres/kawaisensei.jpg'); ?>" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Reishin Kawai (Brasil)<br> do qual, Eduardo sensei, foi discípulo direto</h5>
 
 									<img class="thumbnail" src="<?php echo base_url('/img/mestres/ono.jpg'); ?>" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Kaizen Ono (Brasil)</h5>
-									
+
 									<img class="thumbnail" src="<?php echo base_url('/img/mestres/DonovanSensei.jpg'); ?>" style="margin: 0 auto; margin-bottom: 20px;">
 									<h5 class="shorter" style="text-align: center; padding-bottom: 30px;">Donovan Waite (Estados Unidos)</h5>
-									
-									<p class="tall">2012 coroou a expansão do Aikido no sul catarinense com a instalação de seu 
-										quinto dojo, em Jaguaruna. Em 2013 seu aluno Junior Isidorio, policial civil, abriu o quinto 
-										Dojo Kobukan no estado de Santa Catarina na cidade de Imaruí. No início desse ano Sensei 
-										Eduardo recebeu seu primeiro Dan de Jiu-Jitsu de seu mestre Raul Vieira e Souza. Em outubro 
-										de 2013 o Dojo Central Kobukan é transferido da cidade de Jaguaruna para o município de 
-										Içara/SC.</p>		
+
+									<p class="tall">2012 coroou a expansão do Aikido no sul catarinense com a instalação de seu
+										quinto dojo, em Jaguaruna. Em 2013 seu aluno Junior Isidorio, policial civil, abriu o quinto
+										Dojo Kobukan no estado de Santa Catarina na cidade de Imaruí. No início desse ano Sensei
+										Eduardo recebeu seu primeiro Dan de Jiu-Jitsu de seu mestre Raul Vieira e Souza. Em outubro
+										de 2013 o Dojo Central Kobukan é transferido da cidade de Jaguaruna para o município de
+										Içara/SC.</p>
 									<p class="tall">Em 2014 Sensei Eduardo transfere seu domicílio do estado de Santa Catarina
-										para o Rio Grande do Sul, iniciando, em março, as atividades no município de Farroupilha/RS. 
-										No mês de abril é aprovado por unanimidade para o 4o. Dan de Aikido por banca composta por 
-										oito integrantes na Academia Central de Aikido. No dia 3 de agosto comemorou 15 anos de 
-										Kobukan, recebendo a Dojo cho, Lilba Kawai, filha de Kawai Shihan. Em agosto de 2014 
-										gradua-se Ikkyu de Iaido na cidade de Suzano, integrante da Akipa Nambukan, de Porto 
-										Alegre/RS, do qual participa. Em outubro seu aluno Samuel Medeiros inaugura um novo Dojo 
-										Kobukan (sexta unidade de Santa Catarina) na cidade de Capivari de Baixo. Desde o início, 
-										desde 1999, a Kobukan formou mais de 15 faixas-pretas, sendo destes, um sandan e dois nidans. 
+										para o Rio Grande do Sul, iniciando, em março, as atividades no município de Farroupilha/RS.
+										No mês de abril é aprovado por unanimidade para o 4o. Dan de Aikido por banca composta por
+										oito integrantes na Academia Central de Aikido. No dia 3 de agosto comemorou 15 anos de
+										Kobukan, recebendo a Dojo cho, Lilba Kawai, filha de Kawai Shihan. Em agosto de 2014
+										gradua-se Ikkyu de Iaido na cidade de Suzano, integrante da Akipa Nambukan, de Porto
+										Alegre/RS, do qual participa. Em outubro seu aluno Samuel Medeiros inaugura um novo Dojo
+										Kobukan (sexta unidade de Santa Catarina) na cidade de Capivari de Baixo. Desde o início,
+										desde 1999, a Kobukan formou mais de 15 faixas-pretas, sendo destes, um sandan e dois nidans.
 										No estado do Rio Grande do Sul tem contribuído com assistência técnica ao Dojo Millenium Arts, do
-										Sensei Manuel Valim, na cidade de Ivoti, conduz grupo da Kobukan em Porto Alegre/RS. Atualmente, além das 
-										citadas artes marciais, Sensei Eduardo Corrêa, juntamente com sua esposa Angélica Corrêa, 
-										viajou ao Rio de Janeiro a fim de buscar a técnica da arte marcial do bastão Samurai – Jodo. 
-										Lá treinou na Associação de Kendo do Rio de Janeiro- Rio Kenyukai, com Endo Sensei e sob a 
-										orientação técnica de Sempai Alexandre Cavalcanti, a fim de conduzirem grupo de estudos da 
-										técnica na Associação Akipa Nambukan- Porto Alegre/RS, do qual também integram Thiago 
+										Sensei Manuel Valim, na cidade de Ivoti, conduz grupo da Kobukan em Porto Alegre/RS. Atualmente, além das
+										citadas artes marciais, Sensei Eduardo Corrêa, juntamente com sua esposa Angélica Corrêa,
+										viajou ao Rio de Janeiro a fim de buscar a técnica da arte marcial do bastão Samurai – Jodo.
+										Lá treinou na Associação de Kendo do Rio de Janeiro- Rio Kenyukai, com Endo Sensei e sob a
+										orientação técnica de Sempai Alexandre Cavalcanti, a fim de conduzirem grupo de estudos da
+										técnica na Associação Akipa Nambukan- Porto Alegre/RS, do qual também integram Thiago
 										Silveira.</p>
 									<p class="tall">Em 2015 graduou-se ikkyu de jodo no chile, no dia 11 de janeiro.</p>
 									<p class="tall">Em junho inicia seus estudos de shodo (caligrafia japonesa) com sensei Arima, da
@@ -266,7 +266,7 @@
 										Em setembro de 2016 formou 4 nidan (2º Dan) e 2 shodan, e em outubro do mesmo ano mais 2 nidans.
 									</p>
 									<p class="tall">
-										Começou os estudos de nagnata na Associação Brasileira de Naginata com sensei Yasue Morita 4º Dan na cidade de 
+										Começou os estudos de nagnata na Associação Brasileira de Naginata com sensei Yasue Morita 4º Dan na cidade de
 										São Paulo em Fevereiro de 2017.
 									</p>
 									<p class="tall">
@@ -340,7 +340,7 @@
 							</div>
 
 						</div>
-						
+
 					</div>
 
 				</div>
