@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Tubaraodojo extends CI_Controller {
 
-	public function index() 
+	public function index()
 	{
 		$this->load->helper('url');
 		$data = array(
@@ -28,7 +28,7 @@ class Tubaraodojo extends CI_Controller {
 				'Hayalon Oliveira' => array(
 					'foto'       => '/img/team/hayalon.jpg',
 					'short_name' => 'Hayalon',
-					'graduation' => '2º kyu (Faixa Azul)',
+    					'graduation' => 'Shodan (1º Dan)',
 				),
 			),
 		);
