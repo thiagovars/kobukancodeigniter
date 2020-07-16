@@ -48,7 +48,7 @@
 						  		O origami é um autêntico exercício de serenidade ajudando no combate ao estresse, pois predispõe a calma. É utilizado também em hospitais nos paciêntes que estão internados para evitar depressão.
 						  </p>
 						  <p class="drop-caps">
-						  	A sensei Angélica Correa é discipula da Akiko Kawashima que leciona cultura japonesa na rede municipal da cidade de Ivoti-RS.
+                            O sensei Eduardo Correa é discipulo da Akiko Kawashima que leciona cultura japonesa na rede municipal da cidade de Ivoti-RS.
 						  </p>
 						</div>
 					</div>

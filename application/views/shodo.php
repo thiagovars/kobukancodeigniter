@@ -36,30 +36,30 @@
 
 								Ji- Letra
 
-								Kanji- Letra da Dinastia Han 
+								Kanji- Letra da Dinastia Han
 						  </p>
 							<p class="drop-caps">
-								O objetivo do Shodô não é apenas escrever hideogramas. Cada traço do Shodô deve ser espontâneo e único, 
-								“ Certeiro como a espada do samurai: se o guerreiro não acerta o golpe, pode não ter outra chance, por 
+								O objetivo do Shodô não é apenas escrever hideogramas. Cada traço do Shodô deve ser espontâneo e único,
+								“ Certeiro como a espada do samurai: se o guerreiro não acerta o golpe, pode não ter outra chance, por
 								isso cada ter entrega total, como se fosse o último de sua vida.”
 
 						  </p>
 							<p class="drop-caps">
-								Por esse motivo não são admitidos retoques ou correções, pois uma vez realizado o traço com o Sumi ali 
+								Por esse motivo não são admitidos retoques ou correções, pois uma vez realizado o traço com o Sumi ali
 								foi registrada a palpitação da alma do praticante.
 
 						  </p>
 							<p class="drop-caps">
-								Esse era o motivo pelo qual os samurais se dedicavam a arte da caligrafia: acreditavam que pelo domínio 
-								do pincel conseguiriam maior autoconhecimento. Com a mente vazia o espírito deve chegar ao papel de forma 
+								Esse era o motivo pelo qual os samurais se dedicavam a arte da caligrafia: acreditavam que pelo domínio
+								do pincel conseguiriam maior autoconhecimento. Com a mente vazia o espírito deve chegar ao papel de forma
 								imediata, e ao se concentrar e persistir no traço o guerreiro educa as mãos e também o coração.
 
 						  </p>
 							<p class="drop-caps">
-								Grafar kanji é um exercício de meditação, em que as pinceladas devem ser precisas, sempre de cima para 
-								baixo da esquerda para direita. A caligrafia japonesa abrange seis estilos diferentes. O kaisho é 
-								considerado o kanji “típico”, mais facilmente reconhecido pelos ocidentais e por isso mais popular fora 
-								do Japão. Na escola japonesa é o primeiro tipo de escrita que as crianças aprendem, pois é composto por 
+								Grafar kanji é um exercício de meditação, em que as pinceladas devem ser precisas, sempre de cima para
+								baixo da esquerda para direita. A caligrafia japonesa abrange seis estilos diferentes. O kaisho é
+								considerado o kanji “típico”, mais facilmente reconhecido pelos ocidentais e por isso mais popular fora
+								do Japão. Na escola japonesa é o primeiro tipo de escrita que as crianças aprendem, pois é composto por
 								linhas retas, mais fáceis de serem aprendidas;
 
 						  </p>
@@ -82,8 +82,11 @@
 								</ul>
 						  </p>
 							<p class="drop-caps">
-								Sensei Eduardo e Angélica são discípulos de Arima Sensei, da colônia japonesa de Ivoti/RS. A mestra expõe 
-								suas obras de kirie e origami no Memorial da Cultura Japonesa de Ivoti, onde podem ser adquiridos. 
+								Sensei Eduardo e Angélica são discípulos de Arima Sensei (desde maio de 2015), da colônia japonesa de Ivoti/RS. A mestra expõe
+								suas obras de kirie e origami no Memorial da Cultura Japonesa de Ivoti, onde podem ser adquiridos.
+                            </p>
+                            <p class="drop-caps">
+                                Sensei Eduardo estuda desde agosto de 2019 na escola Moderu Kou, de Brasília, desde agosto de 2019.
 						  </p>
 						</div>
 					</div>

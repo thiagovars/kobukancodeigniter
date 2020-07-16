@@ -19,11 +19,41 @@
 				</section>
 
 				<div class="container">
-					
+
 					<div class="row">
 						<div class="col-md-12" data-appear-animation="fadeInUp">
 							<h3><strong>Kadô:</strong> Ikebana</h3>
-							<p class="drop-caps">A iquebana é originária da Índia, onde os arranjos eram destinados a Buda, e se personalizou na cultura nipônica, que a tornou mais conhecida. Em contraste com a forma decorativa de arranjos florais que prevalece nos países ocidentais, o arranjo floral japonês cria uma harmonia de construção linear, ritmo e cor. Enquanto que os ocidentais tendem a pôr ênfase na quantidade e no colorido das cores, dedicando a maior parte da sua atenção à beleza das corolas, os japoneses enfatizam os aspectos lineares do arranjo. A arte foi desenvolvida de modo a incluir o vaso, caules, folhas e ramos, além das flores. A estrutura de um arranjo floral japonês está baseada em três pontos principais que simbolizam o céu, a terra e a humanidade, embora outras estruturas sejam adaptadas em função do estilo e da escola. Dentre os mais diversos estilos de iquebana, destaca-se a Academia de Ikebana Sanguetsu. Esse estilo busca representar uma forma de se chegar ao equilíbrio, à simplicidade e à beleza. O sanguetsu, que tem, como princípio básico, o sentimento de respeito à natureza que norteou a vida de Mokiti Okada, cria composições capazes de refletir a beleza natural das flores em sua forma mais pura, levando alegria e paz às pessoas que apreciam os arranjos.</p>
+							<p class="drop-caps">
+                                A ikebana é originária da Índia, onde os arranjos eram destinados a Buda, e se personalizou na
+                                cultura nipônica, que a tornou mais conhecida. Em contraste com a forma decorativa de arranjos
+                                florais que prevalece nos países ocidentais, o arranjo floral japonês cria uma harmonia de
+                                construção linear, ritmo e cor.
+                            </p>
+
+                            <p class="drop-caps">
+                                Enquanto que os ocidentais tendem a pôr ênfase na quantidade e no colorido das cores, dedicando a
+                                maior parte da sua atenção à beleza das corolas, os japoneses enfatizam os aspectos lineares do
+                                arranjo.
+                            </p>
+
+                            <p class="drop-caps">
+                                A arte foi desenvolvida de modo a incluir o vaso, caules, folhas e ramos, além das flores.
+                                A estrutura de um arranjo floral japonês está baseada em três pontos principais que simbolizam o
+                                céu, a terra e a humanidade, embora outras estruturas sejam adaptadas em função do estilo e da
+                                escola. Dentre os mais diversos estilos de ikebana, destaca-se a Academia de Ikebana Sanguetsu.
+                            </p>
+
+                            <p class="drop-caps">
+                                Esse estilo busca representar uma forma de se chegar ao equilíbrio, à simplicidade e à beleza.
+                                O sanguetsu, que tem, como princípio básico, o sentimento de respeito à natureza que norteou a
+                                vida de Mokiti Okada, cria composições capazes de refletir a beleza natural das flores em sua
+                                forma mais pura, levando alegria e paz às pessoas que apreciam os arranjos.
+                            </p>
+
+                            <p class="drop-caps">
+                                Sensei Angélica Correa estudou 3 anos na Ikebana Sangetsu, cursando o Básico, Intermediário e o
+                                Avançado.
+                            </p>
 						</div>
 					</div>
 

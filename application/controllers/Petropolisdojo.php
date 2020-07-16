@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Petropolisdojo extends CI_Controller {
 
-	public function index() 
+	public function index()
 	{
 		$this->load->helper('url');
 		$data = array(
@@ -18,13 +18,12 @@ class Petropolisdojo extends CI_Controller {
 			),
 			'horarios_treino' => array(
 				'Segundas' => array('hora' => '18h - 19h', 'instrutor' => 'Rodrigo Sfredo'),
-				'Quartas'  => array('hora' => '18h - 19h', 'instrutor' => 'Rodrigo Sfredo'),
 			),
 			'responsaveis' => array(
 				'Rodrigo Sfredo' => array(
 					'foto' => '/img/team/sfredo.jpg',
 					'short_name' => 'Sfredo',
-					'graduation' => 'Ikkyu (Faixa Marrom)',
+					'graduation' => 'Shodan (1º Dan)',
 				),
 			),
 		);

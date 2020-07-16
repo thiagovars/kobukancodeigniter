@@ -14,7 +14,7 @@ class Vacariadojo extends CI_Controller {
 			'fotos' => get_fotos('vacaria/fotos'),
 			'contato' => array(
 				'Rafael' => '(54) 99926-5329',
-                'Rafael' => 'kobukanvacaria@outlook.com',
+                // 'Rafael' => 'kobukanvacaria@outlook.com',
 			),
 			'horarios_treino' => array(
 				'Terça'  => array('hora' => '20h00 - 21h00', 'instrutor' => 'Rafael'),
@@ -31,7 +31,7 @@ class Vacariadojo extends CI_Controller {
                 'Rafael Branco' => array(
                  'foto' => '/img/vacaria/rafael.jpg',
                  'short_name' => 'Rafael',
-                 'graduation' => '4º Kyu (Faixa Rocha)',
+                 'graduation' => '4º Kyu (Faixa Roxa)',
                 ),
                 'Margila Agostini' => array(
                  'foto' => '/img/vacaria/marjila.jpg',

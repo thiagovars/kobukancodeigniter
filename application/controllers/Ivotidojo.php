@@ -15,9 +15,9 @@ class Ivotidojo extends CI_Controller {
 				'Manoel Valim' => '(51) 8289 1676',
 			),
 			'horarios_treino' => array(
-				'Segunda' => array('hora' => '19h15 - 21h15', 'instrutor' => 'Manuel Valim'),
-				'Sexta'   => array('hora' => '19h15 - 21h15', 'instrutor' => 'Manuel Valim'),
-				'Sábado'  => array('hora' => '10h', 'instrutor' => 'Manuel Valim'),
+				'Segunda' => array('hora' => '19h15 - 21h15', 'instrutor' => 'Manoel Valim'),
+				'Sexta'   => array('hora' => '19h15 - 21h15', 'instrutor' => 'Manoel Valim'),
+				'Sábado'  => array('hora' => '10h', 'instrutor' => 'Manoel Valim'),
 			),
 			'dojo_parceiro' => array(
 				'title' => '<p class="tall">A Mileniumm arts é um dojo parceiro da <strong>Kobukan</strong></p>',

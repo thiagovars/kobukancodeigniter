@@ -48,7 +48,7 @@
                 Como o Zen Budismo não coloca nenhum acento na devoção de alguma divindade, sua musica não possui nenhum louvor de fe como e comum em musicas religiosas.
               </p>
               <p class="drop-caps">
-                Sensei Eduardo e discípulo do Sensei Henrique Elias Sulzbacher que pratica Shakuhachi desde 2006 e já teve aula com grandes mestres como Sensei  Akio Yamaoka de São Paulo e Sensei Marco Lienhard de Londres.
+                Sensei Eduardo é discípulo do Sensei Henrique Elias Sulzbacher, que pratica Shakuhachi desde 2006, desde setembro de 2018. Já praticou com grandes mestres como Sensei Akio Yamaoka (desde março de 2019) de São Paulo e Sensei Marco Lienhard de Londres.
               </p>
               <p class="drop-caps">
                 Sensei Henrique compoe uma dupla chamada Duo Vento Madeira e possui pagina no facebook chamada Musgo da Pedra, em que interessados em ter aulas particulares podem entrar em contato. Ele também fabrica Shakuhachis sob encomenda pelo whatsapp 51 98627511.
