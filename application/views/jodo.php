@@ -49,7 +49,7 @@
 								Em janeiro de 2015 gradou Ikkyu(faixa marrom) em Santiago no Chile, tendo aula com o sensei Shiori(5º Dan) e Guilhermo Vargas (4º Dan),
 								sendo uma das primeiras jodokas brasileiras a ter graduação reconhecida pela Confederação Brasileira de Kendo. Em março de 2016 participou
 								do primeiro seminário internacional de jodo ministrado por sensei Kim Taylor (6º Dan) do Canadá.
-                                Sensei Eduardo e sempai Agélica agora são discípulos do sensei Carlos Fernando (3º Dan), que ministra
+                                Sensei Eduardo e sempai Agélica são discípulos do sensei Carlos Fernando (3º Dan), que ministra
                                 aulas no Bukyo de SP.
 							</p>
 							<p class="drop-caps">
@@ -63,10 +63,10 @@
 
 									<div class="row">
 										<div class="col-md-3">
-											<h4><strong>Responsável Técnico</strong></h4>
+											<h4><strong>Instrutor</strong></h4>
 										</div>
 										<div class="col-md-3">
-											<h4><strong>Instrutor</strong></h4>
+											<h4><strong>Responsável Técnico</strong></h4>
 										</div>
 								</div>
 								<div class="row">
