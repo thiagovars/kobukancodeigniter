@@ -87,6 +87,7 @@
                             </p>
                             <p class="drop-caps">
                                 Sensei Eduardo estuda desde agosto de 2019 na escola Moderu Kou, de Brasília, desde agosto de 2019.
+                                Sensei da escola é Kenzo Cavamura.
 						  </p>
 						</div>
 					</div>
