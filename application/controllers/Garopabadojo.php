@@ -7,7 +7,7 @@ class Garopabadojo extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$data = array(
-			'endereco' => 'Estrada Geral do Ouvidor 372, Campo Duna, Garopaba - SC',
+			'endereco' => 'Estrada Geral do Ouvidor 202 - sala 3, Campo Duna, Garopaba - SC',
 			'title' => 'Dojo Garopaba',
 			'title_treino_alternativo' => '<h2>Horários para treino <h3 class="shorter"><strong>Kids</strong></h3></h2>',
 			'title_treino_aikido' => '<h2>Horários para treino <h3 class="shorter"><strong>Adulto</strong></h3></h2>',
