@@ -11,7 +11,7 @@ class Lagunadojo extends CI_Controller {
 			'title' => 'Dojo Laguna',
 			'title_treino_aikido' => '<h2>Horários para treino <strong>Aikido</strong></h2>',
 			'config_horarios_md' => 'col-md-8',
-			// 'fotos' => get_fotos('laguna/fotos'),
+			'fotos' => get_fotos('laguna/fotos'),
 			'contato' => array(
 				'Silon Oliveira' => '(48) 99868-7613',
 			),
