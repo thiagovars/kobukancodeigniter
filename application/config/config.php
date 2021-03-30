@@ -30,7 +30,7 @@ switch (ambiente) {
 		break;
 
 		default:
-		$config['base_url'] = 'http://localhost/kobukan';
+		$config['base_url'] = 'http://localhost:8080/';
 		$config['menus'] = '';
 		break;
 }
@@ -147,7 +147,7 @@ $config['subclass_prefix'] = 'MY_';
 | Note: This will NOT disable or override the CodeIgniter-specific
 |	autoloading (application/config/autoload.php)
 */
-$config['composer_autoload'] = FALSE;
+$config['composer_autoload'] = './vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------

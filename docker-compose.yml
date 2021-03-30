@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  apache-php:
+    image: sitekobukan:latest
+    build:
+      context: .
+    # volumes:
+    #   - ./:/var/www/html/
+    environment:
+      - ENVIRONMENT=production
+    ports:
+      - 8080:80
